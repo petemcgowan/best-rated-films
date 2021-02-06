@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "600dfce321e65624aafd1225"
+  },
+  "title": "Grave of the Fireflies",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-24T23:04:03.287Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-24T23:04:03.287Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600dfce721e65624aafd1226"
+  },
+  "title": "The Sting",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-24T23:04:07.978Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-24T23:04:07.978Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600dfcec21e65624aafd1227"
+  },
+  "title": "Metropolis",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-24T23:04:12.800Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-24T23:04:12.800Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600dfcf021e65624aafd1228"
+  },
+  "title": "Full Metal Jacket",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-24T23:04:16.916Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-24T23:04:16.916Z"
+  },
+  "__v": 0
+}]

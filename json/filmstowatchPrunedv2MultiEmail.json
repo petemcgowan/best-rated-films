@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5c"
+  },
+  "email": "peteburquette@gmail.com",
+  "title": "Citizen Kane"
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5e"
+  },
+  "email": "peteburquette@gmail.com",
+  "title": "The Godfather"
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5f"
+  },
+  "email": "peteburquette@gmail.com",
+  "title": "Gone with the Wind"
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd60"
+  },
+  "email": "peteburquette@gmail.com",
+  "title": "Lawrence of Arabia"
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe38"
+  },
+  "email": "peteburquette@gmail.com",
+  "title": "Grave of the Fireflies"
+},{
+  "_id": {
+    "$oid": "600b9a3c2538353f0a180aa4"
+  },
+  "title": "Casablanca",
+  "email": "peteburquette@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-23T03:38:36.174Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-23T03:38:36.174Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600b9c5ac3bf0f9d52ff9539"
+  },
+  "email": "test2@gmail.com",
+  "title": "Casablanca"
+}]

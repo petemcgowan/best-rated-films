@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "60030768338ddaf58a561516"
+  },
+  "name": "Pete Burquette ",
+  "email": "peteburquette@gmail.com",
+  "password": "$2a$10$zBQR1S7H1vgOTE/yNdYdQuzliScNfsdt/GRGkY9oYwebambOFy16W",
+  "register_date": {
+    "$date": "2021-01-16T15:34:00.684Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,5067 @@
+[{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5c"
+  },
+  "title": "Citizen Kane",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "1"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "3"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "46"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "48"
+    }
+  ],
+  "director": "Orson Welles",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5d"
+  },
+  "title": "Casablanca",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "2"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "6"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "28"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "25"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5e"
+  },
+  "title": "The Godfather",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "3"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "1"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "2"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "1"
+    }
+  ],
+  "director": "Francis Ford Coppola",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd5f"
+  },
+  "title": "Gone with the Wind",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "4"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "15"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd60"
+  },
+  "title": "Lawrence of Arabia",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "5"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "23"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "50"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "68"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd61"
+  },
+  "title": "The Wizard Of Oz",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "6"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "2"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd62"
+  },
+  "title": "The Graduate",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "7"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "28"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd63"
+  },
+  "title": "On The Waterfront",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "8"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "80"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd64"
+  },
+  "title": "Schindler's List",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "9"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "10"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "33"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "8"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd65"
+  },
+  "title": "Singin' In The Rain",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "10"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "26"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "69"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd66"
+  },
+  "title": "It's A Wonderful Life",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "11"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "20"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "51"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "29"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd67"
+  },
+  "title": "Sunset Blvd.",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "12"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "58"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "32"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd68"
+  },
+  "title": "The Bridge On The River Kwai",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "13"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "75"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd69"
+  },
+  "title": "Some Like It Hot",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "14"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "47"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "82"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "92"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd6a"
+  },
+  "title": "Star Wars",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "15"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "11"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "9"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "16"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd6b"
+  },
+  "title": "All About Eve",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "16"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "52"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "95"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd6c"
+  },
+  "title": "The African Queen",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "17"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd6d"
+  },
+  "title": "Psycho",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "18"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "41"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "53"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "30"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd6e"
+  },
+  "title": "Chinatown",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "19"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "21"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "86"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd6f"
+  },
+  "title": "One Flew Over The Cuckoo's Nest",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "20"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "30"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "43"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "13"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd70"
+  },
+  "title": "The Grapes Of Wrath",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "21"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd71"
+  },
+  "title": "2001: A Space Odyssey",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "22"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "9"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "21"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "94"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd72"
+  },
+  "title": "The Maltese Falcon",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "23"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd73"
+  },
+  "title": "Raging Bull",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "24"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "65"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "99"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd74"
+  },
+  "title": "E.T. – The Extra Terrestrial",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "25"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "8"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "59"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd75"
+  },
+  "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "26"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "37"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "39"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd76"
+  },
+  "title": "Bonnie And Clyde",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "27"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "99"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd77"
+  },
+  "title": "Apocalypse Now",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "28"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "17"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "22"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "34"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd78"
+  },
+  "title": "Mr. Smith Goes To Washington",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "29"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd79"
+  },
+  "title": "The Treasure Of The Sierra Madre",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "30"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd7a"
+  },
+  "title": "Annie Hall",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "31"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "18"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd7b"
+  },
+  "title": "The Godfather: Part II",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "32"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "7"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "12"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "3"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd7c"
+  },
+  "title": "High Noon",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "33"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd7d"
+  },
+  "title": "To Kill a Mockingbird",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "34"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "16"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "70"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd7e"
+  },
+  "title": "It Happened One Night",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "35"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd7f"
+  },
+  "title": "Midnight Cowboy",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "36"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd80"
+  },
+  "title": "The Best Years Of Our Lives",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "37"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd81"
+  },
+  "title": "Double Indemnity",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "38"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "54"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd82"
+  },
+  "title": "Doctor Zhivago",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "39"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "95"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd83"
+  },
+  "title": "North by Northwest",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "40"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "62"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "43"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd84"
+  },
+  "title": "West Side Story",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "41"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "61"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd85"
+  },
+  "title": "Rear Window",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "42"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "49"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "72"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "28"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd86"
+  },
+  "title": "King Kong",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "43"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd87"
+  },
+  "title": "The Birth Of A Nation",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "44"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd88"
+  },
+  "title": "A Streetcar Named Desire",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "45"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd89"
+  },
+  "title": "A Clockwork Orange",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "46"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "35"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "76"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "67"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd8a"
+  },
+  "title": "Taxi Driver",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "47"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "31"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "57"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "55"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd8b"
+  },
+  "title": "Jaws",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "48"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "8"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "24"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd8c"
+  },
+  "title": "Snow White And The Seven Dwarfs",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "49"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd8d"
+  },
+  "title": "Butch Cassidy And The Sundance Kid",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "50"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "54"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd8e"
+  },
+  "title": "The Philadelphia Story",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "51"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd8f"
+  },
+  "title": "From Here To Eternity",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "52"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd90"
+  },
+  "title": "Amadeus",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "53"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "93"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "81"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd91"
+  },
+  "title": "All Quiet On The Western Front",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "54"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd92"
+  },
+  "title": "The Sound Of Music",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "55"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "25"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd93"
+  },
+  "title": "M*A*S*H",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "56"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd94"
+  },
+  "title": "The Third Man",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "57"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "77"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd95"
+  },
+  "title": "Fantasia",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "58"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd96"
+  },
+  "title": "Rebel Without A Cause",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "59"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd97"
+  },
+  "title": "Raiders of the Lost Ark",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "60"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "13"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "27"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "7"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd98"
+  },
+  "title": "Vertigo",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "61"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "54"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "52"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "70"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd99"
+  },
+  "title": "Tootsie",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "62"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd9a"
+  },
+  "title": "Stagecoach",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "63"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd9b"
+  },
+  "title": "Close Encounters Of The Third Kind",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "64"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "93"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd9c"
+  },
+  "title": "The Silence of the Lambs ",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "65"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "48"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "23"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "22"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd9d"
+  },
+  "title": "Network",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "66"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd9e"
+  },
+  "title": "The Manchurian Candidate",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "67"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fd9f"
+  },
+  "title": "An American In Paris",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "68"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda0"
+  },
+  "title": "Shane",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "69"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda1"
+  },
+  "title": "The Franch Connection",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "70"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda2"
+  },
+  "title": "Forrest Gump",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "71"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "61"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "18"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "14"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda3"
+  },
+  "title": "Ben-Hur",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "72"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda4"
+  },
+  "title": "Wuthering Heights",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "73"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda5"
+  },
+  "title": "The Gold Rush",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "74"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda6"
+  },
+  "title": "Dances With Wolves",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "75"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda7"
+  },
+  "title": "City Lights",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "76"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "38"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda8"
+  },
+  "title": "American Graffiti",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "77"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fda9"
+  },
+  "title": "Rocky",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "78"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "84"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "91"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdaa"
+  },
+  "title": "The Deer Hunter",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "79"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "94"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdab"
+  },
+  "title": "THE WILD BUNCH",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "80"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdac"
+  },
+  "title": "Modern Times",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "81"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "41"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdad"
+  },
+  "title": "Giant",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "82"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdae"
+  },
+  "title": "Platoon",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "83"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdaf"
+  },
+  "title": "Fargo",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "84"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "75"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "33"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb0"
+  },
+  "title": "Duck Soup",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "85"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb1"
+  },
+  "title": "Mutiny on the Bounty",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "86"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb2"
+  },
+  "title": "Frankenstein",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "87"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb3"
+  },
+  "title": "Easy Rider",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "88"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb4"
+  },
+  "title": "Patton",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "89"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb5"
+  },
+  "title": "The Jazz Singer",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "90"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb6"
+  },
+  "title": "My Fair Lady",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "91"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb7"
+  },
+  "title": "A Place in the Sun",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "92"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb8"
+  },
+  "title": "The Apartment",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "93"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "98"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdb9"
+  },
+  "title": "Goodfellas",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "94"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "19"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "6"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "15"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdba"
+  },
+  "title": "Pulp Fiction",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "95"
+    },
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "5"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "5"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdbb"
+  },
+  "title": "The Searchers",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "96"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdbc"
+  },
+  "title": "Bringing Up Baby",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "97"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdbd"
+  },
+  "title": "Unforgiven",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "98"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdbe"
+  },
+  "title": "Guess Who's Coming To Dinner",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "99"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdbf"
+  },
+  "title": "Yankee Doodle Dandy",
+  "rankings": [
+    {
+      "ranker": "AFI",
+      "rank": "100"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc0"
+  },
+  "title": "The Princess Bride",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "31"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "93"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc1"
+  },
+  "title": "The Seven Samurai",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "100"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "73"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "17"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc2"
+  },
+  "title": "Reservoir Dogs",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "98"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "56"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "71"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc3"
+  },
+  "title": "Airplane!",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "97"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc4"
+  },
+  "title": "Pan's Labyrinth",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "96"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "55"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc5"
+  },
+  "title": "Up",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "92"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc6"
+  },
+  "title": "Memento",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "90"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "67"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "37"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc7"
+  },
+  "title": "Braveheart",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "89"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "83"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc8"
+  },
+  "title": "Slumdog Millionaire",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "88"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdc9"
+  },
+  "title": "The Lord of the Rings: The Return of the King",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "87"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "16"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "9"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdca"
+  },
+  "title": "Beauty and the Beast",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "86"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdcb"
+  },
+  "title": "Seven",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "85"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "30"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "22"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdcc"
+  },
+  "title": "Inception",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "84"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "18"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "14"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdcd"
+  },
+  "title": "Die Hard",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "83"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "20"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdce"
+  },
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "82"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "10"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "12"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdcf"
+  },
+  "title": "Wall-E",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "79"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd0"
+  },
+  "title": "12 Angry Men",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "78"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "40"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "7"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd1"
+  },
+  "title": "Ghostbusters",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "77"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "68"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd2"
+  },
+  "title": "Brokeback Mountain",
+  "rankings": [
+    {
+      "title": "Brokeback Mountain",
+      "ranker": "Hollywood Reporter",
+      "rank": "76"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd3"
+  },
+  "title": "Blazing Saddles",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "74"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd4"
+  },
+  "title": "All the President's Men",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "73"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd5"
+  },
+  "title": "Young Frankenstein",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "72"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd6"
+  },
+  "title": "Almost Famous",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "71"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd7"
+  },
+  "title": "Blade Runner",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "29"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "13"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd8"
+  },
+  "title": "The Empire Strikes Back",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "32"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "2"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdd9"
+  },
+  "title": "American Beauty",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "34"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "60"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "58"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdda"
+  },
+  "title": "Ferris Bueller's Day Off",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "36"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fddb"
+  },
+  "title": "When Harry Met Sally",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "38"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fddc"
+  },
+  "title": "The Shining",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "39"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "35"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "46"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fddd"
+  },
+  "title": "Fight Club",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "40"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "17"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "10"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdde"
+  },
+  "title": "Alien",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "42"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "14"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "40"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fddf"
+  },
+  "title": "Toy Story",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "43"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "77"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde0"
+  },
+  "title": "The Matrix",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "24"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "19"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde1"
+  },
+  "title": "Titanic",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "45"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "97"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde2"
+  },
+  "title": "Saving Private Ryan",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "46"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "39"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "36"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde3"
+  },
+  "title": "Gladiator",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "69"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "44"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "60"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde4"
+  },
+  "title": "Monty Python and The Holy Grail",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "68"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "89"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde5"
+  },
+  "title": "Avatar",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "67"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde6"
+  },
+  "title": "The Lion King",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "66"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "70"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "73"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde7"
+  },
+  "title": "Mary Poppins",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "64"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde8"
+  },
+  "title": "Groundhog Day",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "63"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fde9"
+  },
+  "title": "Back to the Future",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "12"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "11"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "44"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdea"
+  },
+  "title": "The Breakfast Club",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "27"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdeb"
+  },
+  "title": "The Usual Suspects",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "48"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "32"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "26"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdec"
+  },
+  "title": "Jurassic Park",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "50"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "19"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fded"
+  },
+  "title": "The Big Lebowski",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "51"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "29"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdee"
+  },
+  "title": "Good Will Hunting",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "53"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "96"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdef"
+  },
+  "title": "Eternal Sunshine of the Spotless Mind",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "56"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "41"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "80"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf0"
+  },
+  "title": "The Dark Knight",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "57"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "3"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "6"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf1"
+  },
+  "title": "Thelma & Louise",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "59"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf2"
+  },
+  "title": "Amélie",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "60"
+    },
+    {
+      "ranker": "Empire",
+      "rank": "98"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "69"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf3"
+  },
+  "title": "The Shawshank Redemption",
+  "rankings": [
+    {
+      "ranker": "Hollywood Reporter",
+      "rank": "4"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "1"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf4"
+  },
+  "title": "Aliens",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "15"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "56"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf5"
+  },
+  "title": "The Lord Of The Rings: The Two Towers",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "23"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "20"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf6"
+  },
+  "title": "Terminator 2: Judgment Day",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "25"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "35"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf7"
+  },
+  "title": "Heat",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "26"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf8"
+  },
+  "title": "The Good, The Bad And The Ugly",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "27"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "5"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdf9"
+  },
+  "title": "Guardians Of The Galaxy",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "34"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdfa"
+  },
+  "title": "The Departed",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "36"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "49"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdfb"
+  },
+  "title": "The Thing",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "37"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdfc"
+  },
+  "title": "Mad Max: Fury Road",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "38"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdfd"
+  },
+  "title": "There Will Be Blood",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "42"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdfe"
+  },
+  "title": "Drive",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "45"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fdff"
+  },
+  "title": "Interstellar",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "47"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe00"
+  },
+  "title": "Trainspotting",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "49"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe01"
+  },
+  "title": "Once Upon A Time In The West",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "52"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "24"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe02"
+  },
+  "title": "Whiplash",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "57"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe03"
+  },
+  "title": "Inglourious Basterds",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "58"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe04"
+  },
+  "title": "La La Land",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "62"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe05"
+  },
+  "title": "Donnie Darko",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "63"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe06"
+  },
+  "title": "L.A. Confidential",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "64"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "84"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe07"
+  },
+  "title": "Avengers Assemble",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "65"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe08"
+  },
+  "title": "Return Of The Jedi",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "66"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe09"
+  },
+  "title": "Hot Fuzz",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "71"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe0a"
+  },
+  "title": "Mulholland Dr.",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "74"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe0b"
+  },
+  "title": "Oldboy",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "78"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "82"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe0c"
+  },
+  "title": "Captain America: Civil War",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "79"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe0d"
+  },
+  "title": "Spirited Away",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "80"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "42"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe0e"
+  },
+  "title": "The Social Network",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "81"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe0f"
+  },
+  "title": "True Romance",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "83"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe10"
+  },
+  "title": "Léon: The Professional",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "85"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "31"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe11"
+  },
+  "title": "Indiana Jones And The Last Crusade",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "86"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "100"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe12"
+  },
+  "title": "Predator",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "87"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe13"
+  },
+  "title": "The Exorcist",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "88"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe14"
+  },
+  "title": "Shaun Of The Dead",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "89"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe15"
+  },
+  "title": "No Country For Old Men",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "90"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe16"
+  },
+  "title": "The Prestige",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "91"
+    },
+    {
+      "ranker": "IMDB",
+      "rank": "66"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe17"
+  },
+  "title": "The Terminator",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "92"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe18"
+  },
+  "title": "Lost In Translation",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "94"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe19"
+  },
+  "title": "Arrival",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "95"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe1a"
+  },
+  "title": "Stand By Me",
+  "rankings": [
+    {
+      "ranker": "Empire",
+      "rank": "100"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe1b"
+  },
+  "title": "Star Wars: Episode V - The Empire Strikes Back",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "11"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe1c"
+  },
+  "title": "City of God",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "21"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe1d"
+  },
+  "title": "American History X",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "33"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe1e"
+  },
+  "title": "Life Is Beautiful",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "45"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe1f"
+  },
+  "title": "The Pianist",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "47"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe20"
+  },
+  "title": "M",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "50"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe21"
+  },
+  "title": "Paths of Glory",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "51"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe22"
+  },
+  "title": "Django Unchained",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "53"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe23"
+  },
+  "title": "The Dark Knight Rises",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "55"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe24"
+  },
+  "title": "The Green Mile",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "59"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe25"
+  },
+  "title": "The Untouchables",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "61"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe26"
+  },
+  "title": "Wall·E",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "62"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe27"
+  },
+  "title": "The Lives of Others",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "63"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe28"
+  },
+  "title": "Toy Story 3",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "64"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe29"
+  },
+  "title": "The Great Dictator",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "65"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe2a"
+  },
+  "title": "Das Boot",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "72"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe2b"
+  },
+  "title": "Cinema Paradiso",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "74"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe2c"
+  },
+  "title": "Star Wars: Episode VI - Return of the Jedi",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "75"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe2d"
+  },
+  "title": "The Treasure of the Sierra Madre",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "76"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe2e"
+  },
+  "title": "Once Upon a Time in America",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "78"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe2f"
+  },
+  "title": "Requiem for a Dream",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "79"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe30"
+  },
+  "title": "Full Metal Jacket",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "81"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe31"
+  },
+  "title": "Bicycle Thieve",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "85"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe32"
+  },
+  "title": "Princess Mononoke",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "88"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe33"
+  },
+  "title": "Metropolis",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "90"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe34"
+  },
+  "title": "Rashomon",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "91"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe35"
+  },
+  "title": "Witness for the Prosecution",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "96"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe36"
+  },
+  "title": "TITLE",
+  "rankings": [
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe37"
+  },
+  "title": "The Sting",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "97"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+},{
+  "_id": {
+    "$oid": "5fe01ecc67e1626c3403fe38"
+  },
+  "title": "Grave of the Fireflies",
+  "rankings": [
+    {
+      "ranker": "IMDB",
+      "rank": "99"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    },
+    {
+      "ranker": "OTHER",
+      "rank": "todo"
+    }
+  ],
+  "director": "",
+  "year": 2000
+}]
