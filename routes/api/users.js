@@ -51,37 +51,38 @@ router.post('/', (req, res) => {
                   config.get('jwtSecret'),
                   { expiresIn: 3600 },
                   (err, token) => {
-                    if(err) throw err;
-                      // Set up database rows for new user
-                      console.log ("users, user create: Create films to watch rows for email:" + email);
+                    if(err)
+                      throw err;
+                    // Set up database rows for new user
+                    console.log ("users, user create: Create films to watch rows for email:" + email);
 
-                      // Find all current films
-                      Film.find().then(films => {
-                        console.log ("users, films found length:" + films.length);
-                        var filmsToWatch = [];
-                        films.forEach(film => {
-                          var newFilmObj = {
-                            email: email,
-                            title: film.title,
-                          };
-                          filmsToWatch.push(newFilmObj);
-                        }); // films for
-                        console.log ("filmsToWatch to create length:" + filmsToWatch.length);
-                        Filmstowatch.create(filmsToWatch)
-                        .then(filmsToWatch => {
-                          console.log ("filmsToWatch created:" + JSON.stringify(filmsToWatch));
-                          // User is successfull created, tell the user
-                          res.json({
-                            token,
-                            user: {
-                              id: user.id,
-                              name: user.name,
-                              email: user.email
-                            }
-                          });
-                        }); // filmsToWatch then
+                    // Find all current films
+                    Film.find().then(films => {
+                      console.log ("users, films found length:" + films.length);
+                      var filmsToWatch = [];
+                      films.forEach(film => {
+                        var newFilmObj = {
+                          email: email,
+                          title: film.title,
+                        };
+                        filmsToWatch.push(newFilmObj);
+                      }); // films for
+                      console.log ("filmsToWatch to create length:" + filmsToWatch.length);
+                      Filmstowatch.create(filmsToWatch)
+                      .then(filmsToWatch => {
+                        console.log ("filmsToWatch created:" + JSON.stringify(filmsToWatch));
+                        // User is successfull created, tell the user
+                        res.json({
+                          token,
+                          user: {
+                            id: user.id,
+                            name: user.name,
+                            email: user.email
+                          }
+                        });
+                      }); // filmsToWatch then
 
-                      }); // then
+                    }); // then
                   }
                 )
               });
