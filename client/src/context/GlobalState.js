@@ -4,7 +4,7 @@ import store from "../store";
 
 // Initial state
 const initialState = {
-  loggedInEmail: null, // TODO: hard-coded for testing, populate at log in instead
+  loggedInEmail: null,
   error: null,
   loading: true,
 };
