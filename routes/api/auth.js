@@ -1,33 +1,27 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const bcrypt = require('bcryptjs');
-const config = require('config');
-const jwt = require('jsonwebtoken');
-const auth = require('../../middleware/auth');
-
+const bcrypt = require("bcryptjs");
+const config = require("config");
+const jwt = require("jsonwebtoken");
+const auth = require("../../middleware/auth");
 
 // User Model
-const User = require('../../models/User');
+const User = require("../../models/User");
 
-// @route   GET api/auth/user
 // @desc    Get user data
-// @access  Private
-router.get('/user', auth, (req, res) => {
+router.get("/user", auth, (req, res) => {
   console.log("routes/api/auth/user, get user called");
   console.log("req.body:" + JSON.stringify(req.body));
   User.findById(req.user.id)
-    .select('-password')
-    .then(user => res.json(user));
+    .select("-password")
+    .then((user) => res.json(user));
   console.log("routes/api/auth, get user, after findById");
 });
 
 module.exports = router;
 
-
-// @route   POST api/auth
 // @desc    Auth user
-// @access  Public
-router.post('/', (req, res) => {
+router.post("/", (req, res) => {
   const { email, password } = req.body;
 
   console.log("routes/api/auth, post auth user called");
@@ -35,37 +29,34 @@ router.post('/', (req, res) => {
   console.log("req.body" + JSON.stringify(req.body));
 
   // Simple validation
-  if(!email || !password) {
-    return res.status(400).json({ msg: 'Please enter all fields' });
+  if (!email || !password) {
+    return res.status(400).json({ msg: "Please enter all fields" });
   }
 
   // Check for existing user
-  User.findOne({ email })
-    .then(user => {
-      if(!user) return res.status(400).json({ msg: 'User Does not exist' });
+  User.findOne({ email }).then((user) => {
+    if (!user) return res.status(400).json({ msg: "User Does not exist" });
 
-      // Validate password
-      bcrypt.compare(password, user.password)
-        .then(isMatch => {
-          if(!isMatch) return res.status(400).json({ msg: 'Invalid credentials' });
+    // Validate password
+    bcrypt.compare(password, user.password).then((isMatch) => {
+      if (!isMatch) return res.status(400).json({ msg: "Invalid credentials" });
 
-          jwt.sign(
-            { id: user.id },
-            config.get('jwtSecret'),
-            { expiresIn: 3600 },
-            (err, token) => {
-              if(err) throw err;
-              res.json({
-                token,
-                user: {
-                  id: user.id,
-                  name: user.name,
-                  email: user.email
-                }
-              });
-            }
-          )
-        })
-    })
+      jwt.sign(
+        { id: user.id },
+        config.get("jwtSecret"),
+        { expiresIn: 3600 },
+        (err, token) => {
+          if (err) throw err;
+          res.json({
+            token,
+            user: {
+              id: user.id,
+              name: user.name,
+              email: user.email,
+            },
+          });
+        }
+      );
+    });
+  });
 });
-
