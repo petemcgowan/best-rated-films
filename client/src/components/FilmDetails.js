@@ -39,9 +39,9 @@ export const FilmDetails = ({ film }) => {
 
     // TODO add a button here title "Watched"
     // TODO put the watched table in a scroll table (pagination not needed if it's a pain we'll see)
-    // deleteFilm(film._id); // "films to watch" id
-    // addWatched(film.title, film.email);
-    getMovieDetails(film); // "films to watch" id
+    deleteFilm(film._id); // "films to watch" id
+    addWatched(film.title, film.email);
+    // getMovieDetails(film); // "films to watch" id
 
     // once the request is sent, update state again
     if (isMounted.current)
