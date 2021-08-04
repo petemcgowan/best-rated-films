@@ -31,7 +31,7 @@ export const FilmDetails = ({ film }) => {
     // update state
     setIsSending(true);
 
-    // // send the actual request
+    // send the actual request
     // const fetchData = async () => {
     //   await getMovieDbId(film);
     // };
