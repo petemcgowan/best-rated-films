@@ -26,6 +26,22 @@ const FilmSchema = new Schema(
       type: Number,
       required: true,
     },
+    poster_path: {
+      type: String,
+      required: true,
+    },
+    backdrop_path: {
+      type: String,
+      required: true,
+    },
+    release_date: {
+      type: Date,
+      default: Date.now,
+    },
+    averageRanking: {
+      type: Number,
+      required: true,
+    },
   },
   { timestamps: true }
 );

@@ -11,42 +11,68 @@ router.post("/", async (req, res, next) => {
     // get Films (filmRankings)
     var films = await Film.find();
 
-    const { email } = req.body;
+    const { email, vintageMode } = req.body;
+    console.log("getFilms, vintageMode:" + JSON.stringify(vintageMode));
     console.log("getFilms, email:" + JSON.stringify(email));
     // this is the core per-user films table
+    // I'm sorting by average Ranking
+
     var filmsToWatch = await Filmstowatch.find({ email: email }).exec();
+    // console.log("films API:filmsToWatch:" + JSON.stringify(filmsToWatch));
     // combine to get Films
+    // Pete todo: should i combine films/filmsToWatch query?  and also add  ".sort("averageRanking")" so sorting is done in the query...
+    const vintageDate = new Date("1/1/1968");
+    var filteredFilms = [];
     for (var i = 0; i < filmsToWatch.length; i++) {
       films.forEach((film) => {
         if (film.title === filmsToWatch[i].title) {
-          console.log(
-            // "Match found (before reassign), film._id:" +
-            JSON.stringify(film._id)
-          );
-          var newFilmObj = {
-            _id: filmsToWatch[i]._id,
-            filmId: film._id, // this is the film _id, for clarity calling filmId in CODE
-            email: filmsToWatch[i].email,
-            title: filmsToWatch[i].title,
-            year: film.year,
-            director: film.director,
-            movieDbId: film.movieDbId,
-            rankings: film.rankings,
-          };
+          const releaseCompareDate = new Date(film.release_date);
+          if (vintageMode || releaseCompareDate > vintageDate) {
+            console.log(
+              "Adding film title:" +
+                film.title +
+                ", compare:" +
+                (releaseCompareDate > vintageDate)
+            );
+            // console.log(
+            //   // "Match found (before reassign), film._id:" +
+            //   JSON.stringify(film._id)
+            // );
+            var newFilmObj = {
+              _id: filmsToWatch[i]._id,
+              filmId: film._id, // this is the film _id, for clarity calling filmId in CODE
+              email: filmsToWatch[i].email,
+              title: filmsToWatch[i].title,
+              year: film.year,
+              director: film.director,
+              poster_path: film.poster_path,
+              backdrop_path: film.backdrop_path,
+              averageRanking: film.averageRanking,
+              release_date: film.release_date,
+              movieDbId: film.movieDbId,
+              rankings: film.rankings,
+            };
 
-          filmsToWatch[i] = newFilmObj;
-          console.log("filmsToWatch[i]:" + JSON.stringify(filmsToWatch[i]));
+            filteredFilms.push(newFilmObj);
+            // filmsToWatch[i] = newFilmObj;
+            // console.log("filmsToWatch[i]:" + JSON.stringify(filmsToWatch[i]));
+          } // end vintage compare
         }
       });
     }
-    // console.log(
-    //   "films controller, filmsToWatch:" + JSON.stringify(filmsToWatch)
-    // );
+    console.log(
+      "films controller, filteredFilms.length:" + filteredFilms.length
+    );
+    // // Sort by average ranking
+    function sortJSONArrayByAverageRanking(film1, film2) {
+      return film1.averageRanking - film2.averageRanking;
+    }
+    filteredFilms.sort(sortJSONArrayByAverageRanking);
 
     return res.status(200).json({
       success: true,
-      count: filmsToWatch.length,
-      data: filmsToWatch,
+      count: filteredFilms.length,
+      data: filteredFilms,
     });
   } catch (err) {
     console.log("getFilms, err:" + err);
@@ -79,6 +105,10 @@ router.post("/addFilm", async (req, res, next) => {
       title: filmToWatch.title,
       year: film[0].year,
       movieDbId: film[0].movieDbId,
+      poster_path: film[0].poster_path,
+      averageRanking: film[0].averageRanking,
+      backdrop_path: film[0].backdrop_path,
+      release_date: film[0].release_date,
       filmId: film[0]._id, // NOT the "filmstowatch" id, film id, renaming here for 'clarity'
       director: film[0].director,
       rankings: film[0].rankings,
@@ -114,7 +144,13 @@ router.post("/addFilm", async (req, res, next) => {
 router.put("/:id", async (req, res, next) => {
   try {
     console.log("update PUT, req.body:" + JSON.stringify(req.body));
-    const { movieDbId } = req.body;
+    const {
+      movieDbId,
+      poster_path,
+      averageRanking,
+      release_date,
+      backdrop_path,
+    } = req.body;
 
     const id = req.params.id;
     console.log("update PUT, id:" + JSON.stringify(id));
@@ -124,7 +160,13 @@ router.put("/:id", async (req, res, next) => {
 
     Film.findByIdAndUpdate(
       id,
-      { movieDbId: movieDbId },
+      {
+        movieDbId: movieDbId,
+        poster_path: poster_path,
+        averageRanking: averageRanking,
+        release_date: release_date,
+        backdrop_path: backdrop_path,
+      },
       // { useFindAndModify: false },
       function (err, result) {
         console.log();
