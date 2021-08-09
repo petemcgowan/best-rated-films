@@ -36,7 +36,7 @@ export const MovieProvider = ({ children }) => {
       );
 
       // fetch(
-      //   `https://api.themoviedb.org/3/movie/${id}?api_key=82dee22856e0d0ac5f767ec6fb845efc&language=en-US`
+      //   `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US`
       // )
       //   .then((res) => res.json())
       //   .then((res) => {
