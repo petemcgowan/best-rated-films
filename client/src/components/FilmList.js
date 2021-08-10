@@ -9,7 +9,8 @@ export const FilmList = () => {
   useEffect(() => {
     console.log("filmList, useEffect called");
     const fetchData = async () => {
-      await getFilms();
+      // Pete todo not sure I'm even gonna use this component anymore but if I do, give it vintageMode value
+      await getFilms(true);
     };
     fetchData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
