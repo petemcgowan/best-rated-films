@@ -1,0 +1,6057 @@
+[
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd5c"
+    },
+    "title": "Citizen Kane",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 1
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 3
+      },
+      {
+        "ranker": "Empire",
+        "rank": 46
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 48
+      }
+    ],
+    "director": "Orson Welles",
+    "poster_path": "/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-905990400000"
+      }
+    },
+    "year": 2000,
+    "movieDbId": 15,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:54.531Z"
+    },
+    "backdrop_path": "/cx0MI8FNf17wTDd8mtMd9Nhzj2U.jpg",
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd7f"
+    },
+    "title": "Midnight Cowboy",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 36
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3116,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:54.654Z"
+    },
+    "backdrop_path": "/yTIvOi9x7C9vTbzfG4GqMoh9MaZ.jpg",
+    "poster_path": "/ckklq45UxUkwgHve9xItXqXr06r.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-19094400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd9b"
+    },
+    "title": "Close Encounters Of The Third Kind",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 64
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 93
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 840,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.189Z"
+    },
+    "backdrop_path": "/u9ZLyLvqHY5VDjn0Rs4LKAklsAV.jpg",
+    "poster_path": "/kzD5ng3BvRUxW9vBfCkg61XjITR.jpg",
+    "release_date": {
+      "$date": "1977-11-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd61"
+    },
+    "title": "The Wizard Of Oz",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 6
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 2
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.806Z"
+    },
+    "movieDbId": 630,
+    "backdrop_path": "/qAvou7F5P4VcIR72JzzrnKEQSN3.jpg",
+    "poster_path": "/pfAZFD7I2hxW9HCChTuAzsdE6UX.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-958780800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd94"
+    },
+    "title": "The Third Man",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 57
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 77
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1092,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.603Z"
+    },
+    "backdrop_path": "/4sSoyZgF2SeyemGgi1TkF5i1x92.jpg",
+    "poster_path": "/rO2Fq0AZZx9obs52KJdx4mRE8p5.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-641779200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd5d"
+    },
+    "title": "Casablanca",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 2
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 6
+      },
+      {
+        "ranker": "Empire",
+        "rank": 28
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 25
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 289,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.679Z"
+    },
+    "backdrop_path": "/tfNuePdHrP9fp6K2VTJwHKKJf8C.jpg",
+    "poster_path": "/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-855187200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd64"
+    },
+    "title": "Schindler's List",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 9
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 10
+      },
+      {
+        "ranker": "Empire",
+        "rank": 33
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 8
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 424,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.554Z"
+    },
+    "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+    "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "release_date": {
+      "$date": "1993-11-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd66"
+    },
+    "title": "It's A Wonderful Life",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 11
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 20
+      },
+      {
+        "ranker": "Empire",
+        "rank": 51
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 29
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.183Z"
+    },
+    "movieDbId": 1585,
+    "backdrop_path": "/rqmE0aFFerz8E8PkGOKPAoIY5Ax.jpg",
+    "poster_path": "/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-726883200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd6f"
+    },
+    "title": "One Flew Over The Cuckoo's Nest",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 20
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 30
+      },
+      {
+        "ranker": "Empire",
+        "rank": 43
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 13
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 510,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.062Z"
+    },
+    "backdrop_path": "/3KwAmIKMaDcBMonF5wmyNTL0SR6.jpg",
+    "poster_path": "/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg",
+    "release_date": {
+      "$date": "1975-11-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd70"
+    },
+    "title": "The Grapes Of Wrath",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 21
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:54.813Z"
+    },
+    "movieDbId": 596,
+    "backdrop_path": "/7UTQCis1B8oWNjIMzQq57LPqma2.jpg",
+    "poster_path": "/jRbRDNi9MgvhRc68PSQPMqnG24x.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-940377600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd93"
+    },
+    "title": "M*A*S*H",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 56
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 651,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.809Z"
+    },
+    "backdrop_path": "/u4u4c5I12Vt6lZI3j6e8CAbOMnW.jpg",
+    "poster_path": "/fzBLxDQO42kA6xdcyQ0qYueLuVC.jpg",
+    "release_date": {
+      "$date": "1970-02-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd9a"
+    },
+    "title": "Stagecoach",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 63
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 995,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.187Z"
+    },
+    "backdrop_path": "/7SYNEG50fKODsTP6h9phYM3BueV.jpg",
+    "poster_path": "/zgMnfnwWZ3nkx4t0bUDEKtW24O8.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-973036800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd5f"
+    },
+    "title": "Gone with the Wind",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 4
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 15
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.309Z"
+    },
+    "movieDbId": 770,
+    "backdrop_path": "/ft8WRF2xqEwwGWa59naDUybKTAx.jpg",
+    "poster_path": "/pDXbS9V8ZoF7oiL4LUL5U31T1B5.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-948240000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd62"
+    },
+    "title": "The Graduate",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 7
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 28
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:54.934Z"
+    },
+    "movieDbId": 37247,
+    "backdrop_path": "/28BDy7Zx2jiXJxNSHo4RT71YPSl.jpg",
+    "poster_path": "/qtVvdSsm2hvau6ItLe4gWdFKe2M.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-64108800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd8f"
+    },
+    "title": "From Here To Eternity",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 52
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11426,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.436Z"
+    },
+    "backdrop_path": "/tbEFMCBOZphuXXKnaCe8OjcHizt.jpg",
+    "poster_path": "/dXuY3rDdu0Em3xsyPYrlhLKz9KE.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-515808000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd7b"
+    },
+    "title": "The Godfather: Part II",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 32
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 7
+      },
+      {
+        "ranker": "Empire",
+        "rank": 12
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 3
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 240,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.727Z"
+    },
+    "backdrop_path": "/3ggZWEoa2aegF6AYyjyNRm8noM5.jpg",
+    "poster_path": "/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+    "release_date": {
+      "$date": "1974-12-20T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd7c"
+    },
+    "title": "High Noon",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 33
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 288,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.678Z"
+    },
+    "backdrop_path": "/6S4gjpkd359UuMLfrnUV1M695DF.jpg",
+    "poster_path": "/qETSMQ4IXBSAS409Z9OL0ppXWTW.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-554256000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd88"
+    },
+    "title": "A Streetcar Named Desire",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 45
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:55.932Z"
+    },
+    "movieDbId": 702,
+    "backdrop_path": "/hbZomNmJmuVSc5OxjmKtHk6jC2U.jpg",
+    "poster_path": "/aicdlO5vt7z2ARm279eGzJeYCLQ.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-577152000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd91"
+    },
+    "title": "All Quiet On The Western Front",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 54
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.067Z"
+    },
+    "movieDbId": 143,
+    "backdrop_path": "/hSRb0YhB4TaeIKgZtQbFuY3l0XM.jpg",
+    "poster_path": "/yAU6jklJLUjZot3WyvyJrxVdLKb.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1252108800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd60"
+    },
+    "title": "Lawrence of Arabia",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 5
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 23
+      },
+      {
+        "ranker": "Empire",
+        "rank": 50
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 68
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 947,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.312Z"
+    },
+    "backdrop_path": "/v1MGuvJstnhVsBL3rM8zkUpXLLG.jpg",
+    "poster_path": "/yBc8a5wQL7FmSra4TgcdNrBcoP9.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-222739200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd71"
+    },
+    "title": "2001: A Space Odyssey",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 22
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 9
+      },
+      {
+        "ranker": "Empire",
+        "rank": 21
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 94
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 62,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.437Z"
+    },
+    "backdrop_path": "/6gyZF4SeifiUUYDELkCS8nOqsu2.jpg",
+    "poster_path": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-55209600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd87"
+    },
+    "title": "The Birth Of A Nation",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 44
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 618,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.559Z"
+    },
+    "backdrop_path": "/4H4RAeeykpi0ijvu3wYgV346y06.jpg",
+    "poster_path": "/pNpOXpQI5GSUfiWypubYtMh9928.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1732406400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd89"
+    },
+    "title": "A Clockwork Orange",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 46
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 35
+      },
+      {
+        "ranker": "Empire",
+        "rank": 76
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 67
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 185,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.931Z"
+    },
+    "backdrop_path": "/keblhZFIZYiWflmURWNHEuS2jqL.jpg",
+    "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+    "release_date": {
+      "$date": "1971-12-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd8c"
+    },
+    "title": "Snow White And The Seven Dwarfs",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 49
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.941Z"
+    },
+    "movieDbId": 408,
+    "backdrop_path": "/pmZiChyJs5Y0tz7sMAiZNNIo9z4.jpg",
+    "poster_path": "/bOtgcOIFBCUFdY2a737Na6gWQ0X.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1009843200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd8e"
+    },
+    "title": "The Philadelphia Story",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 51
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.975Z"
+    },
+    "movieDbId": 981,
+    "backdrop_path": "/cItyRXbbuu5KTVeb9GLaovIRfb8.jpg",
+    "poster_path": "/o4cYWubhrBFF56IyEyce89lMb5y.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-917481600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd96"
+    },
+    "title": "Rebel Without A Cause",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 59
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 221,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.985Z"
+    },
+    "backdrop_path": "/jPXsPciwlPTG756CHkZt2jYpnNM.jpg",
+    "poster_path": "/qNmYLRadv106IhG6T2wSFH3Bc7W.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-447379200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd97"
+    },
+    "title": "Raiders of the Lost Ark",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 60
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 13
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 27
+      },
+      {
+        "ranker": "Empire",
+        "rank": 7
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 85,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.962Z"
+    },
+    "backdrop_path": "/kCiMExsYuNhYluHxPP2OTmWw7hp.jpg",
+    "poster_path": "/awUGN7ZCNq2EUTdpVaHDX23anOZ.jpg",
+    "release_date": {
+      "$date": "1981-06-12T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd98"
+    },
+    "title": "Vertigo",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 61
+      },
+      {
+        "ranker": "Empire",
+        "rank": 54
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 52
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 70
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 426,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.037Z"
+    },
+    "backdrop_path": "/7wt1DA7duYtUitwZs4ChV3VYGRx.jpg",
+    "poster_path": "/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-365990400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd6c"
+    },
+    "title": "The African Queen",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 17
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 488,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.007Z"
+    },
+    "backdrop_path": "/gwe1k68ZFxEo8ZqqR73oobiQwK4.jpg",
+    "poster_path": "/nSXgNRzjfqwH9iX25qiuHozGmGB.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-567561600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd75"
+    },
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 26
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 37
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 39
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 935,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:56.993Z"
+    },
+    "backdrop_path": "/sTp8K0SfcC2RQef1Tu160z3niHO.jpg",
+    "poster_path": "/7SixLzxcqezkZEYU8pcHZgbkmjp.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-186969600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd90"
+    },
+    "title": "Amadeus",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 53
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 93
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 81
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 279,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.154Z"
+    },
+    "backdrop_path": "/uewC9MWmAOgAxvaePMe36E0pJz2.jpg",
+    "poster_path": "/tsqcwBp1jYZdcceXXoVEby0dZkt.jpg",
+    "release_date": {
+      "$date": "1984-09-06T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd68"
+    },
+    "title": "The Bridge On The River Kwai",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 13
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 75
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 826,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.171Z"
+    },
+    "backdrop_path": "/liZhDhrrNVX8IK4TaeaFodzMamy.jpg",
+    "poster_path": "/fuWtWy49Dbzz9UAnIHhKA0Z5LuT.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-385776000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd67"
+    },
+    "title": "Sunset Boulevard",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 12
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 58
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 32
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 599,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.162Z"
+    },
+    "backdrop_path": "/p47ihFj4A7EpBjmPHdTj4ipyq1S.jpg",
+    "poster_path": "/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-612057600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd6a"
+    },
+    "title": "Star Wars",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 15
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 11
+      },
+      {
+        "ranker": "Empire",
+        "rank": 9
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 16
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.085Z"
+    },
+    "backdrop_path": "/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg",
+    "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    "release_date": {
+      "$date": "1977-05-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd72"
+    },
+    "title": "The Maltese Falcon",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 23
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 28257,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.069Z"
+    },
+    "backdrop_path": "/xe8eAG6khMJcSFctjkKRBporwSw.jpg",
+    "poster_path": "/nGYYO0hmpMDFC69bNEXyAoJrCtn.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1218067200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd79"
+    },
+    "title": "The Treasure Of The Sierra Madre",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 30
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3090,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.018Z"
+    },
+    "backdrop_path": "/sj5R5SGor3YMFBuabMj8gPbyBmh.jpg",
+    "poster_path": "/qvExr87oqKHvNiFRK5VqDoZrS5D.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-693100800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd80"
+    },
+    "title": "The Best Years Of Our Lives",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 37
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 887,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.028Z"
+    },
+    "backdrop_path": "/kl7nwmkLbxdQcxNSl1lr85T33LM.jpg",
+    "poster_path": "/gd5EoAU4MM57sW3vlWxJ0NMM8cV.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-726451200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd73"
+    },
+    "title": "Raging Bull",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 24
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 65
+      },
+      {
+        "ranker": "Empire",
+        "rank": 99
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1578,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.131Z"
+    },
+    "backdrop_path": "/6t4jqCok1yGBn7z7CKlCsWsjoNX.jpg",
+    "poster_path": "/rEviyDWNbAFmvvCPlkMRPAGUElG.jpg",
+    "release_date": {
+      "$date": "1980-11-14T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd7e"
+    },
+    "title": "It Happened One Night",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 35
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3078,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.100Z"
+    },
+    "backdrop_path": "/yWpbG6BT0IdwBnGHpCUicKTDGOm.jpg",
+    "poster_path": "/wx4ptyx3vlPBVl5DzBA8KomcJww.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1131580800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd83"
+    },
+    "title": "North by Northwest",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 40
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 62
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 43
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 213,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.140Z"
+    },
+    "backdrop_path": "/uL7nTO46KAup4bkYmz1A3on036B.jpg",
+    "poster_path": "/9pf8CuIT64cFvsyocWOjbKGcXmt.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-330912000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd84"
+    },
+    "title": "West Side Story",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 41
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 61
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1725,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.180Z"
+    },
+    "backdrop_path": "/bkahbHkwBSbIDtTm667Tu1ba2bu.jpg",
+    "poster_path": "/vCtErvzF6S93DtoD7URwy9Mr7oe.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-254102400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd86"
+    },
+    "title": "King Kong",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 43
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 244,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.343Z"
+    },
+    "backdrop_path": "/lYfHa1AtkUMtplrKx7SRLHpwonW.jpg",
+    "poster_path": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1161302400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd8d"
+    },
+    "title": "Butch Cassidy And The Sundance Kid",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 50
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 54
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 642,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.350Z"
+    },
+    "backdrop_path": "/C6jcUqld8M6hZQmzBxgwHuQ4qT.jpg",
+    "poster_path": "/2gEXeOLuT7iryqKnaFzcU6Dv5uW.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-8640000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd99"
+    },
+    "title": "Tootsie",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 62
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 9576,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.366Z"
+    },
+    "backdrop_path": "/faNlHgQETB5e5B6h4DDFHYgHaGb.jpg",
+    "poster_path": "/ngyCzZwb9y5sMUCig5JQT4Y33Q.jpg",
+    "release_date": {
+      "$date": "1982-06-10T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd7d"
+    },
+    "title": "To Kill a Mockingbird",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 34
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 16
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 70
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 595,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.374Z"
+    },
+    "backdrop_path": "/mbJIERhLu25fyZb8DQIq1JN3AOR.jpg",
+    "poster_path": "/gZycFUMLx2110dzK3nBNai7gfpM.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-221961600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd6b"
+    },
+    "title": "All About Eve",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 16
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 52
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 95
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 705,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.429Z"
+    },
+    "backdrop_path": "/9LkOiz3fPTEhZbXr5IvdFbm01cj.jpg",
+    "poster_path": "/6numIZH6uR3NlJgY9m7nGH0jhs.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-607132800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd81"
+    },
+    "title": "Double Indemnity",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 38
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 54
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 996,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.498Z"
+    },
+    "backdrop_path": "/u546kDNwrZ1ii6q8NqqQgHwRvoW.jpg",
+    "poster_path": "/3FxPFG4IEg1kX00oAJn7L06GoCS.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-806284800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd85"
+    },
+    "title": "Rear Window",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 42
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 49
+      },
+      {
+        "ranker": "Empire",
+        "rank": 72
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 28
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 567,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.580Z"
+    },
+    "backdrop_path": "/zGs5tZOlvc9cprdcU6kDOVNpujf.jpg",
+    "poster_path": "/qitnZcLP7C9DLRuPpmvZ7GiEjJN.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-483926400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd82"
+    },
+    "title": "Doctor Zhivago",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 39
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 95
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 907,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.651Z"
+    },
+    "backdrop_path": "/kMdvowuSvAbYfugANje3qUqkbxQ.jpg",
+    "poster_path": "/mTy6RoFAOtvFsdELTSN838JuvSD.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-127094400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd92"
+    },
+    "title": "The Sound Of Music",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 55
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 25
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 15121,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.666Z"
+    },
+    "backdrop_path": "/5D9wsIoGLbwbJ4wdvME6Gb6zJNK.jpg",
+    "poster_path": "/xvXiJggaxRrU4jLjTXCmqnqEsGd.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-150249600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd6e"
+    },
+    "title": "Chinatown",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 19
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 21
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 86
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 829,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.677Z"
+    },
+    "backdrop_path": "/eJ6kPtua2rEvjxHdCtnIobXJZSf.jpg",
+    "poster_path": "/AmPEv5Tve4DuJ4QWhpY5lSsmXcv.jpg",
+    "release_date": {
+      "$date": "1974-06-20T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd63"
+    },
+    "title": "On The Waterfront",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 8
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 80
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 654,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.685Z"
+    },
+    "backdrop_path": "/hUzRPXBUHyJhpyGV0NfBDuadbgp.jpg",
+    "poster_path": "/v1RtJ1qR4v9nrnfoBVBl6hjTW9.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-490060800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd74"
+    },
+    "title": "E.T. – The Extra Terrestrial",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 25
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 8
+      },
+      {
+        "ranker": "Empire",
+        "rank": 59
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 601,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.617Z"
+    },
+    "backdrop_path": "/mXLVA0YL6tcXi6SJSuAh9ONXFj5.jpg",
+    "poster_path": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
+    "release_date": {
+      "$date": "1982-06-11T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd77"
+    },
+    "title": "Apocalypse Now",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 28
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 17
+      },
+      {
+        "ranker": "Empire",
+        "rank": 22
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 34
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 28,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.566Z"
+    },
+    "backdrop_path": "/9Qs9oyn4iE8QtQjGZ0Hp2WyYNXT.jpg",
+    "poster_path": "/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+    "release_date": {
+      "$date": "1979-08-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd7a"
+    },
+    "title": "Annie Hall",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 31
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 18
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 703,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.522Z"
+    },
+    "backdrop_path": "/m11t1czEL6edHkkCskWHaEh8xjY.jpg",
+    "poster_path": "/dEtjPywhDbAXYjoFfhBC4U9unU7.jpg",
+    "release_date": {
+      "$date": "1977-04-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd95"
+    },
+    "title": "Fantasia",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 58
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 756,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.549Z"
+    },
+    "backdrop_path": "/nnL7vunWHE24iU7WGGP84q7FXO9.jpg",
+    "poster_path": "/mSJgxrTaTgDSOoggIPcj3ZoZswT.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-919382400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd69"
+    },
+    "title": "Some Like It Hot",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 14
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 47
+      },
+      {
+        "ranker": "Empire",
+        "rank": 82
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 92
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 160688,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.636Z"
+    },
+    "backdrop_path": "/1vPnJo0sDP8bhRcDXKzFnAzAuYn.jpg",
+    "poster_path": "/acf0ybK86ZeY3OmL3VXTgDjQLI6.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-966384000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd5e"
+    },
+    "title": "The Godfather",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 3
+      },
+      {
+        "ranker": "Empire",
+        "rank": 1
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 2
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 1
+      }
+    ],
+    "director": "Francis Ford Coppola",
+    "year": 2000,
+    "movieDbId": 238,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.412Z"
+    },
+    "backdrop_path": "/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg",
+    "poster_path": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "release_date": {
+      "$date": "1972-03-14T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd65"
+    },
+    "title": "Singin' In The Rain",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 10
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 26
+      },
+      {
+        "ranker": "Empire",
+        "rank": 69
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 872,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.403Z"
+    },
+    "backdrop_path": "/kOJHfBhGCeBjLjAWw2SHLAztlmf.jpg",
+    "poster_path": "/62plaLItfJDXKcLUJdOQ35wASms.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-559526400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd6d"
+    },
+    "title": "Psycho",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 18
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 41
+      },
+      {
+        "ranker": "Empire",
+        "rank": 53
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 30
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 539,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.392Z"
+    },
+    "backdrop_path": "/kZGaVeXSkkvrpMYvD97sxHj291k.jpg",
+    "poster_path": "/5j5tdV8tMTy7FBdSNiYxp9Fj1Or.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-300672000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd76"
+    },
+    "title": "Bonnie And Clyde",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 27
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 99
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 475,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.490Z"
+    },
+    "backdrop_path": "/fyzSiE8IWezmd3ls1amHNeOkrEf.jpg",
+    "poster_path": "/hr7HVAcC9ZiUvfwApuha7i4leyP.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-77587200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd78"
+    },
+    "title": "Mr. Smith Goes To Washington",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 29
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3083,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.419Z"
+    },
+    "backdrop_path": "/1uOpPfARvbEf1TQfRGadWHhQqJH.jpg",
+    "poster_path": "/qZfL7UDj6KtkvAAQ5sv0v8ITKyM.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-953164800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd8a"
+    },
+    "title": "Taxi Driver",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 47
+      },
+      {
+        "ranker": "Empire",
+        "rank": 31
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 57
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 55
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 261909,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.541Z"
+    },
+    "backdrop_path": "/cwKhJTcTgw330YjnvrCGzgHesZ7.jpg",
+    "poster_path": "/yUBnIW6mPcpZciNTjCXYSxRI83W.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-504921600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd8b"
+    },
+    "title": "Jaws",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 48
+      },
+      {
+        "ranker": "Empire",
+        "rank": 8
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 24
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 578,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.480Z"
+    },
+    "backdrop_path": "/lDxGguxqFy1ch8XElYaNXqw0CuN.jpg",
+    "poster_path": "/s2xcqSFfT6F7ZXHxowjxfG0yisT.jpg",
+    "release_date": {
+      "$date": "1975-06-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd3"
+    },
+    "title": "Blazing Saddles",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 74
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11072,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.530Z"
+    },
+    "backdrop_path": "/ll0cm9AWMfcY1zhqyuLCetVso1P.jpg",
+    "poster_path": "/nb1MLEOXVFBKTM4J9GLoksqgDBk.jpg",
+    "release_date": {
+      "$date": "1974-02-07T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda3"
+    },
+    "title": "Ben-Hur",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 72
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 665,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.558Z"
+    },
+    "backdrop_path": "/sU3gFo7Gn67zjtKXIvzJ4omcUbH.jpg",
+    "poster_path": "/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-316137600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda7"
+    },
+    "title": "City Lights",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 76
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 38
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 901,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.592Z"
+    },
+    "backdrop_path": "/ps82zgSDimvlYps6otcMYshrVyS.jpg",
+    "poster_path": "/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1228089600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdac"
+    },
+    "title": "Modern Times",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 81
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 41
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3082,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.628Z"
+    },
+    "backdrop_path": "/qFWnaG1fVIloWZho6I0td43MpRD.jpg",
+    "poster_path": "/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1069459200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb0"
+    },
+    "title": "Duck Soup",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 85
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 50897,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.698Z"
+    },
+    "backdrop_path": "/qtRtHSUhZKYxnMsJGmYfyG5bvpV.jpg",
+    "poster_path": "/2f6bt2VwjAszrTHzZmPNA6VK8Zy.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1350864000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb1"
+    },
+    "title": "Mutiny on the Bounty",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 86
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 12311,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.707Z"
+    },
+    "backdrop_path": "/806U8drrogLJjU6GRse1QOvD67T.jpg",
+    "poster_path": "/bO6kaRD2BacZRPAijZgP31Fvtw4.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1076457600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb2"
+    },
+    "title": "Frankenstein",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 87
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 2929,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.716Z"
+    },
+    "backdrop_path": "/vqZEHv2KxjyVXjbtMhIDIZ6xoLf.jpg",
+    "poster_path": "/xPzF7qW6FFZEzfsnsKqNOncxJNU.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1886889600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf1"
+    },
+    "title": "Thelma & Louise",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 59
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1541,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.748Z"
+    },
+    "backdrop_path": "/tMa1YlJYIZrn1Sk6DICmL7pte8d.jpg",
+    "poster_path": "/xN0HD9hX5OohZcq0YPwy5HXlwsq.jpg",
+    "release_date": {
+      "$date": "1991-05-24T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdfa"
+    },
+    "title": "The Departed",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 36
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 49
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1422,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.756Z"
+    },
+    "backdrop_path": "/9RuC3UD6mNZ0p1J6RbfJDUkQ03i.jpg",
+    "poster_path": "/kWWAt2FMRbqLFFy8o5R4Zr8cMAb.jpg",
+    "release_date": {
+      "$date": "2006-10-05T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe20"
+    },
+    "title": "M",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 50
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 36373,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.768Z"
+    },
+    "backdrop_path": "/r7acCcFKrTKazGnjvptEjBThnYa.jpg",
+    "poster_path": "/jOGqXH0lcrrer3ApeQeaif2E7g8.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-594518400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd6"
+    },
+    "title": "Almost Famous",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 71
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 786,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.776Z"
+    },
+    "backdrop_path": "/xleIwr1wUlWqvFHaU1PItf0YLrZ.jpg",
+    "poster_path": "/asGfT3PExH4CUyyiClt5X6wJedk.jpg",
+    "release_date": {
+      "$date": "2000-09-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf8"
+    },
+    "title": "The Good, The Bad And The Ugly",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 27
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 5
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 429,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.738Z"
+    },
+    "backdrop_path": "/x4biAVdPVCghBlsVIzB6NmbghIz.jpg",
+    "poster_path": "/eWivEg4ugIMAd7d4uWI37b17Cgj.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-95472000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf9"
+    },
+    "title": "Guardians Of The Galaxy",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 34
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 118340,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.728Z"
+    },
+    "backdrop_path": "/i34ijHY5hr52uYcKZ48wq7K6yUs.jpg",
+    "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+    "release_date": {
+      "$date": "2014-07-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe06"
+    },
+    "title": "L.A. Confidential",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 64
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 84
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 2118,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:57.783Z"
+    },
+    "backdrop_path": "/ygYvhIsbOT3jwACwthDPIUzqXYK.jpg",
+    "poster_path": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
+    "release_date": {
+      "$date": "1997-09-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe0a"
+    },
+    "title": "Mulholland Dr.",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 74
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 185789,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.149Z"
+    },
+    "backdrop_path": "/tLoCvK6BHqeGOQ5MzfH8HVFKYoE.jpg",
+    "poster_path": "/oGXtT5UW8lDWt8uxlww2zw9GmBs.jpg",
+    "release_date": {
+      "$date": "1999-01-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe0b"
+    },
+    "title": "Oldboy",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 78
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 82
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 87516,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.161Z"
+    },
+    "backdrop_path": "/aEIj4P4JYk5uY25HfnfEl9wHthF.jpg",
+    "poster_path": "/iX93YdBrZA1EpGbphmjf4ARj1Za.jpg",
+    "release_date": {
+      "$date": "2013-11-14T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe11"
+    },
+    "title": "Indiana Jones And The Last Crusade",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 86
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 100
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 89,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.199Z"
+    },
+    "backdrop_path": "/4waXf28obXu6azfrAgtc7RjhgMT.jpg",
+    "poster_path": "/sizg1AU8f8JDZX4QIgE4pjUMBvx.jpg",
+    "release_date": {
+      "$date": "1989-05-24T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe19"
+    },
+    "title": "Arrival",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 95
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 683330,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.222Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/d901ArrL7xAC0h2n57n3qM10rgS.jpg",
+    "release_date": {
+      "$date": "1986-01-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe2e"
+    },
+    "title": "Once Upon a Time in America",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 78
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 311,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.248Z"
+    },
+    "backdrop_path": "/rO4pfAIIrt3N905wTTe2HrH3uUv.jpg",
+    "poster_path": "/i0enkzsL5dPeneWnjl1fCWm6L7k.jpg",
+    "release_date": {
+      "$date": "1984-05-23T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe38"
+    },
+    "title": "Grave of the Fireflies",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 99
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 12477,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.270Z"
+    },
+    "backdrop_path": "/x5SRTwGtATzvFjRZXJxmitfqH4y.jpg",
+    "poster_path": "/fs9rvMCDCqZMr6AGciakP0Ds7og.jpg",
+    "release_date": {
+      "$date": "1988-04-16T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdaa"
+    },
+    "title": "The Deer Hunter",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 79
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 94
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11778,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.280Z"
+    },
+    "backdrop_path": "/ojG57hVx69vhk5DDGPIcfyRR55I.jpg",
+    "poster_path": "/wT3DeCZ3Ax5VYhKu6ajyEvA1hXG.jpg",
+    "release_date": {
+      "$date": "1978-03-09T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdad"
+    },
+    "title": "Giant",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 82
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1712,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.290Z"
+    },
+    "backdrop_path": "/lM4dpDBC4UDeZOqigVLRgPoPJFZ.jpg",
+    "poster_path": "/alRcXVjxE9LptolhUJ1uOqmh8Gv.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-413510400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb3"
+    },
+    "title": "Easy Rider",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 88
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 624,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.299Z"
+    },
+    "backdrop_path": "/78dHjJKxKZ8JbCm3lEMjDRulLp.jpg",
+    "poster_path": "/mmGEB6ly9OG8SYVfvAoa6QqHNvN.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-20649600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde1"
+    },
+    "title": "Titanic",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 45
+      },
+      {
+        "ranker": "Empire",
+        "rank": 97
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11021,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.316Z"
+    },
+    "backdrop_path": "/edHgXEtPbyVIQ7xKb1cvJJqTVhA.jpg",
+    "poster_path": "/Al7oIXQ4dZAofBTZWm6OiXS3MEa.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-825033600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe05"
+    },
+    "title": "Donnie Darko",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 63
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 141,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.331Z"
+    },
+    "backdrop_path": "/msCHK5Kh1YbdZ0zPJ2nzPUhhSN9.jpg",
+    "poster_path": "/fhQoQfejY1hUcwyuLgpBrYs6uFt.jpg",
+    "release_date": {
+      "$date": "2001-10-26T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe18"
+    },
+    "title": "Lost In Translation",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 94
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 153,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.342Z"
+    },
+    "backdrop_path": "/fEolr0bwBR7m0sHSJC8u8grnhBv.jpg",
+    "poster_path": "/wkSzJs7oMf8MIr9CQVICsvRfwA7.jpg",
+    "release_date": {
+      "$date": "2003-09-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe25"
+    },
+    "title": "The Untouchables",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 61
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 117,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.349Z"
+    },
+    "backdrop_path": "/i1oWUGVDNBhGBykcCRBlX326udb.jpg",
+    "poster_path": "/iK4twY48a1nVCez0qXE5w4JFvXw.jpg",
+    "release_date": {
+      "$date": "1987-06-03T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdab"
+    },
+    "title": "The Wild Bunch",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 80
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 576,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.367Z"
+    },
+    "backdrop_path": "/uNbsH45P4oKo2ZL4X1SNxBSTcZW.jpg",
+    "poster_path": "/zZhp7p8qvfVrSLKpOFHcKjpEj8f.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-17107200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdae"
+    },
+    "title": "Platoon",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 83
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 792,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.376Z"
+    },
+    "backdrop_path": "/2WZLSN9cdHCkJFbkj0oMfOfVHn8.jpg",
+    "poster_path": "/8hDlxJZYCJJLRHbSk7hsRQ9SNp7.jpg",
+    "release_date": {
+      "$date": "1986-12-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdbe"
+    },
+    "title": "Guess Who's Coming To Dinner",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 99
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1879,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.383Z"
+    },
+    "backdrop_path": "/iSxiA5ZwJcLtnpBwB74fdGU2CBW.jpg",
+    "poster_path": "/mrRVl6ck9v23SjmdblwP8GajVS.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-64972800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc2"
+    },
+    "title": "Reservoir Dogs",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 98
+      },
+      {
+        "ranker": "Empire",
+        "rank": 56
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 71
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 443129,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.395Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/xiPVdfcSO5P5wQcSzAwtMwBlvJ6.jpg",
+    "release_date": {
+      "$date": "1991-06-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdff"
+    },
+    "title": "Interstellar",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 47
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 157336,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.405Z"
+    },
+    "backdrop_path": "/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+    "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "release_date": {
+      "$date": "2014-11-05T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe09"
+    },
+    "title": "Hot Fuzz",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 71
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 4638,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.422Z"
+    },
+    "backdrop_path": "/uFUm3ehg69VwtHf3ryMzPZXqRtd.jpg",
+    "poster_path": "/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
+    "release_date": {
+      "$date": "2007-02-14T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe0c"
+    },
+    "title": "Captain America: Civil War",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 79
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 271110,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.428Z"
+    },
+    "backdrop_path": "/kvRT3GwcnqGHzPjXIVrVPhUix7Z.jpg",
+    "poster_path": "/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+    "release_date": {
+      "$date": "2016-04-27T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe24"
+    },
+    "title": "The Green Mile",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 59
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 497,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.444Z"
+    },
+    "backdrop_path": "/5Nz25DPXfQaSpDgce42Y3kFg9G4.jpg",
+    "poster_path": "/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+    "release_date": {
+      "$date": "1999-12-10T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda1"
+    },
+    "title": "The French Connection",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 70
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1051,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.451Z"
+    },
+    "backdrop_path": "/3QQxl29VRkEHxsrvkRKoNxS6Zkl.jpg",
+    "poster_path": "/5XSGvIKl2yPvOkieFjc3rzLw7x0.jpg",
+    "release_date": {
+      "$date": "1971-10-09T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda9"
+    },
+    "title": "Rocky",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 78
+      },
+      {
+        "ranker": "Empire",
+        "rank": 84
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 91
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1366,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.510Z"
+    },
+    "backdrop_path": "/wC36tEU7AqP5llAvjXkZhZ248tX.jpg",
+    "poster_path": "/i5xiwdSsrecBvO7mIfAJixeEDSg.jpg",
+    "release_date": {
+      "$date": "1976-11-21T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdbd"
+    },
+    "title": "Unforgiven",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 98
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 33,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.553Z"
+    },
+    "backdrop_path": "/tZ4SrBztjURQhR0VAmxDE4T7Vto.jpg",
+    "poster_path": "/eMLf3eV0ZBXOKhQedJpg41KrqAH.jpg",
+    "release_date": {
+      "$date": "1992-08-07T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc8"
+    },
+    "title": "Slumdog Millionaire",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 88
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 12405,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.618Z"
+    },
+    "backdrop_path": "/9IZvClXvhSxlp41eT0CyUEsyjqy.jpg",
+    "poster_path": "/5leCCi7ZF0CawAfM5Qo2ECKPprc.jpg",
+    "release_date": {
+      "$date": "2008-11-12T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdcc"
+    },
+    "title": "Inception",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 84
+      },
+      {
+        "ranker": "Empire",
+        "rank": 18
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 14
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 27205,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.578Z"
+    },
+    "backdrop_path": "/ztZ4vw151mw04Bg6rqJLQGBAmvn.jpg",
+    "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+    "release_date": {
+      "$date": "2010-07-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd4"
+    },
+    "title": "All the President's Men",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 73
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 891,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.626Z"
+    },
+    "backdrop_path": "/eHUsvxdZzHyjdPbppBkYkW9EQUx.jpg",
+    "poster_path": "/ruURnC7qLRtSnTV1vygcoEPzeYK.jpg",
+    "release_date": {
+      "$date": "1976-04-04T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde3"
+    },
+    "title": "Gladiator",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 69
+      },
+      {
+        "ranker": "Empire",
+        "rank": 44
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 60
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 16219,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.656Z"
+    },
+    "backdrop_path": "/nQLOKbKuzKPrRCy6z1nQUystzJd.jpg",
+    "poster_path": "/24eDtuux6l0Mgl8sX8fSxa20HEh.jpg",
+    "release_date": {
+      "$date": "1992-03-06T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdef"
+    },
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 56
+      },
+      {
+        "ranker": "Empire",
+        "rank": 41
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 80
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 38,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.759Z"
+    },
+    "backdrop_path": "/jzZcW65MZQfAgvbEoX8EWCvlxpk.jpg",
+    "poster_path": "/5VwDe3FE46fWhOfjQ5aC4ryELF8.jpg",
+    "release_date": {
+      "$date": "2004-03-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf5"
+    },
+    "title": "The Lord Of The Rings: The Two Towers",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 23
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 20
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 121,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.638Z"
+    },
+    "backdrop_path": "/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg",
+    "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+    "release_date": {
+      "$date": "2002-12-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe08"
+    },
+    "title": "Return Of The Jedi",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 66
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1892,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.664Z"
+    },
+    "backdrop_path": "/iP2tEA2A77qhbhRfcFkiD6WFOqH.jpg",
+    "poster_path": "/mDCBQNhR6R0PVFucJl0O4Hp5klZ.jpg",
+    "release_date": {
+      "$date": "1983-05-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe15"
+    },
+    "title": "No Country For Old Men",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 90
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 6977,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.788Z"
+    },
+    "backdrop_path": "/kd9jFTTabg4xJpHDgxY0h8F9BzG.jpg",
+    "poster_path": "/6d5XOczc226jECq0LIX0siKtgHR.jpg",
+    "release_date": {
+      "$date": "2007-11-08T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe2f"
+    },
+    "title": "Requiem for a Dream",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 79
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 641,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.832Z"
+    },
+    "backdrop_path": "/c5g1Dn1tF22CS2oOvHDNKr1Ve2U.jpg",
+    "poster_path": "/nOd6vjEmzCT0k4VYqsA2hwyi87C.jpg",
+    "release_date": {
+      "$date": "2000-10-06T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe37"
+    },
+    "title": "The Sting",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 97
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 9277,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.878Z"
+    },
+    "backdrop_path": "/1r9lH3DaSWKGyvZaoo6BF5STOk5.jpg",
+    "poster_path": "/fpxhmgeCuPQOeatfeCPwtOwUwlb.jpg",
+    "release_date": {
+      "$date": "1973-12-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe03"
+    },
+    "title": "Inglourious Basterds",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 58
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 16869,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.890Z"
+    },
+    "backdrop_path": "/8pEnePgGyfUqj8Qa6d91OZQ6Aih.jpg",
+    "poster_path": "/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
+    "release_date": {
+      "$date": "2009-08-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe12"
+    },
+    "title": "Predator",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 87
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 106,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.963Z"
+    },
+    "backdrop_path": "/YL3GPOiDcNraIJOVDCZsoOBoDy.jpg",
+    "poster_path": "/9XibNLfmUWCg0PPydmyoCl1KxvF.jpg",
+    "release_date": {
+      "$date": "1987-06-12T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe1b"
+    },
+    "title": "The Empire Strikes Back",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 11
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1891,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.526Z"
+    },
+    "backdrop_path": "/dMZxEdrWIzUmUoOz2zvmFuutbj7.jpg",
+    "poster_path": "/7BuH8itoSrLExs2YZSsM01Qk2no.jpg",
+    "release_date": {
+      "$date": "1980-05-20T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe27"
+    },
+    "title": "The Lives of Others",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 63
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 582,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.931Z"
+    },
+    "backdrop_path": "/3mxteiwtcCPjbYKlyC0WxY1G9J3.jpg",
+    "poster_path": "/5BCyeLJHPcRwhu0YaRqUzw00JJ4.jpg",
+    "release_date": {
+      "$date": "2006-03-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd9f"
+    },
+    "title": "An American In Paris",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 68
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 2769,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.943Z"
+    },
+    "backdrop_path": "/k6Unnx1OCgVteDDzWJLXTw05VGZ.jpg",
+    "poster_path": "/lyDXkvG53ldz6Cf7dbjJl7TaoP5.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-576460800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd9c"
+    },
+    "title": "The Silence of the Lambs",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 65
+      },
+      {
+        "ranker": "Empire",
+        "rank": 48
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 23
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 22
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 274,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.908Z"
+    },
+    "backdrop_path": "/mfwq2nMBzArzQ7Y9RKE8SKeeTkg.jpg",
+    "poster_path": "/rplLJ2hPcOQmkFhTqUte0MkEaO2.jpg",
+    "release_date": {
+      "$date": "1991-02-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb9"
+    },
+    "title": "Goodfellas",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 94
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 19
+      },
+      {
+        "ranker": "Empire",
+        "rank": 6
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 15
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 769,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.841Z"
+    },
+    "backdrop_path": "/sw7mordbZxgITU877yTpZCud90M.jpg",
+    "poster_path": "/6QMSLvU5ziIL2T6VrkaKzN2YkxK.jpg",
+    "release_date": {
+      "$date": "1990-09-12T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd0"
+    },
+    "title": "12 Angry Men",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 78
+      },
+      {
+        "ranker": "Empire",
+        "rank": 40
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 7
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 389,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.800Z"
+    },
+    "backdrop_path": "/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+    "poster_path": "/ppd84D2i9W8jXmsyInGyihiSyqz.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-401673600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd9"
+    },
+    "title": "American Beauty",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 34
+      },
+      {
+        "ranker": "Empire",
+        "rank": 60
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 58
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 534573,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.819Z"
+    },
+    "backdrop_path": "/uW77NBLAotF22hZX2jhYmjwl5gn.jpg",
+    "poster_path": "/xmdCIgM3uNXn4UBdSrfWTWamEYu.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1332720000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde0"
+    },
+    "title": "The Matrix",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 24
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 19
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 603,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.710Z"
+    },
+    "backdrop_path": "/8K9qHeM6G6QjQN0C5XKFGvK5lzM.jpg",
+    "poster_path": "/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "release_date": {
+      "$date": "1999-03-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde9"
+    },
+    "title": "Back to the Future",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 12
+      },
+      {
+        "ranker": "Empire",
+        "rank": 11
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 44
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 105,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.607Z"
+    },
+    "backdrop_path": "/fq3wyOs1RHyz2yfzsb4sck7aWRG.jpg",
+    "poster_path": "/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg",
+    "release_date": {
+      "$date": "1985-07-03T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdeb"
+    },
+    "title": "The Usual Suspects",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 48
+      },
+      {
+        "ranker": "Empire",
+        "rank": 32
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 26
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 629,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.566Z"
+    },
+    "backdrop_path": "/6CLV2HakYO1tyAV5GUHOeNPyaTd.jpg",
+    "poster_path": "/bUPmtQzrRhzqYySeiMpv7GurAfm.jpg",
+    "release_date": {
+      "$date": "1995-07-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf0"
+    },
+    "title": "The Dark Knight",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 57
+      },
+      {
+        "ranker": "Empire",
+        "rank": 3
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 6
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 155,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.485Z"
+    },
+    "backdrop_path": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "release_date": {
+      "$date": "2008-07-16T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf6"
+    },
+    "title": "Terminator 2: Judgment Day",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 25
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 35
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 280,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.476Z"
+    },
+    "backdrop_path": "/xKb6mtdfI5Qsggc44Hr9CCUDvaj.jpg",
+    "poster_path": "/weVXMD5QBGeQil4HEATZqAkXeEc.jpg",
+    "release_date": {
+      "$date": "1991-07-03T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdfc"
+    },
+    "title": "Mad Max: Fury Road",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 38
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 76341,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.465Z"
+    },
+    "backdrop_path": "/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
+    "poster_path": "/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+    "release_date": {
+      "$date": "2015-05-13T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe13"
+    },
+    "title": "The Exorcist",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 88
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 9552,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.502Z"
+    },
+    "backdrop_path": "/xcjJ5khg2yzOa282mza39Lbrm7j.jpg",
+    "poster_path": "/4ucLGcXVVSVnsfkGtbLY4XAius8.jpg",
+    "release_date": {
+      "$date": "1973-05-31T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe17"
+    },
+    "title": "The Terminator",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 92
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 218,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.525Z"
+    },
+    "backdrop_path": "/wh4ze6klUbeichAj603OKZwY1W5.jpg",
+    "poster_path": "/qvktm0BHcnmDpul4Hz01GIazWPr.jpg",
+    "release_date": {
+      "$date": "1984-10-26T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe22"
+    },
+    "title": "Django Unchained",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 53
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 68718,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.533Z"
+    },
+    "backdrop_path": "/lVcI3MOtumvEbOdS1Og7QoV6Lfc.jpg",
+    "poster_path": "/4E4TTsCXVFyhBtYu9fKy0gIT3Ih.jpg",
+    "release_date": {
+      "$date": "2012-12-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb5"
+    },
+    "title": "The Jazz Singer",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 90
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 939,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.587Z"
+    },
+    "backdrop_path": "/oBNJAxtRdqa7xfhRc6LRk7AMnaa.jpg",
+    "poster_path": "/hO3pM0Pf8eGnkt8049aKYr8yqJF.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1332979200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdba"
+    },
+    "title": "Pulp Fiction",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 95
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 5
+      },
+      {
+        "ranker": "Empire",
+        "rank": 5
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 680,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.543Z"
+    },
+    "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+    "poster_path": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+    "release_date": {
+      "$date": "1994-09-10T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdbc"
+    },
+    "title": "Bringing Up Baby",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 97
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 900,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.595Z"
+    },
+    "backdrop_path": "/hA3Ka1kIgkIOrkphR1QzMbswpV3.jpg",
+    "poster_path": "/vTNNOtemaYmtx3k2NpsLMRJKEwZ.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1005696000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdbf"
+    },
+    "title": "Yankee Doodle Dandy",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 100
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3087,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.645Z"
+    },
+    "backdrop_path": "/mVhtWsCu6z58fmpIP7SHcwdCGDz.jpg",
+    "poster_path": "/cqLLIyJFjLr6jGOxWVEHG11WGzB.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-870825600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc5"
+    },
+    "title": "Up",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 92
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 14160,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.743Z"
+    },
+    "backdrop_path": "/h8C7KZwCJO5DN7jPifc7AoIjx7k.jpg",
+    "poster_path": "/eAdO0qa9m0NFSVLZ26PvCwmPlsr.jpg",
+    "release_date": {
+      "$date": "2009-05-28T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc9"
+    },
+    "title": "The Lord of the Rings: The Return of the King",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 87
+      },
+      {
+        "ranker": "Empire",
+        "rank": 16
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 9
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 122,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.689Z"
+    },
+    "backdrop_path": "/pm0RiwNpSja8gR0BTWpxo5a9Bbl.jpg",
+    "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+    "release_date": {
+      "$date": "2003-12-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdcb"
+    },
+    "title": "Seven",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 85
+      },
+      {
+        "ranker": "Empire",
+        "rank": 30
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 22
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 102961,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.679Z"
+    },
+    "backdrop_path": "/f8ApV9a2cgyWvkeGTB40clSTq2N.jpg",
+    "poster_path": "/aSAW0kRXwRuaGZ7lj9L2Eh4NEac.jpg",
+    "release_date": {
+      "$date": "1979-09-07T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd2"
+    },
+    "title": "Brokeback Mountain",
+    "rankings": [
+      {
+        "title": "Brokeback Mountain",
+        "ranker": "Hollywood Reporter",
+        "rank": 76
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 142,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.727Z"
+    },
+    "backdrop_path": "/wbKAPK8348GG5OjgJK0ZOPp0fwN.jpg",
+    "poster_path": "/fsbzfe9eLOEl5rJX04nPEr1eoAi.jpg",
+    "release_date": {
+      "$date": "2005-09-10T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdda"
+    },
+    "title": "Ferris Bueller's Day Off",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 36
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 9377,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.701Z"
+    },
+    "backdrop_path": "/leehjwM57DKJ79XMUll4oAF0kin.jpg",
+    "poster_path": "/kKhvDqvxaXSJXWjVKjCTeHvNKd3.jpg",
+    "release_date": {
+      "$date": "1986-06-11T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fddf"
+    },
+    "title": "Toy Story",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 43
+      },
+      {
+        "ranker": "Empire",
+        "rank": 77
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 862,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.767Z"
+    },
+    "backdrop_path": "/XLwjO1NSCIaLznh58OQtmSFl0N.jpg",
+    "poster_path": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
+    "release_date": {
+      "$date": "1995-10-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdfb"
+    },
+    "title": "The Thing",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 37
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1091,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.737Z"
+    },
+    "backdrop_path": "/r9leYNa8nTRCceZrZhP1DXkgKVb.jpg",
+    "poster_path": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+    "release_date": {
+      "$date": "1982-06-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe02"
+    },
+    "title": "Whiplash",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 57
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 244786,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.780Z"
+    },
+    "backdrop_path": "/fRGxZuo7jJUWQsVg9PREb98Aclp.jpg",
+    "poster_path": "/oPxnRhyAIzJKGUEdSiwTJQBa3NM.jpg",
+    "release_date": {
+      "$date": "2014-10-10T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe0f"
+    },
+    "title": "True Romance",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 83
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 319,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.808Z"
+    },
+    "backdrop_path": "/5f0B7cRa0oWAWPgCsLmIZ7gAGpC.jpg",
+    "poster_path": "/39lXk6ud6KiJgGbbWI2PUKS7y2.jpg",
+    "release_date": {
+      "$date": "1993-09-09T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe14"
+    },
+    "title": "Shaun Of The Dead",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 89
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 747,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.857Z"
+    },
+    "backdrop_path": "/4lr2VqOcw9YROMnOWoHtUR9xGxA.jpg",
+    "poster_path": "/13vOO3DtEG0OYEbgcvVS6XimoIP.jpg",
+    "release_date": {
+      "$date": "2004-04-09T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd9d"
+    },
+    "title": "Network",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 66
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 10774,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.865Z"
+    },
+    "backdrop_path": "/pRMmLhZQncfvS44JelQyB078ZP2.jpg",
+    "poster_path": "/7x62Xco84HIEOvy3kdDr3pAUrFK.jpg",
+    "release_date": {
+      "$date": "1976-11-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdaf"
+    },
+    "title": "Fargo",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 84
+      },
+      {
+        "ranker": "Empire",
+        "rank": 75
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 33
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 252276,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.919Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/EmLY1Gtf3MEQxqJUYDfiqZbVE7.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-546480000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda4"
+    },
+    "title": "Wuthering Heights",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 73
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 415809,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.737Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/71ESvbix65v8QnoW2uxfIjtbymt.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1562198400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc4"
+    },
+    "title": "Pan's Labyrinth",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 96
+      },
+      {
+        "ranker": "Empire",
+        "rank": 55
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1417,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:58.985Z"
+    },
+    "backdrop_path": "/o0IWa75BXyXryNDVqw0xoXZzy1J.jpg",
+    "poster_path": "/iZTgxn14z9MwbVqq8nnxG4kc1n5.jpg",
+    "release_date": {
+      "$date": "2006-08-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde5"
+    },
+    "title": "Avatar",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 67
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 19995,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.004Z"
+    },
+    "backdrop_path": "/z3ElnHwcf1g56Qlp53yGbPsGXL7.jpg",
+    "poster_path": "/110CYDvtnVRWs9meC4lsZCz98vg.jpg",
+    "release_date": {
+      "$date": "2009-12-10T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf2"
+    },
+    "title": "Amélie",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 60
+      },
+      {
+        "ranker": "Empire",
+        "rank": 98
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 69
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 194,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.053Z"
+    },
+    "backdrop_path": "/2WyjkKudTkDgtZo9CIN8NoPGHRB.jpg",
+    "poster_path": "/vZ9NhNbQQ3yhtiC5sbhpy5KTXns.jpg",
+    "release_date": {
+      "$date": "2001-04-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdfd"
+    },
+    "title": "There Will Be Blood",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 42
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 7345,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.039Z"
+    },
+    "backdrop_path": "/xFuRZtuTbTY3S1QLY8Y9XYH1JCk.jpg",
+    "poster_path": "/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+    "release_date": {
+      "$date": "2007-12-28T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdfe"
+    },
+    "title": "Drive",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 45
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 25571,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.023Z"
+    },
+    "backdrop_path": "/vQ7w4mO4NVGJxpPRu4WuGMZvSSL.jpg",
+    "poster_path": "/tHfd9kuBZCxyKJdj9o4z8bN9AHQ.jpg",
+    "release_date": {
+      "$date": "1997-08-06T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe0e"
+    },
+    "title": "The Social Network",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 81
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 37799,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.062Z"
+    },
+    "backdrop_path": "/zPaWTuYD9gceF2ILlI7zyJzqYlr.jpg",
+    "poster_path": "/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+    "release_date": {
+      "$date": "2010-10-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe1f"
+    },
+    "title": "The Pianist",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 47
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 446818,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.074Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/fM7NKtabHKPpKmg0VAyNARs4w0P.jpg",
+    "release_date": {
+      "$date": "1991-01-31T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe26"
+    },
+    "title": "Wall-E",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 62
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 10681,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.087Z"
+    },
+    "backdrop_path": "/pjLdH5VIKirwVUIZ0iDisXoRGo4.jpg",
+    "poster_path": "/3g8vyePqVatTaUSnrNnrrwguhxM.jpg",
+    "release_date": {
+      "$date": "2008-06-22T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe29"
+    },
+    "title": "The Great Dictator",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 65
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 914,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.099Z"
+    },
+    "backdrop_path": "/7jTgJ24UPkWeb5zzH7ihs554xVy.jpg",
+    "poster_path": "/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-921196800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb8"
+    },
+    "title": "The Apartment",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 93
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 98
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 284,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.183Z"
+    },
+    "backdrop_path": "/bCrlhcXK5oTyXRvT9JXGysRrt3Q.jpg",
+    "poster_path": "/rwYVl3kjD70nAyhlYXjl27bwFRx.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-300758400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdcd"
+    },
+    "title": "Die Hard",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 83
+      },
+      {
+        "ranker": "Empire",
+        "rank": 20
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 562,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.195Z"
+    },
+    "backdrop_path": "/bvk2AAH64lP2YZs02Q3jskfHT8j.jpg",
+    "poster_path": "/p5hURTvac8sxLRhe5hLchvfy5Pu.jpg",
+    "release_date": {
+      "$date": "1988-07-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdce"
+    },
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 82
+      },
+      {
+        "ranker": "Empire",
+        "rank": 10
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 12
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 120,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.162Z"
+    },
+    "backdrop_path": "/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+    "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "release_date": {
+      "$date": "2001-12-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdec"
+    },
+    "title": "Jurassic Park",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 50
+      },
+      {
+        "ranker": "Empire",
+        "rank": 19
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 329,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.126Z"
+    },
+    "backdrop_path": "/9kqA5fe1V2yqCBudUMUTmXbyy3Y.jpg",
+    "poster_path": "/9i3plLl89DHMz7mahksDaAo7HIS.jpg",
+    "release_date": {
+      "$date": "1993-06-11T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe01"
+    },
+    "title": "Once Upon A Time In The West",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 52
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 24
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 335,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.106Z"
+    },
+    "backdrop_path": "/h31SOVlekuHXsMWVGxI8nPPfY82.jpg",
+    "poster_path": "/qbYgqOczabWNn2XKwgMtVrntD6P.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-32486400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe31"
+    },
+    "title": "Bicycle Thieves",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 85
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 5156,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.152Z"
+    },
+    "backdrop_path": "/kTUUiKGKrdRhJsCcYT3Ivtfuuzh.jpg",
+    "poster_path": "/leTeIiG6gZ9Yu1h5Ms0gSCFseGy.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-665971200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda2"
+    },
+    "title": "Forrest Gump",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 71
+      },
+      {
+        "ranker": "Empire",
+        "rank": 61
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 18
+      },
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 14
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 13,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.120Z"
+    },
+    "backdrop_path": "/7c9UVPPiTPltouxRVY6N9uugaVA.jpg",
+    "poster_path": "/h5J4W4veyxMXDMjeNxZI46TsHOb.jpg",
+    "release_date": {
+      "$date": "1994-07-06T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda8"
+    },
+    "title": "American Graffiti",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 77
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 838,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.139Z"
+    },
+    "backdrop_path": "/qflt7kggVoKVECL1DmD8lGJ9WeX.jpg",
+    "poster_path": "/d0Y0UPVpIJIG7y4v7IY1RozQaim.jpg",
+    "release_date": {
+      "$date": "1973-08-01T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda5"
+    },
+    "title": "The Gold Rush",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 74
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 962,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.172Z"
+    },
+    "backdrop_path": "/jIqp5xXY2aw1kxnBPyCXkKQBOJ3.jpg",
+    "poster_path": "/eQRFo1qwRREYwj47Yoe1PisgOle.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1403481600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdbb"
+    },
+    "title": "The Searchers",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 96
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3114,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.208Z"
+    },
+    "backdrop_path": "/wTSv5HEJvRIxGrj14lovNRQ2Gyf.jpg",
+    "poster_path": "/jLBmgW0epNzJ1N9uzaVCjbyT94v.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-430876800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc1"
+    },
+    "title": "Seven Samurai",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 100
+      },
+      {
+        "ranker": "Empire",
+        "rank": 73
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 17
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 346,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.346Z"
+    },
+    "backdrop_path": "/sJNNMCc6B7KZIY3LH3JMYJJNH5j.jpg",
+    "poster_path": "/8OKmBV5BUFzmozIC3pPWKHy17kx.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-494985600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde8"
+    },
+    "title": "Groundhog Day",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 63
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 137,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.386Z"
+    },
+    "backdrop_path": "/61dsn6ZsvI3BPNEHCQeDZeuhF7K.jpg",
+    "poster_path": "/gCgt1WARPZaXnq523ySQEUKinCs.jpg",
+    "release_date": {
+      "$date": "1993-02-11T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdea"
+    },
+    "title": "The Breakfast Club",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 27
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 2108,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.325Z"
+    },
+    "backdrop_path": "/qpPFF8Sed5lkXngWraJdN8WkwDG.jpg",
+    "poster_path": "/c0bdxKVRevkw50LOnk6B8d3e4s.jpg",
+    "release_date": {
+      "$date": "1985-02-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf4"
+    },
+    "title": "Aliens",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 15
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 56
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 679,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.219Z"
+    },
+    "backdrop_path": "/jMBpJFRtrtIXymer93XLavPwI3P.jpg",
+    "poster_path": "/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
+    "release_date": {
+      "$date": "1986-07-18T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe2b"
+    },
+    "title": "Cinema Paradiso",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 74
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11216,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.298Z"
+    },
+    "backdrop_path": "/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
+    "poster_path": "/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg",
+    "release_date": {
+      "$date": "1988-11-17T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb7"
+    },
+    "title": "A Place in the Sun",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 92
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 25673,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.430Z"
+    },
+    "backdrop_path": "/ahiyCLIyFQ57xNuDQaxqQQ48X9u.jpg",
+    "poster_path": "/mSi0tUJvs8ShfPaWDLl3mL9xzPA.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-585619200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd1"
+    },
+    "title": "Ghostbusters",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 77
+      },
+      {
+        "ranker": "Empire",
+        "rank": 68
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 620,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.581Z"
+    },
+    "backdrop_path": "/yka8c9kOHXmJpmFRn01y3lzfB1U.jpg",
+    "poster_path": "/h5Qz8J4T8YQnbZzHXM73WVYYVPK.jpg",
+    "release_date": {
+      "$date": "1984-06-08T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fddb"
+    },
+    "title": "When Harry Met Sally",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 38
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 639,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.536Z"
+    },
+    "backdrop_path": "/cXU4zg2aKglQrMOLokHLbnxwkGV.jpg",
+    "poster_path": "/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg",
+    "release_date": {
+      "$date": "1989-01-12T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde2"
+    },
+    "title": "Saving Private Ryan",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 46
+      },
+      {
+        "ranker": "Empire",
+        "rank": 39
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 36
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 857,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.453Z"
+    },
+    "backdrop_path": "/hjQp148VjWF4KjzhsD90OCMr11h.jpg",
+    "poster_path": "/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg",
+    "release_date": {
+      "$date": "1998-07-24T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fded"
+    },
+    "title": "The Big Lebowski",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 51
+      },
+      {
+        "ranker": "Empire",
+        "rank": 29
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 115,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.410Z"
+    },
+    "backdrop_path": "/77ElMccPnTMPouRxSdbJ4nEjf69.jpg",
+    "poster_path": "/d4J7GotCjvDJBAYayZBTc5nLbbP.jpg",
+    "release_date": {
+      "$date": "1998-03-06T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe1a"
+    },
+    "title": "Stand By Me",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 100
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 235,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.545Z"
+    },
+    "backdrop_path": "/ljIF1JjdUUJtVW55x77vWSJxizQ.jpg",
+    "poster_path": "/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+    "release_date": {
+      "$date": "1986-08-08T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe1d"
+    },
+    "title": "American History X",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 33
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 73,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.503Z"
+    },
+    "backdrop_path": "/o4Thn9ooTZAZOYrlbWgVB20weSf.jpg",
+    "poster_path": "/c2gsmSQ2Cqv8zosqKOCwRS0GFBS.jpg",
+    "release_date": {
+      "$date": "1998-10-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe1e"
+    },
+    "title": "Life Is Beautiful",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 45
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 351688,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.481Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/vRFIQpYxO8i6DeJVCKtoIbH4fLE.jpg",
+    "release_date": {
+      "$date": "2013-09-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe34"
+    },
+    "title": "Rashomon",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 91
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 548,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.591Z"
+    },
+    "backdrop_path": "/zyO6j74DKMWfp5snWg6Hwo0T3Mz.jpg",
+    "poster_path": "/vL7Xw04nFMHwnvXRFCmYYAzMUvY.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-610675200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fd9e"
+    },
+    "title": "The Manchurian Candidate",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 67
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 982,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.609Z"
+    },
+    "backdrop_path": "/7dX07NQv4p6kfzSkA9rf9LvlvVD.jpg",
+    "poster_path": "/2xQ856kd9hw6bB3OnusGyTvvkwB.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-228873600000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc0"
+    },
+    "title": "The Princess Bride",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 31
+      },
+      {
+        "ranker": "Empire",
+        "rank": 93
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 2493,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.633Z"
+    },
+    "backdrop_path": "/2NYNmp8goqhFr1Toyx063irCSCg.jpg",
+    "poster_path": "/whF3YddFYSwJNuHEvi5lpsnty2l.jpg",
+    "release_date": {
+      "$date": "1987-09-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd7"
+    },
+    "title": "Blade Runner",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 29
+      },
+      {
+        "ranker": "Empire",
+        "rank": 13
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 78,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.563Z"
+    },
+    "backdrop_path": "/eIi3klFf7mp3oL5EEF4mLIDs26r.jpg",
+    "poster_path": "/2ky5RmsjIgyco1HbnoyE97Vpiux.jpg",
+    "release_date": {
+      "$date": "1982-06-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf3"
+    },
+    "title": "The Shawshank Redemption",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 4
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 1
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 278,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.239Z"
+    },
+    "backdrop_path": "/irlfhYtHfhZuYpsq2LAoh308NFe.jpg",
+    "poster_path": "/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+    "release_date": {
+      "$date": "1994-09-23T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe0d"
+    },
+    "title": "Spirited Away",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 80
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 42
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 129,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.375Z"
+    },
+    "backdrop_path": "/Ab8mkHmkYADjU7wQiOkia9BzGvS.jpg",
+    "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "release_date": {
+      "$date": "2001-07-20T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe10"
+    },
+    "title": "Léon: The Professional",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 85
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 31
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 101,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.417Z"
+    },
+    "backdrop_path": "/jRJrQ72VLyEnVsvwfep8Xjlvu8c.jpg",
+    "poster_path": "/wHqGb8J6tXBVwjqWooGMtNEjs2A.jpg",
+    "release_date": {
+      "$date": "1994-09-14T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe1c"
+    },
+    "title": "City of God",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 21
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 598,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.336Z"
+    },
+    "backdrop_path": "/194dso1hBwQEgIU3fgS7mXHtFAj.jpg",
+    "poster_path": "/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+    "release_date": {
+      "$date": "2002-02-05T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe21"
+    },
+    "title": "Paths of Glory",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 51
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 975,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.357Z"
+    },
+    "backdrop_path": "/354kfjVb96mtFALMhBE6jzHGiA2.jpg",
+    "poster_path": "/kHMZTjBH99GghtFF9rjA7d7IylH.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-384566400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe28"
+    },
+    "title": "Toy Story 3",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 64
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 10193,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.397Z"
+    },
+    "backdrop_path": "/wE5JGzujfvDPMIfFjJyrhXFjZLc.jpg",
+    "poster_path": "/4cpGytCB0eqvRks4FAlJoUJiFPG.jpg",
+    "release_date": {
+      "$date": "2010-06-16T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb6"
+    },
+    "title": "My Fair Lady",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 91
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11113,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.490Z"
+    },
+    "backdrop_path": "/5HpzmeVrvQKKhzIhMO1IFiB1UsI.jpg",
+    "poster_path": "/bTXVc29lGSNclf94VIZ49W4gGKl.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-163987200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc3"
+    },
+    "title": "Airplane!",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 97
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 813,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.603Z"
+    },
+    "backdrop_path": "/GFc2Ia82LxFZjdLDX0X2sj0FbE.jpg",
+    "poster_path": "/7Q3efxd3AF1vQjlSxnlerSA7RzN.jpg",
+    "release_date": {
+      "$date": "1980-07-02T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fddc"
+    },
+    "title": "The Shining",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 39
+      },
+      {
+        "ranker": "Empire",
+        "rank": 35
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 46
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 694,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.439Z"
+    },
+    "backdrop_path": "/AdKA2F1SzYPhSZdEbjH1Zh75UVQ.jpg",
+    "poster_path": "/nRj5511mZdTl4saWEPoj9QroTIu.jpg",
+    "release_date": {
+      "$date": "1980-05-23T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdde"
+    },
+    "title": "Alien",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 42
+      },
+      {
+        "ranker": "Empire",
+        "rank": 14
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 40
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 348,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.310Z"
+    },
+    "backdrop_path": "/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+    "poster_path": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+    "release_date": {
+      "$date": "1979-05-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde7"
+    },
+    "title": "Mary Poppins",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 64
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 433,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.365Z"
+    },
+    "backdrop_path": "/5b2XUjm3PJKm6bTGeC5JYs346GO.jpg",
+    "poster_path": "/5pkyLjelPHXnww2OrYVKgOqynbu.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-168739200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdee"
+    },
+    "title": "Good Will Hunting",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 53
+      },
+      {
+        "ranker": "Empire",
+        "rank": 96
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 489,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.469Z"
+    },
+    "backdrop_path": "/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
+    "poster_path": "/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg",
+    "release_date": {
+      "$date": "1997-12-05T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe04"
+    },
+    "title": "La La Land",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 62
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 313369,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.517Z"
+    },
+    "backdrop_path": "/ik2D3KqxFD0O0Bc3Wv1CZm8sOg8.jpg",
+    "poster_path": "/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
+    "release_date": {
+      "$date": "2016-11-29T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe07"
+    },
+    "title": "The Avengers",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 65
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 24428,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.555Z"
+    },
+    "backdrop_path": "/nNmJRkg8wWnRmzQDe2FwKbPIsJV.jpg",
+    "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+    "release_date": {
+      "$date": "2012-04-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe33"
+    },
+    "title": "Metropolis",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 90
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 19,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.621Z"
+    },
+    "backdrop_path": "/r8pUcom5Mw8igtBpj3AHSAUvH0R.jpg",
+    "poster_path": "/hUK9rewffKGqtXynH5SW3v9hzcu.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1353888000000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe35"
+    },
+    "title": "Witness for the Prosecution",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 96
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 37257,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.647Z"
+    },
+    "backdrop_path": "/evUB9YKE5IPPtQOchcEF6hS90BO.jpg",
+    "poster_path": "/bCj4EfuehAlgBwVd3diyWyhuuau.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-379987200000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda6"
+    },
+    "title": "Dances With Wolves",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 75
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 581,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.654Z"
+    },
+    "backdrop_path": "/aXKUodFZfaMMm2nM4rdekrNgvE2.jpg",
+    "poster_path": "/cvaBVpS0GzKqBd63pFT8f1E8OKv.jpg",
+    "release_date": {
+      "$date": "1990-03-30T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdb4"
+    },
+    "title": "Patton",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 89
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 11202,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.669Z"
+    },
+    "backdrop_path": "/oBLWw2MDPvTNRUkyzJzeDjKODau.jpg",
+    "poster_path": "/rLM7jIEPTjj4CF7F1IrzzNjLUCu.jpg",
+    "release_date": {
+      "$date": "1970-01-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe16"
+    },
+    "title": "The Prestige",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 91
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 66
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 1124,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.677Z"
+    },
+    "backdrop_path": "/mfJepkInUbiZ0mFXFhDNz8ko6Zr.jpg",
+    "poster_path": "/gcphM7ZLxS5HPeCZgjZobfz907x.jpg",
+    "release_date": {
+      "$date": "2006-10-19T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe32"
+    },
+    "title": "Princess Mononoke",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 88
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 128,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.688Z"
+    },
+    "backdrop_path": "/mpNd0rTVrp6vHJ9Je7wSa3zC8JS.jpg",
+    "poster_path": "/pdtzEreKvKAlqa2YEBaGwiA45V8.jpg",
+    "release_date": {
+      "$date": "1997-07-12T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fda0"
+    },
+    "title": "Shane",
+    "rankings": [
+      {
+        "ranker": "AFI",
+        "rank": 69
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3110,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.701Z"
+    },
+    "backdrop_path": "/3hxnjFezi9kHPPqpHvK2E5JyvUr.jpg",
+    "poster_path": "/fPCjyrZK1evjm2vocMpsHZ0xFOa.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-526780800000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc6"
+    },
+    "title": "Memento",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 90
+      },
+      {
+        "ranker": "Empire",
+        "rank": 67
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 37
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 77,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.715Z"
+    },
+    "backdrop_path": "/q2CtXYjp9IlnfBcPktNkBPsuAEO.jpg",
+    "poster_path": "/yuNs09hvpHVU1cBTCAk9zxsL2oW.jpg",
+    "release_date": {
+      "$date": "2000-10-10T23:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdc7"
+    },
+    "title": "Braveheart",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 89
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 83
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 448394,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.818Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/jZKXEaDrhIK7lvipDuzMb8LdTfH.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1388966400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdca"
+    },
+    "title": "Beauty and the Beast",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 86
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 174494,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.877Z"
+    },
+    "backdrop_path": null,
+    "poster_path": "/mYimCOZ9iEAWl8PHClBrFINYt4x.jpg",
+    "release_date": {
+      "$date": {
+        "$numberLong": "-1127174400000"
+      }
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdd5"
+    },
+    "title": "Young Frankenstein",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 72
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 3034,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.903Z"
+    },
+    "backdrop_path": "/14AH4fovT9lj5wFXiXsgBcEKHFH.jpg",
+    "poster_path": "/tQJAWbIjvvqVKLLbIZHtwGw2HTf.jpg",
+    "release_date": {
+      "$date": "1974-12-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fddd"
+    },
+    "title": "Fight Club",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 40
+      },
+      {
+        "ranker": "Empire",
+        "rank": 17
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 10
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 550,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.745Z"
+    },
+    "backdrop_path": "/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg",
+    "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "release_date": {
+      "$date": "1999-10-15T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde4"
+    },
+    "title": "Monty Python and The Holy Grail",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 68
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 89
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 762,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.836Z"
+    },
+    "backdrop_path": "/7qOpWe1Fk58MFEmcsGs2nrbv7Ow.jpg",
+    "poster_path": "/jVztLnCw6F5YNOgEchm3QFydbYZ.jpg",
+    "release_date": {
+      "$date": "1975-05-25T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fde6"
+    },
+    "title": "The Lion King",
+    "rankings": [
+      {
+        "ranker": "Hollywood Reporter",
+        "rank": 66
+      },
+      {
+        "ranker": "Empire",
+        "rank": 70
+      },
+      {
+        "ranker": "IMDB",
+        "rank": 73
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 8587,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.968Z"
+    },
+    "backdrop_path": "/wXsQvli6tWqja51pYxXNG1LFIGV.jpg",
+    "poster_path": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "release_date": {
+      "$date": "1994-06-23T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fdf7"
+    },
+    "title": "Heat",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 26
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 42023,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.938Z"
+    },
+    "backdrop_path": "/2iov6SiLZmmJP1GLaIo2aFmzauK.jpg",
+    "poster_path": "/tZWFerGrHbmUIF9iG5HRbipn0Oo.jpg",
+    "release_date": {
+      "$date": "1986-10-16T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe00"
+    },
+    "title": "Trainspotting",
+    "rankings": [
+      {
+        "ranker": "Empire",
+        "rank": 49
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 627,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.918Z"
+    },
+    "backdrop_path": "/Aw0z8bUhGljT0ots6udf1MTLEMi.jpg",
+    "poster_path": "/6UTzw3kipgTYAJCX8GExoXzcVOx.jpg",
+    "release_date": {
+      "$date": "1996-02-23T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe23"
+    },
+    "title": "The Dark Knight Rises",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 55
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 49026,
+    "updatedAt": {
+      "$date": "2021-06-13T18:30:59.960Z"
+    },
+    "backdrop_path": "/yzsegNpkRCPadnWmshrJzT3ardR.jpg",
+    "poster_path": "/vzvKcPQ4o7TjWeGIn0aGC9FeVNu.jpg",
+    "release_date": {
+      "$date": "2012-07-16T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe2a"
+    },
+    "title": "Das Boot",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 72
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 387,
+    "updatedAt": {
+      "$date": "2021-06-13T18:31:00.387Z"
+    },
+    "backdrop_path": "/wsRysp1DpjRdJv8D3eN4lEsGju9.jpg",
+    "poster_path": "/zhiaiqdvRozQArq9rRVZCGIFZS7.jpg",
+    "release_date": {
+      "$date": "1981-09-16T00:00:00Z"
+    },
+    "averageRanking": -1
+  },
+  {
+    "_id": {
+      "$oid": "5fe01ecc67e1626c3403fe30"
+    },
+    "title": "Full Metal Jacket",
+    "rankings": [
+      {
+        "ranker": "IMDB",
+        "rank": 81
+      }
+    ],
+    "director": "",
+    "year": 2000,
+    "movieDbId": 600,
+    "updatedAt": {
+      "$date": "2021-05-30T23:40:18.132Z"
+    },
+    "backdrop_path": "/jqfCHNmjJVo5nJnLPM3ww7yqfNm.jpg",
+    "poster_path": "/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
+    "release_date": "1987-06-26",
+    "averageRanking": -1
+  }
+]
