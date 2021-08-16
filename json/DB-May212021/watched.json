@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "600dfcec21e65624aafd1227"
+  },
+  "title": "Metropolis",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-24T23:04:12.800Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-24T23:04:12.800Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600dfcf021e65624aafd1228"
+  },
+  "title": "Full Metal Jacket",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-24T23:04:16.916Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-24T23:04:16.916Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600e10cd0a8c2f3c733aa991"
+  },
+  "title": "Grave of the Fireflies",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-25T00:29:01.571Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-25T00:29:01.571Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600faa5feefee3fabfe233c1"
+  },
+  "title": "Lawrence of Arabia",
+  "email": "peteburquette@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-26T05:36:31.048Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-26T05:36:31.048Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600faa960fc746fb1b00e259"
+  },
+  "title": "Casablanca",
+  "email": "peteburquette@gmail.com",
+  "createdAt": {
+    "$date": "2021-01-26T05:37:26.067Z"
+  },
+  "updatedAt": {
+    "$date": "2021-01-26T05:37:26.067Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60afe6d00a66a22f2f557eaf"
+  },
+  "title": "The Godfather: Part II",
+  "email": "test2@gmail.com",
+  "createdAt": {
+    "$date": "2021-05-27T18:37:05Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-27T18:37:05Z"
+  },
+  "__v": 0
+}]
