@@ -1,0 +1,39 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/lDxGguxqFy1ch8XElYaNXqw0CuN.jpg",
+      "genre_ids": [27, 53, 12],
+      "id": 578,
+      "original_language": "en",
+      "original_title": "Jaws",
+      "overview": "When an insatiable great white shark terrorizes the townspeople of Amity Island, the police chief, an oceanographer and a grizzled shark hunter seek to destroy the blood-thirsty beast.",
+      "popularity": 46.54,
+      "poster_path": "/s2xcqSFfT6F7ZXHxowjxfG0yisT.jpg",
+      "release_date": "1975-06-18",
+      "title": "Jaws",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 7402
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2wEvjbHO878s6AfSnvrZpuOutfL.jpg",
+      "genre_ids": [27],
+      "id": 780268,
+      "original_language": "en",
+      "original_title": "Apex Predators",
+      "overview": "The bodies of beach goers begin washing ashore during the grand opening of a new resort with dire results.",
+      "popularity": 5.928,
+      "poster_path": "/mLOJB8OvFdA3iUkcvcntprj49Qh.jpg",
+      "release_date": "2021-05-11",
+      "title": "Apex Predators",
+      "video": false,
+      "vote_average": 4,
+      "vote_count": 1
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 2
+}
