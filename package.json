@@ -4,6 +4,7 @@
   "description": "Backend for Best Rated Films",
   "main": "server.js",
   "scripts": {
+    "startDB": "mongod --dbpath '/Users/peteburquette/mongo-data'",
     "start": "node server",
     "server": "nodemon server PORT=5001 ",
     "client": "npm start --prefix client",
