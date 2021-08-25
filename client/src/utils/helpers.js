@@ -1,4 +1,4 @@
-import store from "../store";
+import reduxAuthStore from "../reduxAuthStore";
 
 export const randomNumber = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
@@ -6,23 +6,30 @@ export const randomNumber = (min, max) => {
 
 export function getEmail() {
   const localEmail = localStorage.getItem("BRFemail");
-  console.log("getEmail, localEmail" + JSON.stringify(localEmail));
-  const state = store.getState();
+  const reduxAuthState = reduxAuthStore.getState();
+
   var email = "";
   if (
-    state.auth !== undefined &&
-    state.auth !== null &&
-    state.auth.user !== null
+    reduxAuthState.auth !== undefined &&
+    reduxAuthState.auth !== null &&
+    reduxAuthState.auth.user !== null
   ) {
     console.log(
-      "getEmail, state.user.email" + JSON.stringify(state.auth.user.email)
+      "getEmail, state.auth.user.email" +
+        JSON.stringify(reduxAuthState.auth.user.email)
     );
-    email = state.auth.user.email;
+    email = reduxAuthState.auth.user.email;
+  } else if (
+    reduxAuthState.auth.email !== undefined &&
+    reduxAuthState.auth.email !== null
+  ) {
+    console.log(
+      "getEmail, using reduxAuthState.auth.email" + reduxAuthState.auth.email
+    );
+    email = reduxAuthState.auth.email;
   } else if (localEmail !== null && localEmail !== "") {
-    console.log("getEmail, setting email to local storage version");
-    email = "Jun15@gmail.com";
-    // HACK Pete Todo
+    email = localEmail;
+    console.log("getEmail, using local Storage Email" + localEmail);
   }
-  console.log("getEmail, state" + JSON.stringify(state));
   return email;
 }

@@ -4,12 +4,12 @@ import App from "./App";
 import "./styles/main.scss";
 import homeStore from "./store/HomeStore";
 import { BrowserRouter as Router } from "react-router-dom";
-import store from "./store";
+import reduxAuthStore from "./reduxAuthStore";
 import { Provider } from "react-redux";
 
 ReactDOM.render(
   <Router>
-    <Provider store={store}>
+    <Provider store={reduxAuthStore}>
       <App homeStore={homeStore} />
     </Provider>
   </Router>,

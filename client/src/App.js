@@ -5,7 +5,7 @@ import AppNavbar from "./components/AppNavbar";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Movie from "./components/Movie";
-import store from "./store";
+import reduxAuthStore from "./reduxAuthStore";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loadUser } from "./actions/authActions";
@@ -33,7 +33,7 @@ const App = observer(
       console.log("Main App, useEffect called");
 
       const fetchUser = async () => {
-        await store.dispatch(loadUser());
+        await reduxAuthStore.dispatch(loadUser());
         await this.props.homeStore.getPageResults(
           this.props.homeStore.currentPage,
           false
@@ -134,6 +134,7 @@ const App = observer(
 
                 <Switch>
                   {
+                    console.log("Movie route in App.js called, loaded" + loaded)
                     // Routes for Top 100 movies
                   }
                   {!loaded
@@ -185,7 +186,6 @@ const App = observer(
       }
       return (
         <div className="relative">
-          {/* Redux store */}
           <Navigation clearSearch={this.clearSearch} />
           <AppNavbar
             changePage={this.changePage}

@@ -53,6 +53,9 @@ export const register =
       .post("/api/users", body, config)
       .then((res) => {
         // load the user's new films into our context;
+        console.log(
+          "authActions, register, SETTING LS EMAIL" + res.data.user.email
+        );
         localStorage.setItem("BRFemail", res.data.user.email);
         dispatch({
           type: REGISTER_SUCCESS,
@@ -75,6 +78,7 @@ export const login =
   ({ email, password }) =>
   (dispatch) => {
     // Headers
+    console.log("authActions, login, SETTING LS EMAIL" + email);
     localStorage.setItem("BRFemail", email);
     const config = {
       headers: {
@@ -110,6 +114,7 @@ export const login =
 
 // Logout User
 export const logout = () => {
+  console.log("authActions, register, SETTING LS EMAIL to BLANK");
   localStorage.setItem("BRFemail", "");
   return {
     type: LOGOUT_SUCCESS,

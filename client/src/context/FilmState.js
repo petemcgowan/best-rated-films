@@ -207,7 +207,7 @@ export const FilmProvider = ({ children }) => {
         },
       };
 
-      console.log("getFilms, getEmail():" + getEmail());
+      console.log("FILMSTATE, getFilms, getEmail():" + getEmail());
       const res = await axios.post(
         `/api/films`,
         { email: getEmail(), vintageMode: vintageMode },

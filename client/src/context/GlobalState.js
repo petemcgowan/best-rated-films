@@ -1,6 +1,6 @@
 import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
-import store from "../store";
+import reduxAuthStore from "../reduxAuthStore";
 
 // Initial state
 const initialState = {
@@ -18,7 +18,7 @@ export const GlobalProvider = ({ children }) => {
 
   async function getLoggedInEmail() {
     try {
-      const state = store.getState();
+      const state = reduxAuthStore.getState();
       var email = "";
       if (state.user != null) {
         email = state.user.email;
