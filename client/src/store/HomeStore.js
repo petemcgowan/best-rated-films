@@ -116,6 +116,7 @@ class HomeStore {
     });
 
     console.log("getPageResults, films.length:" + this.films.length);
+    console.log("getPageResults, triggerRefresh:" + triggerRefresh);
 
     // let topFilmsArray = {
     //   page: page,
