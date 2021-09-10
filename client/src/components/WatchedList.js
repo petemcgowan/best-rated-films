@@ -13,7 +13,7 @@ export const WatchedList = (props) => {
   return (
     <>
       <h3>Already Watched</h3>
-      <ul className="list">
+      <div className="movies-grid">
         {watched.map((watchedFilm) => {
           console.log(
             "WatchedList, watchedFilm:" + JSON.stringify(watchedFilm)
@@ -26,7 +26,7 @@ export const WatchedList = (props) => {
             />
           );
         })}
-      </ul>
+      </div>
     </>
   );
 };
