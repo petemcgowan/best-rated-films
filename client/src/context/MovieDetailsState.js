@@ -17,6 +17,7 @@ export const MovieDetailsContext = createContext(initialState);
 // Provider component
 export const MovieProvider = ({ children }) => {
   const [state, dispatch] = useReducer(MovieDetailsReducer, initialState);
+  // Pete todo: Externalize this
   const apiKey = "4e182d5acda98a333464c4252dc9c195";
 
   async function getMovieDetails(film) {
@@ -34,20 +35,6 @@ export const MovieProvider = ({ children }) => {
       console.log(
         "MovieDetailsContext/State, getMovieDetails():" + JSON.stringify(res)
       );
-
-      // fetch(
-      //   `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US`
-      // )
-      //   .then((res) => res.json())
-      //   .then((res) => {
-      //     return (
-      //       this.setDetails(res),
-      //       this.details
-      //         ? (html.style.background = `url(https://image.tmdb.org/t/p/w1280${this.details.backdrop_path})
-      //             center center / cover no-repeat fixed`)
-      //         : null
-      //     );
-      //   });
     } catch (err) {
       console.log("getMovieDetails, err:" + err);
       dispatch({

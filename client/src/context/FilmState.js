@@ -31,43 +31,6 @@ export const FilmProvider = ({ children }) => {
     });
   }
 
-  // async function getPageResults(page, triggerRefresh, vintageMode) {
-  //   this.loaded = false;
-  //   console.log("getPageResults, films.length:" + this.films.length);
-
-  //   this.pageResults = [];
-  //   if (
-  //     this.films === null ||
-  //     this.films === undefined ||
-  //     this.films.length === 0 ||
-  //     triggerRefresh // we want the films array from the DB
-  //   )
-  //     await this.fetchFilms(vintageMode);
-  //   console.log("getPageResults, page:" + page);
-  //   const pageFilmStart = (page - 1) * 20; // 20, 40, 60
-  //   let pageFilmEnd = page * 20; // 20, 40, 60
-  //   if (pageFilmEnd > this.films.length) pageFilmEnd = this.films.length;
-  //   console.log(
-  //     "getPageResults, pageFilmStart:" +
-  //       pageFilmStart +
-  //       ", pageFilmEnd:" +
-  //       pageFilmEnd +
-  //       ", this.films.length:" +
-  //       this.films.length
-  //   );
-  //   for (let index = pageFilmStart; index < pageFilmEnd; index++) {
-  //     this.pageResults.push(this.films[index]);
-  //   }
-
-  //   return (
-  //     this.setPageResults(this.pageResults),
-  //     this.pageResults[random]
-  //       ? (html.style.background = `url(https://image.tmdb.org/t/p/w1280${this.pageResults[random].backdrop_path})
-  //       center center / cover no-repeat fixed`)
-  //       : null
-  //   );
-  // }
-
   async function setPageResults(pageResults) {
     dispatch({
       type: "SET_TOP100",
@@ -158,47 +121,6 @@ export const FilmProvider = ({ children }) => {
     }
   }
 
-  // async function getTop100(page) {
-  //   state.loaded = false;
-  //   const apiKey = "4e182d5acda98a333464c4252dc9c195";
-
-  //   // fetch(
-  //   //   `https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=${page}`
-  //   // )
-  //   const config = {
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   };
-
-  //   console.log("getTop100, getEmail():" + getEmail());
-  //   const res = await axios
-  //     .post(`/api/films`, { email: getEmail() }, config)
-  //     // .then((res) => res.json())   //assuming i don't need this
-  //     .then((res) => {
-  //       console.log("res:" + JSON.stringify(res));
-  //       console.log("this.films:" + JSON.stringify(this.films));
-  //       this.films = res.data.data;
-  //       // console.log("top20:" + JSON.stringify(top20));
-  //       console.log("page:" + JSON.stringify(page));
-  //       // const fetchData = async () => {
-  //       // await getFilms();
-  //       // };
-  //       // fetchData();
-  //       dispatch({
-  //         type: "GET_TOP100",
-  //         payload: this.films,
-  //       });
-  //       return (
-  //         this.setTop100(this.films),
-  //         state.films[random]
-  //           ? (html.style.background = `url(https://image.tmdb.org/t/p/w1280${this.films[random].backdrop_path})
-  //             center center / cover no-repeat fixed`)
-  //           : null
-  //       );
-  //     });
-  // }
-
   async function getFilms(vintageMode) {
     try {
       const config = {
@@ -213,8 +135,6 @@ export const FilmProvider = ({ children }) => {
         { email: getEmail(), vintageMode: vintageMode },
         config
       );
-      // console.log("getFilms, res.data.data:" + JSON.stringify(res.data.data));
-      // calcAverageRankingField(res.data.data);
 
       dispatch({
         type: "GET_FILMS",
@@ -228,34 +148,6 @@ export const FilmProvider = ({ children }) => {
       });
     }
   }
-
-  // function calcAverageRankingField(films) {
-  //   // Average Ranking calculations
-  //   var cumulativeRanking = 0;
-  //   var rankingOccurrences = 0;
-
-  //   films.forEach((film) => {
-  //     film.rankings.map((data, key) => {
-  //       if (
-  //         data.rank !== undefined &&
-  //         data.rank.toLowerCase() !== "todo" &&
-  //         data.ranker.toLowerCase() !== "other"
-  //       ) {
-  //         cumulativeRanking += Number(data.rank);
-  //         rankingOccurrences++;
-  //       }
-  //       return data.rank;
-  //     });
-  //     var averageRanking = (cumulativeRanking / rankingOccurrences).toFixed(2);
-  //     film["averageRanking"] = averageRanking;
-  //   });
-
-  //   // // Sort by average ranking
-  //   function sortJSONArrayByAverageRanking(film1, film2) {
-  //     return film1.averageRanking - film2.averageRanking;
-  //   }
-  //   films.sort(sortJSONArrayByAverageRanking);
-  // }
 
   async function deleteFilm(_id) {
     try {
