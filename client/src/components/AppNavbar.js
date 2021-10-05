@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -19,106 +19,93 @@ import { WatchedLink } from "../components/WatchedLink";
 import VintageLink from "./VintageLink";
 import { observer } from "mobx-react";
 
-const AppNavbar = observer(
-  class extends Component {
-    state = {
-      isOpen: false,
-      // isVintage: true,
-    };
+export const AppNavbar = observer((props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    static propTypes = {
-      auth: PropTypes.object.isRequired,
-    };
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
 
-    toggle = () => {
-      this.setState({
-        isOpen: !this.state.isOpen,
-      });
-    };
+  const toggleVintage = () => {
+    const { changePage, currentPage } = props;
+    console.log(
+      "toggleVintage Before, homeStore.vintageMode:" + homeStore.vintageMode
+    );
+    homeStore.vintageMode = !homeStore.vintageMode;
+    console.log(
+      "toggleVintage After, homeStore.vintageMode:" + homeStore.vintageMode
+    );
+    changePage(currentPage, true); // trigger the Page Results component to re-render
+  };
 
-    toggleVintage = () => {
-      const { changePage, currentPage } = this.props;
-      console.log(
-        "toggleVintage Before, homeStore.vintageMode:" + homeStore.vintageMode
-      );
-      // this.setState({
-      //   isVintage: !this.state.isVintage,
-      // });
-      homeStore.vintageMode = !homeStore.vintageMode;
-      console.log(
-        "toggleVintage After, homeStore.vintageMode:" + homeStore.vintageMode
-      );
-      changePage(currentPage, true); // trigger the Page Results component to re-render
-    };
+  const { isAuthenticated, user } = props.auth;
 
-    render() {
-      const { isAuthenticated, user } = this.props.auth;
-      // const { changePage, currentPage } = this.props;
+  const authLinks = (
+    <Fragment>
+      <NavItem>
+        <span className="navbar-text mr-3">
+          <strong>{user ? `Welcome ${user.name}` : ""}</strong>
+        </span>
+      </NavItem>
+      <NavItem>
+        <WatchedLink />
+      </NavItem>
+      <NavItem>
+        <VintageLink toggleVintage={toggleVintage} />
+      </NavItem>
+      <NavItem>
+        <Logout />
+      </NavItem>
+      <div className="container"></div>
+    </Fragment>
+  );
 
-      const authLinks = (
-        <Fragment>
-          <NavItem>
-            <span className="navbar-text mr-3">
-              <strong>{user ? `Welcome ${user.name}` : ""}</strong>
-            </span>
-          </NavItem>
-          <NavItem>
-            <WatchedLink />
-          </NavItem>
-          <NavItem>
-            <VintageLink toggleVintage={this.toggleVintage} />
-          </NavItem>
-          <NavItem>
-            <Logout />
-          </NavItem>
-          <div className="container"></div>
-        </Fragment>
-      );
+  const guestLinks = (
+    <Fragment>
+      <NavItem>
+        <RegisterModal />
+      </NavItem>
+      <NavItem>
+        <LoginModal />
+      </NavItem>
+    </Fragment>
+  );
 
-      const guestLinks = (
-        <Fragment>
-          <NavItem>
-            <RegisterModal />
-          </NavItem>
-          <NavItem>
-            <LoginModal />
-          </NavItem>
-        </Fragment>
-      );
-
-      return (
-        <div
-          style={{
-            backgroundColor: "black",
-          }}
-        >
-          <Navbar color="dark" dark expand="sm" className="mb-4">
-            <Container>
-              <NavbarBrand href="/">
-                <img
-                  src={logo}
-                  width="138"
-                  height="64"
-                  className="d-inline-block align-top"
-                  alt="Best Rated Films logo"
-                />
-              </NavbarBrand>
-              <NavbarToggler onClick={this.toggle} />
-              <Collapse isOpen={this.state.isOpen} navbar>
-                <Nav className="ml-auto" navbar>
-                  {isAuthenticated ? authLinks : guestLinks}
-                </Nav>
-              </Collapse>
-            </Container>
-          </Navbar>
-        </div>
-      );
-    }
-  }
-);
+  return (
+    <div
+      style={{
+        backgroundColor: "black",
+      }}
+    >
+      <Navbar color="dark" dark expand="sm" className="mb-4">
+        <Container>
+          <NavbarBrand href="/">
+            <img
+              src={logo}
+              width="138"
+              height="64"
+              className="d-inline-block align-top"
+              alt="Best Rated Films logo"
+            />
+          </NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              {isAuthenticated ? authLinks : guestLinks}
+            </Nav>
+          </Collapse>
+        </Container>
+      </Navbar>
+    </div>
+  );
+});
 
 const mapStateToProps = (state) => ({
   auth: state.auth,
 });
+
+AppNavbar.propTypes = {
+  auth: PropTypes.object.isRequired,
+};
 
 export default connect(mapStateToProps, null)(AppNavbar);

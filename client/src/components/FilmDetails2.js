@@ -20,7 +20,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
   const isMounted = useRef(true);
   const { pageResults, films, loaded, currentPage, vintageMode } = homeStore;
 
-  //const { scrollTop } = props;
+  // const { scrollTop } = props;
   // set isMounted to false when we unmount the component
   useEffect(() => {
     return () => {
