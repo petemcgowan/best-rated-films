@@ -5,9 +5,6 @@ import Pagination from "rc-pagination";
 import { FilmDetails2 } from "./FilmDetails2";
 
 const PageResults = observer((props) => {
-  // const Top100 = observer(
-  // class extends Component {
-
   const { pageResults, films, loaded, currentPage } = homeStore;
   const { changePage, scrollTop } = props;
 

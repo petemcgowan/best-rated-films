@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Button,
   Modal,
@@ -16,56 +16,78 @@ import PropTypes from "prop-types";
 import { login } from "../../actions/authActions";
 import { clearErrors } from "../../actions/errorActions";
 
-class LoginModal extends Component {
-  state = {
-    modal: false,
-    email: "",
-    password: "",
-    msg: null,
-  };
+export const LoginModal = (props) => {
+  const [modal, setModal] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [msg, setMsg] = useState(null);
+  const prevError = usePrevious(props.error);
 
-  static propTypes = {
-    isAuthenticated: PropTypes.bool,
-    error: PropTypes.object.isRequired,
-    login: PropTypes.func.isRequired,
-    clearErrors: PropTypes.func.isRequired,
-  };
+  /*More info here: https://reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state */
+  function usePrevious(value) {
+    const ref = useRef();
+    useEffect(() => {
+      ref.current = value;
+    });
+    return ref.current;
+  }
 
-  componentDidUpdate(prevProps) {
-    const { error, isAuthenticated } = this.props;
-    if (error !== prevProps.error) {
+  useEffect(() => {
+    console.log("LoginModal, useEffect called");
+    const { error, isAuthenticated } = props;
+    console.log(
+      "LoginModal, useEffect, error:" +
+        JSON.stringify(error) +
+        ", prevError:" +
+        JSON.stringify(prevError)
+    );
+
+    if (error !== prevError) {
       // Check for register error
       if (error.id === "LOGIN_FAIL") {
-        this.setState({ msg: error.msg.msg });
+        setMsg(error.msg.msg);
       } else {
-        this.setState({ msg: null });
+        setMsg(null);
       }
     }
 
     // If authenticated, close modal
-    if (this.state.modal) {
+    if (modal) {
       if (isAuthenticated) {
-        this.toggle();
+        toggle();
       }
     }
-  }
+  }, []);
 
-  toggle = () => {
+  const toggle = () => {
     // Clear errors
-    this.props.clearErrors();
-    this.setState({
-      modal: !this.state.modal,
-    });
+    props.clearErrors();
+    setModal(!modal);
   };
 
-  onChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
+  const onChangeEmail = (e) => {
+    console.log(
+      "LoginModal, onChangeEmail, name:" +
+        e.target.name +
+        ", value:" +
+        e.target.value
+    );
+    setEmail(e.target.value);
   };
 
-  onSubmit = (e) => {
+  const onChangePassword = (e) => {
+    console.log(
+      "LoginModal, onChangePassword, name:" +
+        e.target.name +
+        ", value:" +
+        e.target.value
+    );
+    setPassword(e.target.value);
+  };
+
+  const onSubmit = (e) => {
     e.preventDefault();
 
-    const { email, password } = this.state;
     const user = {
       email,
       password,
@@ -73,55 +95,58 @@ class LoginModal extends Component {
     console.log("LoginModal, onSubmit, user.email:" + user.email);
 
     // Attempt to login
-    this.props.login(user);
+    props.login(user);
     console.log("LoginModal, onSubmit after login, user.email:" + user.email);
   };
 
-  render() {
-    return (
-      <div>
-        <NavLink onClick={this.toggle} href="#">
-          Login
-        </NavLink>
+  return (
+    <div>
+      <NavLink onClick={toggle} href="#">
+        Login
+      </NavLink>
 
-        <Modal isOpen={this.state.modal} toggle={this.toggle}>
-          <ModalHeader toggle={this.toggle}>Login</ModalHeader>
-          <ModalBody>
-            {this.state.msg ? (
-              <Alert color="danger">{this.state.msg}</Alert>
-            ) : null}
-            <Form onSubmit={this.onSubmit}>
-              <FormGroup>
-                <Label for="email">Email</Label>
-                <Input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                  className="mb-3"
-                  onChange={this.onChange}
-                />
+      <Modal isOpen={modal} toggle={toggle}>
+        <ModalHeader toggle={toggle}>Login</ModalHeader>
+        <ModalBody>
+          {msg ? <Alert color="danger">{msg}</Alert> : null}
+          <Form onSubmit={onSubmit}>
+            <FormGroup>
+              <Label for="email">Email</Label>
+              <Input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                className="mb-3"
+                onChange={onChangeEmail}
+              />
 
-                <Label for="password">Password</Label>
-                <Input
-                  type="password"
-                  name="password"
-                  id="password"
-                  placeholder="Password"
-                  className="mb-3"
-                  onChange={this.onChange}
-                />
-                <Button color="dark" style={{ marginTop: "2rem" }} block>
-                  Login
-                </Button>
-              </FormGroup>
-            </Form>
-          </ModalBody>
-        </Modal>
-      </div>
-    );
-  }
-}
+              <Label for="password">Password</Label>
+              <Input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                className="mb-3"
+                onChange={onChangePassword}
+              />
+              <Button color="dark" style={{ marginTop: "2rem" }} block>
+                Login
+              </Button>
+            </FormGroup>
+          </Form>
+        </ModalBody>
+      </Modal>
+    </div>
+  );
+};
+
+LoginModal.propTypes = {
+  isAuthenticated: PropTypes.bool,
+  error: PropTypes.object.isRequired,
+  login: PropTypes.func.isRequired,
+  clearErrors: PropTypes.func.isRequired,
+};
 
 const mapStateToProps = (state) => ({
   isAuthenticated: state.auth.isAuthenticated,
