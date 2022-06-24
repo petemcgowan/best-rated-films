@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "60cbbeed17184e12df10b77a"
+  },
+  "title": "Titanic",
+  "email": "Jun15@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-17T21:30:21.526Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-17T21:30:21.526Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60cc893d2b02a9302b9e3b91"
+  },
+  "title": "The Empire Strikes Back",
+  "email": "Jun15@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-18T11:53:33.851Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-18T11:53:33.851Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6158bb21101c771e06c57497"
+  },
+  "title": "Blade Runner",
+  "email": "Oct02@gmail.com",
+  "createdAt": {
+    "$date": "2021-10-02T20:03:45.427Z"
+  },
+  "updatedAt": {
+    "$date": "2021-10-02T20:03:45.427Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b2289183b4b7c7dfdb646b"
+  },
+  "title": "The Lord Of The Rings: The Two Towers",
+  "email": "Jun21-2022@gmail.com",
+  "createdAt": {
+    "$date": "2022-06-21T20:22:41.350Z"
+  },
+  "updatedAt": {
+    "$date": "2022-06-21T20:22:41.350Z"
+  },
+  "__v": 0
+}]

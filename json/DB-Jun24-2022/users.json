@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "60030768338ddaf58a561516"
+  },
+  "name": "Pete Burquette ",
+  "email": "peteburquette@gmail.com",
+  "password": "$2a$10$zBQR1S7H1vgOTE/yNdYdQuzliScNfsdt/GRGkY9oYwebambOFy16W",
+  "register_date": {
+    "$date": "2021-01-16T15:34:00.684Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "600dfcd721e65624aafd1148"
+  },
+  "name": "test2",
+  "email": "test2@gmail.com",
+  "password": "$2a$10$v/ALz1j0vMAQ3DK53nSgMeF0oXh/MINI3Tz6bGpsVnT4/FztjdkiG",
+  "register_date": {
+    "$date": "2021-01-24T23:03:51.383Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601e85e4ddad538f60f69dc3"
+  },
+  "name": "test10",
+  "email": "test10@gmail.com",
+  "password": "$2a$10$gSQh10IN8CF05WwN1yjexOxAdGFjTYp/Ox97hbeUj02GcEBDVlHB6",
+  "register_date": {
+    "$date": "2021-02-06T12:04:52.054Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "601e8dac508b9197a006ea2e"
+  },
+  "name": "test11",
+  "email": "test11@gmail.com",
+  "password": "$2a$10$W7dwvvgdz.wSx6ix9OzPneMk3QBSwbd.2uLJ444A21muztv9DqkL.",
+  "register_date": {
+    "$date": "2021-02-06T12:38:04.233Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b2b04bbaa3c2fb72347d89"
+  },
+  "name": "May29",
+  "email": "May29@gmail.com",
+  "password": "$2a$10$cSyu7FBI/y5Xt0/juHmkPeIWayvkD8IDNRL3d9QKUphfpPARsHr7e",
+  "register_date": {
+    "$date": "2021-05-29T21:21:15.601Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b2bdd716df95fface43f71"
+  },
+  "name": "May28B",
+  "email": "May28B@gmail.com",
+  "password": "$2a$10$ofaN9cEnMNJukJ4rqQHERua.DNWu9A83jDsrYi2I7DcnvvJ.2GmGW",
+  "register_date": {
+    "$date": "2021-05-29T22:19:03.954Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c8d8bf4693336925d7ea5e"
+  },
+  "name": "Jun15",
+  "email": "Jun15@gmail.com",
+  "password": "$2a$10$oTO6PEsphgOxoll1TQrEQ.1jTMLPIokqW0pnl7YBjBX7QqwlmQqz2",
+  "register_date": {
+    "$date": "2021-06-15T16:43:43.062Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6158a47aefcabf1b0357003b"
+  },
+  "name": "Oct02",
+  "email": "Oct02@gmail.com",
+  "password": "$2a$10$VPl8Kii50FJJye/L5Dz49.WDIENF43fBQPdzUETO5qePo4Xv3lH02",
+  "register_date": {
+    "$date": "2021-10-02T18:27:06.568Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62b2255783b4b7c7dfdb62b2"
+  },
+  "name": "Jun21-2022",
+  "email": "Jun21-2022@gmail.com",
+  "password": "$2a$10$D/K4wKjmxBHj5MEdS5I6EuaOY2gHqkiaDbJYU420tc2l7ux1UkpQi",
+  "register_date": {
+    "$date": "2022-06-21T20:08:55.230Z"
+  },
+  "__v": 0
+}]
