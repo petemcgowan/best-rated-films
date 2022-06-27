@@ -29,10 +29,15 @@ export const App = observer((props) => {
 
     const fetchUser = async () => {
       await reduxAuthStore.dispatch(loadUser());
+      console.log("App, useEffect after loadUser");
       await props.homeStore.getPageResults(props.homeStore.currentPage, false);
+      console.log(
+        "App, useEffect after getPageResults, films.length:" +
+          props.homeStore.films.length
+      );
     };
     fetchUser();
-  }, []);
+  }, [props.isAuthenticated]);
 
   const changePage = (page, triggerRefresh) => {
     props.homeStore.currentPage = page;

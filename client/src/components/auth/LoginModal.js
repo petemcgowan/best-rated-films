@@ -101,7 +101,7 @@ export const LoginModal = (props) => {
 
   return (
     <div>
-      <NavLink onClick={toggle} href="#">
+      <NavLink onClick={toggle} to="/">
         Login
       </NavLink>
 

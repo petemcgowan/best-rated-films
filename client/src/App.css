@@ -1,90 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 /*TODO: Sort this css and remove what I end up not using
  Top 100 Films (I prefer expenses generally, it's good on mobile)*/
 header {
-	background: #000000;
-	color: #fff;
-	height: 80px;
-	display: none;
+  background: #000000;
+  color: #fff;
+  height: 80px;
+  display: none;
 }
 
 a {
-	color: #fff;
+  color: #fff;
 }
 
 .Form {
-	display: flex;
+  display: flex;
 }
 
 .Form input {
-	height: 40px;
-	width: 350px;
-	border: 1px solid #ddd;
-	outline: none;
-	padding: 0px 1rem;
-	font-size: 16px;
+  height: 40px;
+  width: 350px;
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 0px 1rem;
+  font-size: 16px;
 }
 
 .Form button {
-	height: 40px;
-	width: 100px;
-	background: #222;
-	border: none;
-	cursor: pointer;
-	color: #fff;
+  height: 40px;
+  width: 100px;
+  background: #222;
+  border: none;
+  cursor: pointer;
+  color: #fff;
 }
 
 .query {
-	padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .loading {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	display: inline-block;
-	background: #222;
-	position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #222;
+  position: relative;
 }
 
 .loading::before {
-	position: absolute;
-	content: '';
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	display: block;
-	border-radius: 50%;
-	margin-left: -5px;
-	margin-top: -5px;
-	border: 5px solid transparent;
-	border-top-color: #222;
-	border-bottom-color: #222;
-	animation: spin 0.8s ease-out 0s infinite;
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  border: 5px solid transparent;
+  border-top-color: #222;
+  border-bottom-color: #222;
+  animation: spin 0.8s ease-out 0s infinite;
 }
 
 @keyframes spin {
-	0% {
-		transform: rotate(0deg) scale(1.2);
-	}
-	50% {
-		transform: rotate(180deg) scale(1.2);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 main {
-	padding: 1rem;
+  padding: 1rem;
 }
 
 .article {
-	line-height: 2;
+  line-height: 2;
 }
-
 
 /* Expenses inspired */
 
@@ -97,14 +96,14 @@ main {
 }
 
 body {
-  background-color: #000000;
+  /* background-color: #000000; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #eee;
 }
 
@@ -169,8 +168,8 @@ label {
   margin: 10px 0;
 }
 
-input[type='text'],
-input[type='number'] {
+input[type="text"],
+input[type="number"] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
