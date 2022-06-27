@@ -6,7 +6,7 @@ import homeStore from "../store/HomeStore";
 export const VintageLink = observer((props) => {
   return (
     <Fragment>
-      <NavLink onClick={props.toggleVintage} to="/vintage">
+      <NavLink onClick={props.turnOnVintageMode} to="/vintage">
         {homeStore.vintageMode ? "Post 1968 Mode" : "Vintage Mode"}
       </NavLink>
     </Fragment>

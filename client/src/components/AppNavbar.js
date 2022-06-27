@@ -1,11 +1,16 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import {
   Collapse,
   Navbar,
   NavbarToggler,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
   NavbarBrand,
   Nav,
   NavItem,
+  NavLink,
   Container,
 } from "reactstrap";
 import { connect } from "react-redux";
@@ -15,25 +20,58 @@ import RegisterModal from "./auth/RegisterModal";
 import LoginModal from "./auth/LoginModal";
 import Logout from "./auth/Logout";
 import logo from "../images/best rated_logo_rgb_dark_white.png";
-import { WatchedLink } from "../components/WatchedLink";
+import WatchedLink from "./WatchedLink";
+import AllLink from "./AllLink";
 import VintageLink from "./VintageLink";
 import { observer } from "mobx-react";
 
 export const AppNavbar = observer((props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [watchedSelected, setWatchedSelected] = useState(false);
+
+  useEffect(() => {
+    console.log(
+      "AppNavbar useEffect, homeStore.watchedMode:" + homeStore.watchedMode
+    );
+  }, [watchedSelected]);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
-  const toggleVintage = () => {
+  const turnOnVintageMode = () => {
     const { changePage, currentPage } = props;
     console.log(
-      "toggleVintage Before, homeStore.vintageMode:" + homeStore.vintageMode
+      "turnOnVintageMode Before, homeStore.vintageMode:" + homeStore.vintageMode
     );
     homeStore.vintageMode = !homeStore.vintageMode;
     console.log(
-      "toggleVintage After, homeStore.vintageMode:" + homeStore.vintageMode
+      "turnOnVintageMode After, homeStore.vintageMode:" + homeStore.vintageMode
+    );
+    changePage(currentPage, true); // trigger the Page Results component to re-render
+  };
+
+  const turnOnPost1968Mode = () => {
+    const { changePage, currentPage } = props;
+    console.log(
+      "turnOnPost1968Mode Before, homeStore.vintageMode:" +
+        homeStore.vintageMode
+    );
+    homeStore.vintageMode = !homeStore.vintageMode;
+    console.log(
+      "turnOnPost1968Mode After, homeStore.vintageMode:" + homeStore.vintageMode
+    );
+    changePage(currentPage, true); // trigger the Page Results component to re-render
+  };
+
+  const toggleWatched = () => {
+    const { changePage, currentPage } = props;
+    console.log(
+      "toggleWatched Before, homeStore.watchedMode:" + homeStore.watchedMode
+    );
+    homeStore.watchedMode = !homeStore.watchedMode;
+    console.log(
+      "toggleWatched After, homeStore.watchedMode:" + homeStore.watchedMode
     );
     changePage(currentPage, true); // trigger the Page Results component to re-render
   };
@@ -44,15 +82,64 @@ export const AppNavbar = observer((props) => {
     <Fragment>
       <NavItem>
         <span className="navbar-text mr-3">
-          <strong>{user ? `Welcome ${user.name}` : ""}</strong>
+          <strong>{user ? `User ${user.name}` : ""}</strong>
         </span>
       </NavItem>
-      <NavItem>
-        <WatchedLink />
+      {/* <NavItem>
+        <WatchedLink watchedSelected={true} />
       </NavItem>
       <NavItem>
-        <VintageLink toggleVintage={toggleVintage} />
-      </NavItem>
+        <AllLink watchedSelected={false} />
+      </NavItem> */}
+      {/* <NavItem>
+        <VintageLink turnOnPost1968Mode={turnOnPost1968Mode} />
+      </NavItem> */}
+      <UncontrolledDropdown inNavbar nav>
+        <DropdownToggle caret nav>
+          Filter
+        </DropdownToggle>
+        <DropdownMenu style={{ backgroundColor: "indigo" }}>
+          <DropdownItem>
+            <Fragment>
+              <NavLink href="/">All</NavLink>
+            </Fragment>
+          </DropdownItem>
+          <DropdownItem>
+            <Fragment>
+              {homeStore.watchedMode ? (
+                <NavLink onClick={props.toggleWatched} to="/watched">
+                  Watched
+                </NavLink>
+              ) : (
+                <NavLink onClick={props.toggleVintage} href="/watched">
+                  Watched
+                </NavLink>
+              )}
+            </Fragment>
+          </DropdownItem>
+        </DropdownMenu>
+      </UncontrolledDropdown>
+      <UncontrolledDropdown inNavbar nav>
+        <DropdownToggle caret nav>
+          Mode
+        </DropdownToggle>
+        <DropdownMenu style={{ backgroundColor: "indigo" }}>
+          <DropdownItem>
+            <Fragment>
+              <NavLink onClick={turnOnVintageMode} to="/vintage">
+                Post 1968 Mode
+              </NavLink>
+            </Fragment>
+          </DropdownItem>
+          <DropdownItem>
+            <Fragment>
+              <NavLink onClick={turnOnVintageMode} to="/vintage">
+                Vintage Mode
+              </NavLink>
+            </Fragment>
+          </DropdownItem>
+        </DropdownMenu>
+      </UncontrolledDropdown>
       <NavItem>
         <Logout />
       </NavItem>

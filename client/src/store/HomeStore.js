@@ -16,6 +16,7 @@ class HomeStore {
   loaded = false;
   currentPage = 1;
   vintageMode = false;
+  watchedMode = false;
 
   async fetchFilms() {
     runInAction(() => {
