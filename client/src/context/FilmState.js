@@ -1,11 +1,8 @@
 import React, { createContext, useReducer } from "react";
 import FilmReducer from "./FilmReducer";
 import axios from "axios";
-import { getEmail, randomNumber } from "../utils/helpers";
+import { getEmail } from "../utils/helpers";
 // import { top20 } from "../data/top20";
-
-let random = randomNumber(0, 20);
-const html = document.querySelector("html");
 
 // Initial state
 const initialState = {

@@ -37,7 +37,7 @@ export const App = observer((props) => {
       );
     };
     fetchUser();
-  }, [props.isAuthenticated]);
+  }, [props.isAuthenticated, props.homeStore]);
 
   const changePage = (page, triggerRefresh) => {
     props.homeStore.currentPage = page;

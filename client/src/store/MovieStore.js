@@ -21,10 +21,10 @@ class MovieStore {
       .then((res) => {
         console.log("res" + JSON.stringify(res));
         return (
+          // eslint-disable-next-line no-sequences
           this.setDetails(res),
           this.details
-            ? (html.style.background = `url(https://image.tmdb.org/t/p/w1280${this.details.backdrop_path})
-                center center / cover no-repeat fixed`)
+            ? (html.style.background = `url(https://image.tmdb.org/t/p/w1280${this.details.backdrop_path}) center center / cover no-repeat fixed`)
             : null
         );
       });

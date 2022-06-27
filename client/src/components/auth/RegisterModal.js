@@ -58,6 +58,7 @@ export const RegisterModal = (props) => {
         toggle();
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const toggle = () => {

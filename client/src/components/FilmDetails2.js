@@ -25,7 +25,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
   const [isSending, setIsSending] = useState(false);
   const [animationToggle, setAnimationToggle] = useState(true);
   const isMounted = useRef(true);
-  const { pageResults, films, loaded, currentPage, vintageMode } = homeStore;
+  const { currentPage } = homeStore;
 
   const { x } = useSpring({
     from: { x: 0 },
@@ -72,6 +72,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
     if (isMounted.current)
       // only update if we are still mounted
       setIsSending(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSending]); // update the callback if the state changes
 
   return (

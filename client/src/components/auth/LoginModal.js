@@ -57,6 +57,7 @@ export const LoginModal = (props) => {
         toggle();
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const toggle = () => {

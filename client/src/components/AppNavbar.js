@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import {
   Collapse,
   Navbar,
@@ -20,20 +20,10 @@ import RegisterModal from "./auth/RegisterModal";
 import LoginModal from "./auth/LoginModal";
 import Logout from "./auth/Logout";
 import logo from "../images/best rated_logo_rgb_dark_white.png";
-import WatchedLink from "./WatchedLink";
-import AllLink from "./AllLink";
-import VintageLink from "./VintageLink";
 import { observer } from "mobx-react";
 
 export const AppNavbar = observer((props) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [watchedSelected, setWatchedSelected] = useState(false);
-
-  useEffect(() => {
-    console.log(
-      "AppNavbar useEffect, homeStore.watchedMode:" + homeStore.watchedMode
-    );
-  }, [watchedSelected]);
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -64,18 +54,6 @@ export const AppNavbar = observer((props) => {
     changePage(currentPage, true); // trigger the Page Results component to re-render
   };
 
-  const toggleWatched = () => {
-    const { changePage, currentPage } = props;
-    console.log(
-      "toggleWatched Before, homeStore.watchedMode:" + homeStore.watchedMode
-    );
-    homeStore.watchedMode = !homeStore.watchedMode;
-    console.log(
-      "toggleWatched After, homeStore.watchedMode:" + homeStore.watchedMode
-    );
-    changePage(currentPage, true); // trigger the Page Results component to re-render
-  };
-
   const { isAuthenticated, user } = props.auth;
 
   const authLinks = (
@@ -85,15 +63,6 @@ export const AppNavbar = observer((props) => {
           <strong>{user ? `User ${user.name}` : ""}</strong>
         </span>
       </NavItem>
-      {/* <NavItem>
-        <WatchedLink watchedSelected={true} />
-      </NavItem>
-      <NavItem>
-        <AllLink watchedSelected={false} />
-      </NavItem> */}
-      {/* <NavItem>
-        <VintageLink turnOnPost1968Mode={turnOnPost1968Mode} />
-      </NavItem> */}
       <UncontrolledDropdown inNavbar nav>
         <DropdownToggle caret nav>
           Filter
@@ -126,7 +95,7 @@ export const AppNavbar = observer((props) => {
         <DropdownMenu style={{ backgroundColor: "indigo" }}>
           <DropdownItem>
             <Fragment>
-              <NavLink onClick={turnOnVintageMode} to="/vintage">
+              <NavLink onClick={turnOnPost1968Mode} to="/vintage">
                 Post 1968 Mode
               </NavLink>
             </Fragment>

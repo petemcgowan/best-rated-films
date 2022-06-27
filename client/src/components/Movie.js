@@ -9,7 +9,7 @@ export const Movie = observer((props) => {
   useEffect(() => {
     console.log("Movie, componentDidMount:" + JSON.stringify(props));
     movieStore.fetchAll(props.id);
-  }, []);
+  }, [props]);
 
   const { loaded, details } = movieStore;
   console.log("loaded:" + JSON.stringify(loaded));
