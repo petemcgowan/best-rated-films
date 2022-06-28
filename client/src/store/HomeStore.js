@@ -53,7 +53,10 @@ class HomeStore {
     console.log("HomeStore, getPageResults, triggerRefresh:" + triggerRefresh);
 
     this.pageResults = [];
-
+    console.log(
+      "HomeStore, this.pageResults.length should be ZERO!!:" +
+        this.pageResults.length
+    );
     if (
       this.films === null ||
       this.films === undefined ||
@@ -72,20 +75,36 @@ class HomeStore {
     const pageFilmStart = (page - 1) * 20; // 20, 40, 60
     let pageFilmEnd = page * 20; // 20, 40, 60
     if (pageFilmEnd > this.films.length) pageFilmEnd = this.films.length;
+
     console.log(
-      "HomeStore, getPageResults, pageFilmStart:" +
+      "HomeStore, fetchFilms BEFORE, this.pageResults.length:" +
+        this.pageResults.length +
+        "this.films.length:" +
+        this.films.length +
+        ", pageFilmStart:" +
         pageFilmStart +
         ", pageFilmEnd:" +
-        pageFilmEnd +
-        ", this.films.length:" +
-        this.films.length
+        pageFilmEnd
     );
-
+    if (this.pageResults.length > 1) {
+      this.pageResults = [];
+    }
     for (let index = pageFilmStart; index < pageFilmEnd; index++) {
       this.pageResults.push(this.films[index]);
     }
+    console.log(
+      "HomeStore, fetchFilms AFTER, this.pageResults.length:" +
+        this.pageResults.length +
+        "this.films.length:" +
+        this.films.length +
+        ", pageFilmStart:" +
+        pageFilmStart +
+        ", pageFilmEnd:" +
+        pageFilmEnd
+    );
 
     return (
+      // eslint-disable-next-line no-sequences
       this.setPageResults(this.pageResults),
       this.pageResults[random]
         ? (html.style.background = `url(https://image.tmdb.org/t/p/w1280${this.pageResults[random].backdrop_path})
@@ -127,6 +146,10 @@ class HomeStore {
   }
 
   setPageResults(data) {
+    console.log(
+      "setPageResults, this.pageResults.length:" + this.pageResults.length
+    );
+    console.log("setPageResults, data.length:" + data.length);
     this.pageResults = data;
     this.loaded = true;
   }

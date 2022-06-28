@@ -13,7 +13,7 @@ import homeStore from "../store/HomeStore";
 import { IoEyeOutline } from "react-icons/io5";
 
 import { useSpring, animated } from "@react-spring/web";
-import styles from "../styles/styles.module.css";
+import styles from "../styles/styles.module.scss";
 
 const nullw500 = require("../images/nullw500.png");
 
@@ -103,6 +103,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
             style={{
               opacity: x.to({ range: [0, 1], output: [0.3, 1] }),
               textAlign: "center",
+              paddingBottom: 15,
               scale: x.to({
                 range: [0, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 1],
                 output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],

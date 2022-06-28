@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { FilmDetails } from "./FilmDetails";
 import { FilmContext } from "../context/FilmState";
-import { Switch, Route } from "react-router-dom";
 
 export const FilmList = () => {
   const { films, getFilms } = useContext(FilmContext);
