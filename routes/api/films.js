@@ -43,7 +43,9 @@ router.post("/", async (req, res, next) => {
               filmId: film._id, // this is the film _id, for clarity calling filmId in CODE
               email: filmsToWatch[i].email,
               title: filmsToWatch[i].title,
-              year: film.year,
+              year: film.release_date.toLocaleDateString("en-us", {
+                year: "numeric",
+              }),
               director: film.director,
               poster_path: film.poster_path,
               backdrop_path: film.backdrop_path,
@@ -63,6 +65,7 @@ router.post("/", async (req, res, next) => {
     console.log(
       "films controller, filteredFilms.length:" + filteredFilms.length
     );
+
     // // Sort by average ranking
     function sortJSONArrayByAverageRanking(film1, film2) {
       return film1.averageRanking - film2.averageRanking;

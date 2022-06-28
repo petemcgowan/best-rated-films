@@ -65,6 +65,8 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
         film._id +
         ", film.title:" +
         film.title +
+        ", film.release_date:" +
+        film.release_date +
         ", film.email" +
         film.email
     );
@@ -92,7 +94,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
             alt={`Movie Poster`}
           />
           <div className="infos-box">
-            <div className="infos-one">{film.release_date}</div>
+            <div className="infos-one">{film.year}</div>
             <div className="infos-two">{film.title}</div>
             <div className="infos-three">{film.averageRanking}</div>
           </div>

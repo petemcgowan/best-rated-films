@@ -19,7 +19,11 @@
 @media screen and (max-width: 1000px) {
     .movies-grid {
         grid-template-columns: repeat(4,1fr);
-        padding: 3rem 5rem;
+        // padding: 3rem 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        // padding-bottom: 7rem;
     }
 }
 
@@ -27,7 +31,12 @@
 @media screen and (max-width: 700px) {
     .movies-grid {
         grid-template-columns: repeat(2,1fr);
-        padding: 3rem 4rem;
+        // padding: 3rem 4rem;
+        // padding: 3rem 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        // padding-bottom: 7rem;
     }
 }
 
@@ -35,7 +44,11 @@
 @media screen and (max-width: 430px) {
     .movies-grid {
         grid-template-columns: 1fr 1fr;
-        padding: 3rem 2.5rem;
+        // padding: 3rem 2.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 3rem;
+        // padding-bottom: 7rem;
     }
 }
 
@@ -43,7 +56,8 @@
     position: relative;
     overflow: hidden;
     height: 90%;
-    &::before {
+    padding-bottom: 1rem;
+        &::before {
         content: "";
         position: absolute;
         top: 0;
