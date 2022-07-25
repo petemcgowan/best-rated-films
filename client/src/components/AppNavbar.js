@@ -56,7 +56,7 @@ export const AppNavbar = observer((props) => {
 
   const { isAuthenticated, user } = props.auth;
 
-  const authLinks = (
+  const authMenuLinks = (
     <Fragment>
       <NavItem>
         <span className="navbar-text mr-3">
@@ -147,7 +147,7 @@ export const AppNavbar = observer((props) => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              {isAuthenticated ? authLinks : guestLinks}
+              {isAuthenticated ? authMenuLinks : guestLinks}
             </Nav>
           </Collapse>
         </Container>

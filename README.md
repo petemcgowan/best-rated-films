@@ -2,6 +2,10 @@
 
 For finding the best reviewed films ever
 
+## Architecture
+
+<img src="docs/images/brf-architecture.png" width="100%" />
+
 ## What the app is for
 
 This is a full stack system which collates and allows authenticated users to browse films based on how they have been reviewed in Top 100 lists, Best Of Lists e.g. Empire All time 100.
