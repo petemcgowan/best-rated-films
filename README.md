@@ -68,8 +68,6 @@ Page List:
 Watched:
 <img src="docs/images/brf-watched.png" width="100%" />
 
-TODO: Get Login modal screenshot.
-TODO: Describe Vintage Mode.
 
 ## MongoDB - how I use it locally
 
@@ -83,7 +81,6 @@ This is how to start MongoDB (locally). This assumes the database has already be
 - Click Connect.
 - Click 100 Films DB. (the db name)
 
-TODO? to use environment variables you need a .env file and the package.json dependency of dotenv (.env)
 
 ## How the app is started
 
@@ -110,18 +107,3 @@ Then run the system again (npm run dev)
 
 - **watched** - record per user of the films that have already been watched
 
-## Graphic design
-
-TODO: Explain how you did the graphic design, what the origin files are, what and when all the different artifacts are used (apple touch etc)
-
-## Usage
-
-```
-npm install
-
-# Run on http://localhost:3000
-npm start
-
-# Build for prod
-npm run build
-```
