@@ -23,24 +23,16 @@ export const LoginModal = (props) => {
   const [msg, setMsg] = useState(null);
   const prevError = usePrevious(props.error);
 
-  /*More info here: https://reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state */
   function usePrevious(value) {
     const ref = useRef();
     useEffect(() => {
       ref.current = value;
-    });
+    }, [value]); // Track changes in value
     return ref.current;
   }
 
   useEffect(() => {
-    console.log("LoginModal, useEffect called");
     const { error, isAuthenticated } = props;
-    console.log(
-      "LoginModal, useEffect, error:" +
-        JSON.stringify(error) +
-        ", prevError:" +
-        JSON.stringify(prevError)
-    );
 
     if (error !== prevError) {
       // Check for register error
@@ -51,14 +43,12 @@ export const LoginModal = (props) => {
       }
     }
 
-    // If authenticated, close modal
-    if (modal) {
-      if (isAuthenticated) {
-        toggle();
-      }
+    // Close modal if authenticated
+    if (modal && isAuthenticated) {
+      toggle();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props.error, props.isAuthenticated, prevError, modal]);
 
   const toggle = () => {
     // Clear errors
@@ -67,37 +57,20 @@ export const LoginModal = (props) => {
   };
 
   const onChangeEmail = (e) => {
-    console.log(
-      "LoginModal, onChangeEmail, name:" +
-        e.target.name +
-        ", value:" +
-        e.target.value
-    );
     setEmail(e.target.value);
   };
 
   const onChangePassword = (e) => {
-    console.log(
-      "LoginModal, onChangePassword, name:" +
-        e.target.name +
-        ", value:" +
-        e.target.value
-    );
     setPassword(e.target.value);
   };
 
   const onSubmit = (e) => {
     e.preventDefault();
-
     const user = {
       email,
       password,
     };
-    console.log("LoginModal, onSubmit, user.email:" + user.email);
-
-    // Attempt to login
-    props.login(user);
-    console.log("LoginModal, onSubmit after login, user.email:" + user.email);
+    props.login(user);  // Attempt to login
   };
 
   return (
