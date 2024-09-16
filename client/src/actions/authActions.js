@@ -25,7 +25,7 @@ export const loadUser = () => (dispatch, getState) => {
       });
     })
     .catch((err) => {
-      console.log("authAction, loadUser:" + err);
+      console.error("authAction, loadUser:" + err);
       dispatch(returnErrors(err.response.data, err.response.status));
       dispatch({
         type: AUTH_ERROR,
@@ -61,7 +61,7 @@ export const register =
         });
       })
       .catch((err) => {
-        console.log("authAction, register:" + err);
+        console.error("authAction, register:" + err);
         dispatch(
           returnErrors(err.response.data, err.response.status, "REGISTER_FAIL")
         );
@@ -76,7 +76,6 @@ export const login =
   ({ email, password }) =>
   (dispatch) => {
     // Headers
-    console.log("authActions, login, SETTING LS EMAIL" + email);
     localStorage.setItem("BRFemail", email);
     const config = {
       headers: {
@@ -86,8 +85,7 @@ export const login =
 
     // Request body
     const body = JSON.stringify({ email, password });
-
-    console.log("authAction, login, calling axios-api/auth");
+    console.log(`login, body: ${JSON.stringify(body)} `)
     axios
       .post("/api/auth", body, config)
       .then((res) => {
@@ -99,7 +97,7 @@ export const login =
         });
       })
       .catch((err) => {
-        console.log("authAction, login:" + err);
+        console.error("authAction, login, error:" + err);
 
         dispatch(
           returnErrors(err.response.data, err.response.status, "LOGIN_FAIL")
