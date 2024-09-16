@@ -1,4 +1,4 @@
-import { observable, action, decorate, runInAction } from "mobx";
+import { observable, action, makeObservable, runInAction } from "mobx";
 import axios from "axios";
 
 import { getEmail } from "../utils/helpers";
@@ -18,6 +18,19 @@ class HomeStore {
   vintageMode = false;
   watchedMode = false;
 
+  constructor() {
+    // This replaces the `decorate` call
+    makeObservable(this, {
+      pageResults: observable,
+      films: observable,
+      currentPage: observable,
+      vintageMode: observable,
+      loaded: observable,
+      setFilms: action,
+      setPageResults: action,
+    });
+  }
+
   async fetchFilms() {
     runInAction(() => {
       this.loaded = false;
@@ -29,9 +42,6 @@ class HomeStore {
           "Content-Type": "application/json",
         },
       };
-      console.log("HomeStore, fetchFilms has been called");
-
-      console.log("HomeStore, fetchFilms, getEmail():" + getEmail());
       const res = await axios.post(
         `/api/films`,
         { email: getEmail(), vintageMode: this.vintageMode },
@@ -40,7 +50,7 @@ class HomeStore {
 
       this.setFilms(res.data.data);
     } catch (err) {
-      console.log("fetchFilms, errr:" + err);
+      console.error("fetchFilms, errr:" + err);
     }
   }
 
@@ -48,9 +58,6 @@ class HomeStore {
     runInAction(() => {
       this.loaded = false;
     });
-
-    console.log("HomeStore, getPageResults, films.length:" + this.films.length);
-    console.log("HomeStore, getPageResults, triggerRefresh:" + triggerRefresh);
 
     this.pageResults = [];
     console.log(
@@ -69,39 +76,17 @@ class HomeStore {
       await this.fetchFilms(this.vintageMode);
     }
 
-    // clear this array everytime
-    console.log("HomeStore, getPageResults, page:" + page);
     // TODO: this is gonna be an issue when you run out of films*20 and there's like 12 left or such (put a check in so the max checks against what's left vs page etc).
     const pageFilmStart = (page - 1) * 20; // 20, 40, 60
     let pageFilmEnd = page * 20; // 20, 40, 60
     if (pageFilmEnd > this.films.length) pageFilmEnd = this.films.length;
 
-    console.log(
-      "HomeStore, fetchFilms BEFORE, this.pageResults.length:" +
-        this.pageResults.length +
-        "this.films.length:" +
-        this.films.length +
-        ", pageFilmStart:" +
-        pageFilmStart +
-        ", pageFilmEnd:" +
-        pageFilmEnd
-    );
     if (this.pageResults.length > 1) {
       this.pageResults = [];
     }
     for (let index = pageFilmStart; index < pageFilmEnd; index++) {
       this.pageResults.push(this.films[index]);
     }
-    console.log(
-      "HomeStore, fetchFilms AFTER, this.pageResults.length:" +
-        this.pageResults.length +
-        "this.films.length:" +
-        this.films.length +
-        ", pageFilmStart:" +
-        pageFilmStart +
-        ", pageFilmEnd:" +
-        pageFilmEnd
-    );
 
     return (
       // eslint-disable-next-line no-sequences
@@ -146,24 +131,20 @@ class HomeStore {
   }
 
   setPageResults(data) {
-    console.log(
-      "setPageResults, this.pageResults.length:" + this.pageResults.length
-    );
-    console.log("setPageResults, data.length:" + data.length);
     this.pageResults = data;
     this.loaded = true;
   }
 }
 
-decorate(HomeStore, {
-  pageResults: observable,
-  films: observable,
-  currentPage: observable,
-  vintageMode: observable,
-  setFilms: action,
-  setPageResults: action,
-  loaded: observable,
-});
+// decorate(HomeStore, {
+//   pageResults: observable,
+//   films: observable,
+//   currentPage: observable,
+//   vintageMode: observable,
+//   setFilms: action,
+//   setPageResults: action,
+//   loaded: observable,
+// });
 
 const homeStore = new HomeStore();
 

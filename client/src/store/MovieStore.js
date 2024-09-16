@@ -1,4 +1,4 @@
-import { observable, action, decorate, runInAction } from "mobx";
+import { observable, action, makeObservable, runInAction } from "mobx";
 
 const html = document.querySelector("html");
 
@@ -7,11 +7,19 @@ class MovieStore {
   details = [];
   loaded = false;
 
+  constructor() {
+    // This replaces the `decorate` call
+    makeObservable(this, {
+      details: observable,
+      loaded: observable,
+      setDetails: action,
+    });
+  }
+
   fetchAll(id) {
     runInAction(() => {
       this.loaded = false;
     });
-    console.log("fetchAll");
     const apiKey = "4e182d5acda98a333464c4252dc9c195";
 
     fetch(
@@ -19,7 +27,7 @@ class MovieStore {
     )
       .then((res) => res.json())
       .then((res) => {
-        console.log("res" + JSON.stringify(res));
+
         return (
           // eslint-disable-next-line no-sequences
           this.setDetails(res),
@@ -36,11 +44,11 @@ class MovieStore {
   }
 }
 
-decorate(MovieStore, {
-  details: observable,
-  loaded: observable,
-  setDetails: action,
-});
+// decorate(MovieStore, {
+//   details: observable,
+//   loaded: observable,
+//   setDetails: action,
+// });
 
 let movieStore = new MovieStore();
 
