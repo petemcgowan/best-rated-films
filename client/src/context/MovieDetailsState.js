@@ -30,13 +30,10 @@ export const MovieProvider = ({ children }) => {
       const encodedURIString = encodeURI(
         `https://api.themoviedb.org/3/movie/${film.movieDbId}?api_key=${apiKey}&language=en-US`
       );
-      console.log("encodedURIString:" + encodedURIString);
+      console.error("getMovieDetails, encodedURIString:" + encodedURIString);
       const res = await axios.get(encodedURIString, config);
-      console.log(
-        "MovieDetailsContext/State, getMovieDetails():" + JSON.stringify(res)
-      );
     } catch (err) {
-      console.log("getMovieDetails, err:" + err);
+      console.error("getMovieDetails, err:" + err);
       dispatch({
         type: "MOVIE_DETAILS_ERROR",
         payload: err.response.data.error,

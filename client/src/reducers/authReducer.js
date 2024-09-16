@@ -37,15 +37,7 @@ export default function (state = initialState, action) {
         "authReducer, LOGIN_SUCCESS, action.payload:" +
           JSON.stringify(action.payload)
       );
-      console.log(
-        "authReducer, LOGIN_SUCCESS, action.payload.token:" +
-          action.payload.token
-      );
       localStorage.setItem("BRFtoken", action.payload.token);
-      console.log(
-        "authReducer, LOGIN_SUCCESS, SETTING LS EMAIL" +
-          action.payload.user.email
-      );
       localStorage.setItem("BRFemail", action.payload.user.email);
       return {
         ...state,

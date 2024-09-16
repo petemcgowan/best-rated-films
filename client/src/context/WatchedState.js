@@ -24,14 +24,10 @@ export const WatchedProvider = ({ children }) => {
           "Content-Type": "application/json",
         },
       };
-      console.log("getWatched, getEmail():" + getEmail());
       const res = await axios.post(
         "/api/watched",
         { email: getEmail() },
         config
-      );
-      console.log(
-        "WatchedContext/State, getWatched():" + JSON.stringify(res.data.data)
       );
 
       dispatch({
@@ -39,7 +35,7 @@ export const WatchedProvider = ({ children }) => {
         payload: res.data.data,
       });
     } catch (err) {
-      console.log("getWatched, err:" + err);
+      console.error("getWatched, err:" + err);
       dispatch({
         type: "WATCHED_ERROR",
         payload: err.response.data.error,
@@ -56,7 +52,7 @@ export const WatchedProvider = ({ children }) => {
         payload: id,
       });
     } catch (err) {
-      console.log("deleteWatched, err:" + err);
+      console.error("deleteWatched, err:" + err);
       dispatch({
         type: "WATCHED_ERROR",
         payload: err.response.data.error,
@@ -72,21 +68,18 @@ export const WatchedProvider = ({ children }) => {
     };
 
     try {
-      console.log("addWatched, title/email:" + title + email);
-      // const res = await axios.post('/api/watched', watchedFilm, config);
       const res = await axios.post(
         "/api/watched/addWatched",
         { title, email },
         config
       );
-      console.log("addWatched, res.data:" + JSON.stringify(res.data));
 
       dispatch({
         type: "ADD_WATCHED",
         payload: res.data.data,
       });
     } catch (err) {
-      console.log("addWatched, err:" + err);
+      console.error("addWatched, err:" + err);
       dispatch({
         type: "WATCHED_ERROR",
         payload: err.response.data.error,

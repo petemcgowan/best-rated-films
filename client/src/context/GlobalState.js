@@ -23,8 +23,6 @@ export const GlobalProvider = ({ children }) => {
       if (state.user != null) {
         email = state.user.email;
       }
-      console.log("getLoggedInEmail, state" + JSON.stringify(state));
-      console.log("getLoggedInEmail, state.user" + JSON.stringify(state.user));
       return email;
     } catch (err) {
       dispatch({
@@ -52,7 +50,7 @@ export const GlobalProvider = ({ children }) => {
   return (
     <GlobalContext.Provider
       value={{
-        loggedInEmail: state.loggedInEmail, // TODO: is this right?
+        loggedInEmail: state.loggedInEmail,
         error: state.error,
         loading: state.loading,
         addLoggedInEmail,
