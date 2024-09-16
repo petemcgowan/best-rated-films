@@ -7,13 +7,11 @@ const nullw500 = require("../images/nullw500.png");
 
 export const Movie = observer((props) => {
   useEffect(() => {
-    console.log("Movie, componentDidMount:" + JSON.stringify(props));
     movieStore.fetchAll(props.id);
   }, [props]);
 
   const { loaded, details } = movieStore;
-  console.log("loaded:" + JSON.stringify(loaded));
-  console.log("details:" + JSON.stringify(details));
+
   return (
     <div className="relative">
       {loaded && details.length !== 0 ? (

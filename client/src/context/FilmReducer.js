@@ -29,11 +29,7 @@ export default (state, action) => {
       };
     case "SET_MOVIE_DETAILS":
       // finding index of the item
-      // const index = state.films.findIndex(
-      //   (film) => film.filmId == action.payload.filmId
-      // );
       let indexFound = -1;
-      // );
       for (let index = 0; index < state.films.length; index++) {
         if (state.films[index].filmId === action.payload.filmId) {
           console.log("FOUND!!:" + state.films[index].filmId);

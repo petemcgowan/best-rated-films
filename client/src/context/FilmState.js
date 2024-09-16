@@ -2,7 +2,6 @@ import React, { createContext, useReducer } from "react";
 import FilmReducer from "./FilmReducer";
 import axios from "axios";
 import { getEmail } from "../utils/helpers";
-// import { top20 } from "../data/top20";
 
 // Initial state
 const initialState = {
@@ -44,20 +43,14 @@ export const FilmProvider = ({ children }) => {
         },
       };
       const apiKey = "4e182d5acda98a333464c4252dc9c195";
-      // const res = await axios.post(`/api/films`, { email: getEmail() }, config);
 
       const encodedURIString = encodeURI(
         `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=${film.title}&include_adult=false&title=${film.title}`
       );
-      console.log("encodedURIString:" + encodedURIString);
+      console.log("getMovieDbId, encodedURIString:" + encodedURIString);
       const res = await axios.get(
         encodedURIString,
-        // { email: getEmail() },
         config
-      );
-      console.log(
-        "getMovieDbId, res:" + JSON.stringify(res)
-        // "getMovieDbId, res.data.data:" + JSON.stringify(res.data.data)
       );
 
       // Find the earliest exact match from the search results (only one!)
@@ -65,11 +58,6 @@ export const FilmProvider = ({ children }) => {
       var movieDbId = -1;
 
       for (const value of res.data.results) {
-        console.log(
-          "release_date:" + value.release_date,
-          ", title:" + value.title + ", movieDbId:" + value.id
-        );
-
         // title match (ignoring case and accents and such)
         if (
           value.title.trim().localeCompare(film.title.trim(), "en", {
@@ -89,12 +77,6 @@ export const FilmProvider = ({ children }) => {
           }
         }
       } // end for
-      console.log(
-        "earliestReleaseDate:" +
-          earliestReleaseDate +
-          ", movieDbId:" +
-          movieDbId
-      );
 
       // update films db table with movie id
       updateMovieDbId(
@@ -105,12 +87,8 @@ export const FilmProvider = ({ children }) => {
         film.release_date
       ); // film id (not films to watch)
 
-      // dispatch({
-      //   type: "GET_MOVIE_DETAILS",
-      //   payload: res.data.data,
-      // });
     } catch (err) {
-      console.log("getMovieDbId, errr:" + err);
+      console.error("getMovieDbId, errr:" + err);
       dispatch({
         type: "FILM_ERROR",
         payload: err.response.data.error,
@@ -126,7 +104,6 @@ export const FilmProvider = ({ children }) => {
         },
       };
 
-      console.log("FILMSTATE, getFilms, getEmail():" + getEmail());
       const res = await axios.post(
         `/api/films`,
         { email: getEmail(), vintageMode: vintageMode },
@@ -138,7 +115,7 @@ export const FilmProvider = ({ children }) => {
         payload: res.data.data,
       });
     } catch (err) {
-      console.log("getFilms, errr:" + err);
+      console.error("getFilms, errr:" + err);
       dispatch({
         type: "FILM_ERROR",
         payload: err.response.data.error,
@@ -148,11 +125,6 @@ export const FilmProvider = ({ children }) => {
 
   async function deleteFilm(_id) {
     try {
-      console.log(
-        'deleteFilm (aka films "to watch") called with id:' +
-          JSON.stringify(_id)
-      );
-
       await axios.delete(`/api/films/${_id}`);
 
       dispatch({
@@ -160,7 +132,7 @@ export const FilmProvider = ({ children }) => {
         payload: _id,
       });
     } catch (err) {
-      console.log("deleteFilm, errr:" + err);
+      console.error("deleteFilm, errr:" + err);
       dispatch({
         type: "FILM_ERROR",
         payload: err.response.data.error,
@@ -175,21 +147,18 @@ export const FilmProvider = ({ children }) => {
           "Content-Type": "application/json",
         },
       };
-      console.log("addFilm, title," + title + ", email" + email);
       const res = await axios.post(
         "/api/films/addFilm",
         { title, email },
         config
       );
-      console.log("addFilm, after post" + JSON.stringify(res.data.data));
 
       dispatch({
         type: "ADD_FILM",
         payload: res.data.data,
       });
-      console.log("addFilm, after dispatch");
     } catch (err) {
-      console.log("addFilm, errr:" + err);
+      console.error("addFilm, errr:" + err);
       dispatch({
         type: "FILM_ERROR",
         payload: err.response.data.error,
@@ -211,26 +180,10 @@ export const FilmProvider = ({ children }) => {
         },
       };
 
-      // Pete: todo add a preprocessor in these kinds of logs (throughout) as this output will affect production speed
-      console.log(
-        "setMovieDetails, filmId:" +
-          filmId +
-          ", movieDbId:" +
-          movieDbId +
-          ", poster_path:" +
-          poster_path +
-          ", release_date:" +
-          release_date +
-          ", backdrop_path:" +
-          backdrop_path
-      );
       const res = await axios.put(
         `/api/films/${filmId}`,
         { movieDbId, poster_path, release_date, backdrop_path },
         config
-      );
-      console.log(
-        "setMovieDetails, after post" + JSON.stringify(res.data.data)
       );
 
       dispatch({
@@ -242,9 +195,8 @@ export const FilmProvider = ({ children }) => {
           backdrop_path: backdrop_path,
         },
       });
-      console.log("setMovieDetails, after dispatch");
     } catch (err) {
-      console.log("setMovieDetails, errr:" + err);
+      console.error("setMovieDetails, errr:" + err);
       dispatch({
         type: "FILM_ERROR",
         payload: err.response.data.error,
@@ -260,26 +212,18 @@ export const FilmProvider = ({ children }) => {
         },
       };
 
-      // Pete: todo add a preprocessor in these kinds of logs (throughout) as this output will affect production speed
-      console.log(
-        "updateMovieDbId, filmId:" + filmId + ", movieDbId:" + movieDbId
-      );
       const res = await axios.put(
         `/api/films/${filmId}`,
         { movieDbId },
         config
-      );
-      console.log(
-        "updateMovieDbId, after post" + JSON.stringify(res.data.data)
       );
 
       dispatch({
         type: "SET_MOVIE_DETAILS",
         payload: { filmId: filmId, movieDbId: movieDbId },
       });
-      console.log("updateMovieDbId, after dispatch");
     } catch (err) {
-      console.log("updateMovieDbId, errr:" + err);
+      console.error("updateMovieDbId, errr:" + err);
       dispatch({
         type: "FILM_ERROR",
         payload: err.response.data.error,
@@ -298,7 +242,6 @@ export const FilmProvider = ({ children }) => {
         pageResults: state.pageResults,
         getFilms,
         setCurrentPage,
-        // getPageResults,
         setPageResults,
         getMovieDbId,
         deleteFilm,

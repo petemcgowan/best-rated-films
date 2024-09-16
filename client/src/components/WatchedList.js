@@ -7,10 +7,8 @@ export const WatchedList = (props) => {
   const { watched, getWatched } = useContext(WatchedContext);
 
   useEffect(() => {
-    console.log("watchedMode1:" + homeStore.watchedMode);
     homeStore.watchedMode = true;
     getWatched();
-    console.log("watchedMode2:" + homeStore.watchedMode);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -19,9 +17,6 @@ export const WatchedList = (props) => {
       <h3>Already Watched</h3>
       <div className="movies-grid">
         {watched.map((watchedFilm) => {
-          console.log(
-            "WatchedList, watchedFilm:" + JSON.stringify(watchedFilm)
-          );
           return (
             <WatchedDetails
               {...props}

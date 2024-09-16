@@ -22,7 +22,6 @@ export const RegisterModal = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [msg, setMsg] = useState(null);
-  // const prevErrorRef = useRef();
   const prevError = usePrevious(props.error);
 
   /*More info here: https://reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state */
@@ -36,13 +35,7 @@ export const RegisterModal = (props) => {
 
   useEffect(() => {
     const { error, isAuthenticated } = props;
-    console.log(
-      "RegisterModel, useEffect, error:" +
-        JSON.stringify(error) +
-        ", prevError:" +
-        JSON.stringify(prevError)
-    );
-    // prevErrorRef.current = error;
+
     if (error !== prevError) {
       // Check for register error
       if (error.id === "REGISTER_FAIL") {
