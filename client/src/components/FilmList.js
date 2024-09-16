@@ -6,9 +6,7 @@ export const FilmList = () => {
   const { films, getFilms } = useContext(FilmContext);
 
   useEffect(() => {
-    console.log("filmList, useEffect called");
     const fetchData = async () => {
-      // Pete todo not sure I'm even gonna use this component anymore but if I do, give it vintageMode value
       await getFilms(true);
     };
     fetchData();

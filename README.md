@@ -91,7 +91,7 @@ Run npm run dev from the project directory. This will run both the client and se
 
 sudo lsof -iTCP -sTCP:LISTEN -n -P
 
-...identify the process id from the results (you'll see 5000 or the port in question in the list, the ID is the 2nd column). Then input it as <processid> in the following command and run it
+...identify the process id from the results (you'll see 5001 or the port in question in the list, the ID is the 2nd column). Then input it as <processid> in the following command and run it
 
 sudo kill -9 <processid>
 
