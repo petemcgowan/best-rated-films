@@ -31,26 +31,13 @@ export const AppNavbar = observer((props) => {
 
   const turnOnVintageMode = () => {
     const { changePage, currentPage } = props;
-    console.log(
-      "turnOnVintageMode Before, homeStore.vintageMode:" + homeStore.vintageMode
-    );
     homeStore.vintageMode = !homeStore.vintageMode;
-    console.log(
-      "turnOnVintageMode After, homeStore.vintageMode:" + homeStore.vintageMode
-    );
     changePage(currentPage, true); // trigger the Page Results component to re-render
   };
 
   const turnOnPost1968Mode = () => {
     const { changePage, currentPage } = props;
-    console.log(
-      "turnOnPost1968Mode Before, homeStore.vintageMode:" +
-        homeStore.vintageMode
-    );
     homeStore.vintageMode = !homeStore.vintageMode;
-    console.log(
-      "turnOnPost1968Mode After, homeStore.vintageMode:" + homeStore.vintageMode
-    );
     changePage(currentPage, true); // trigger the Page Results component to re-render
   };
 

@@ -9,8 +9,6 @@ import { FilmContext } from "../context/FilmState";
 import { WatchedContext } from "../context/WatchedState";
 import { MovieDetailsContext } from "../context/MovieDetailsState";
 
-// const dotenv = require("dotenv");
-
 export const FilmDetails = ({ film }) => {
   const { deleteFilm, getMovieDbId } = useContext(FilmContext);
   const { addWatched } = useContext(WatchedContext);
@@ -37,8 +35,6 @@ export const FilmDetails = ({ film }) => {
     // };
     // fetchData();
 
-    // TODO add a button here title "Watched"
-    // TODO put the watched table in a scroll table (pagination not needed if it's a pain we'll see)
     deleteFilm(film._id); // "films to watch" id
     addWatched(film.title, film.email);
     // getMovieDetails(film); // "films to watch" id

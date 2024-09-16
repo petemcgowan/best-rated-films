@@ -33,14 +33,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
     config: { duration: 1000 },
   });
 
-  // const handleClick = () => {
-  //   const wrapper = wrapperRef.current;
-  //   wrapper.classList.toggle("is-nav-open");
-  //   console.log("handleClick called");
-  //   sendRequest();
-  // };
 
-  // const { scrollTop } = props;
   // set isMounted to false when we unmount the component
   useEffect(() => {
     return () => {
@@ -59,17 +52,6 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
     deleteFilm(film._id); // "films to watch" id
     addWatched(film.title, film.email);
     changePage(currentPage, true); // trigger the Page Results component to re-render
-    console.log("FilmDetails2, PLACEHOLDER TO TEST: deleteFilm/addWatched");
-    console.log(
-      "FilmDetails2, film._id" +
-        film._id +
-        ", film.title:" +
-        film.title +
-        ", film.release_date:" +
-        film.release_date +
-        ", film.email" +
-        film.email
-    );
     // once the request is sent, update state again
     if (isMounted.current)
       // only update if we are still mounted
