@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 500px) {
     .paginator {
-        padding: 20px 10px; 
+        padding: 20px 10px;
     }
 }
 
@@ -47,50 +47,3 @@
         outline: 0;
     }
 }
-// .rc-pagination {
-//     list-style: none;
-//     padding-left: 0;
-//     white-space: nowrap;
-//     font-size: 0;
-        
-//         .rc-pagination-item {
-//             border-top: 1px solid;
-//             border-bottom: 1px solid;
-//             border-left: 1px solid;
-//             display: inline-block;
-//             font-family: inherit;
-//             font-size: 14px;
-//             font-weight: bold;
-//             line-height: 1.4;
-//             text-align: center;
-//             text-decoration: none;
-//             user-select: none;
-//             white-space: nowrap;
-//             -webkit-tap-highlight-color: transparent;
-//             -webkit-appearance: none;
-//             &:first-of-type {
-//                 border-bottom-left-radius: 3px;
-//                 border-top-left-radius: 3px;
-//                 margin-left: 0;
-//             }
-//             &:last-of-type {
-//                 border-bottom-right-radius: 3px;
-//                 border-top-right-radius: 3px;
-//                 margin-left: 0;
-//                 border-right: 1px solid;
-//             }
-
-//             a {
-//                 text-decoration: none;
-//                 display: block;
-//                 padding: 8px 12px;
-//                 &:visited {
-//                     color: inherit;
-//                 }
-//             }
-//         }
-//         .rc-pagination-item-active, .rc-pagination-item-active a {
-//             color: grey;
-// 		    background-color: #f5f5f5;
-//         }
-//     }
