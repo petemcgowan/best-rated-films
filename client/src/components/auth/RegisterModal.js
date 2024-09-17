@@ -15,6 +15,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { register } from "../../actions/authActions";
 import { clearErrors } from "../../actions/errorActions";
+import "../../styles/modals.scss";
 
 export const RegisterModal = (props) => {
   const [modal, setModal] = useState(false);
