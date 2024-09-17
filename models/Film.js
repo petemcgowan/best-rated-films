@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 // embedded array of Rankings objects for each film
 var Rankings = new mongoose.Schema({
   ranker: String,
-  rank: String, //Shouldn't this be a number for ordering purposes?
+  rank: String,
 });
 
 const FilmSchema = new Schema(
