@@ -20,14 +20,6 @@ body {
   background: #000000;
 }
 
-.navbar{
-  padding: 10px 20px;
-  text-align: center;
-  background: #000000
-}
-.navbar h1{
-  margin: 10px 0;
-}
 
 th {
   color: #fff;
@@ -38,82 +30,3 @@ td {
   font-weight: 0.9em;
 }
 
-.film-list{
-  margin: 20px;
-}
-.film-list ul{
-  padding: 0;
-  list-style-type: none;
-}
-.film-list tr{
-  background: #000000;
-  border-radius: 4px;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px 0;
-}
-.film-list tr:hover{
-  opacity: 0.7;
-  background: #447522;
-}
-.film-list .artists{
-  font-weight: bold;
-  color: #fff;
-  font-size: 0.9em;
-}
-.film-list .releaseName{
-  font-size: 0.9em;
-  color: #fff;
-}
-.crate-list{
-  margin: 20px;
-}
-.crate-list table{
-  padding: 0;
-  list-style-type: none;
-}
-.crate-list td{
-  background: #1f5724;
-  border-radius: 4px;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px 0;
-}
-.crate-list td:hover{
-  opacity: 0.7;
-  text-decoration: line-through;
-}
-.crate-list .artists{
-  font-weight: bold;
-  color: #fff;
-  font-size: 1.2em;
-}
-.crate-list .releaseName{
-  font-size: 0.9em;
-  color: #ddd;
-}
-
-.empty{
-  margin: 20px;
-  text-align: center;
-}
-
-form{
-  padding: 20px;
-}
-input[type='text']{
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  margin: 6px 0;
-  background: #3c1f3c;
-  color: #fff;
-  border: 0;
-}
-input[type='submit']{
-  margin: 10px auto;
-  background: #eee;
-  border: 0;
-  padding: 6px 20px;
-  display: block;
-}
