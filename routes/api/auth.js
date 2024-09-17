@@ -11,11 +11,9 @@ const User = require("../../models/User");
 // @desc    Get user data
 router.get("/user", auth, (req, res) => {
   console.log("routes/api/auth/user, get user called");
-  console.log("req.body:" + JSON.stringify(req.body));
   User.findById(req.user.id)
     .select("-password")
     .then((user) => res.json(user));
-  console.log("routes/api/auth, get user, after findById");
 });
 
 module.exports = router;
@@ -23,10 +21,7 @@ module.exports = router;
 // @desc    Auth user
 router.post("/", (req, res) => {
   const { email, password } = req.body;
-
   console.log("routes/api/auth, post auth user called");
-  console.log("email, password" + email + password);
-  console.log("req.body" + JSON.stringify(req.body));
 
   // Simple validation
   if (!email || !password) {

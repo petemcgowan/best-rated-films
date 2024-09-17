@@ -11,6 +11,4 @@ const WatchedSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-// const Watched = mongoose.model('Watched', WatchedSchema, 'watched');
-// module.exports = Watched;
 module.exports = mongoose.model('Watched', WatchedSchema, 'watched');
