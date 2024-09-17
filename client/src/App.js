@@ -14,7 +14,7 @@ import { connect } from "react-redux";
 import { loadUser } from "./actions/authActions";
 
 import { Container } from "reactstrap";
-// the import order of these CSS files matters!
+// the import order of these CSS files matters
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/main.scss";
 

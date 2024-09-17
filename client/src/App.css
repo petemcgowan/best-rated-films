@@ -11,28 +11,6 @@ a {
   color: #fff;
 }
 
-.Form {
-  display: flex;
-}
-
-.Form input {
-  height: 40px;
-  width: 350px;
-  border: 1px solid #ddd;
-  outline: none;
-  padding: 0px 1rem;
-  font-size: 16px;
-}
-
-.Form button {
-  height: 40px;
-  width: 100px;
-  background: #222;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-}
-
 .query {
   padding-bottom: 2rem;
 }
@@ -102,17 +80,13 @@ body {
   color: #eee;
 }
 
-.container {
+/* .container {
   margin: 30px auto;
   width: 350px;
-}
+} */
 
 th {
   color: #fff;
-}
-h1 {
-  letter-spacing: 1px;
-  margin: 0;
 }
 
 h3 {
@@ -121,100 +95,6 @@ h3 {
   margin: 40px 0 10px;
 }
 
-h4 {
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.inc-exp-container {
-  background-color: #000000;
-  box-shadow: var(--box-shadow);
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-.inc-exp-container > div {
-  flex: 1;
-  text-align: center;
-}
-
-.inc-exp-container > div:first-of-type {
-  border-right: 1px solid #000000;
-}
-
-.money {
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin: 5px 0;
-}
-
-.money.plus {
-  color: #2ecc71;
-}
-
-.money.minus {
-  color: #c0392b;
-}
-
-label {
-  display: inline-block;
-  margin: 10px 0;
-}
-
-input[type="text"],
-input[type="number"] {
-  border: 1px solid #dedede;
-  border-radius: 2px;
-  display: block;
-  font-size: 16px;
-  padding: 10px;
-  width: 100%;
-}
-
-.btn {
-  cursor: pointer;
-  background-color: #000000;
-  box-shadow: var(--box-shadow);
-  color: #fff;
-  border: 0;
-  display: block;
-  font-size: 16px;
-  margin: 10px 0 30px;
-  padding: 10px;
-  width: 100%;
-}
-
-.btn:focus,
-.delete-btn:focus {
-  outline: 0;
-}
-
-.list {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 40px;
-}
-
-.list li {
-  background-color: #000000;
-  box-shadow: var(--box-shadow);
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  padding: 10px;
-  margin: 10px 0;
-}
-
-.list li.plus {
-  border-right: 5px solid #2ecc71;
-}
-
-.list li.minus {
-  border-right: 5px solid #c0392b;
-}
 
 .delete-btn {
   cursor: pointer;
@@ -232,6 +112,3 @@ input[type="number"] {
   transition: opacity 0.3s ease;
 }
 
-.list li:hover .delete-btn {
-  opacity: 1;
-}
