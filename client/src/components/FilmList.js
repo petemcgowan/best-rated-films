@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { FilmDetails } from "./FilmDetails";
 import { FilmContext } from "../context/FilmState";
+import '../styles/filmlist.scss'
 
 export const FilmList = () => {
   const { films, getFilms } = useContext(FilmContext);
