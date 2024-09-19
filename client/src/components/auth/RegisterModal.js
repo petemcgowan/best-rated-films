@@ -25,12 +25,11 @@ export const RegisterModal = (props) => {
   const [msg, setMsg] = useState(null);
   const prevError = usePrevious(props.error);
 
-  /*More info here: https://reactjs.org/docs/hooks-faq.html#how-to-get-the-previous-props-or-state */
   function usePrevious(value) {
     const ref = useRef();
     useEffect(() => {
       ref.current = value;
-    });
+    }, [value]); // Track changes in value
     return ref.current;
   }
 
