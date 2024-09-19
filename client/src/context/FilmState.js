@@ -42,7 +42,7 @@ export const FilmProvider = ({ children }) => {
           "Content-Type": "application/json",
         },
       };
-      const apiKey = "4e182d5acda98a333464c4252dc9c195";
+      const apiKey = process.env.REACT_APP_API_KEY;
 
       const encodedURIString = encodeURI(
         `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&query=${film.title}&include_adult=false&title=${film.title}`
