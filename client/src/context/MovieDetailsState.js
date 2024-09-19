@@ -9,16 +9,14 @@ const initialState = {
   loading: true,
 };
 
-const html = document.querySelector("html");
-
 // Create context
 export const MovieDetailsContext = createContext(initialState);
 
 // Provider component
 export const MovieProvider = ({ children }) => {
   const [state, dispatch] = useReducer(MovieDetailsReducer, initialState);
-  // Pete todo: Externalize this
-  const apiKey = "4e182d5acda98a333464c4252dc9c195";
+
+  const apiKey = process.env.REACT_APP_API_KEY;
 
   async function getMovieDetails(film) {
     try {

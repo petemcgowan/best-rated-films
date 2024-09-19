@@ -136,16 +136,6 @@ class HomeStore {
   }
 }
 
-// decorate(HomeStore, {
-//   pageResults: observable,
-//   films: observable,
-//   currentPage: observable,
-//   vintageMode: observable,
-//   setFilms: action,
-//   setPageResults: action,
-//   loaded: observable,
-// });
-
 const homeStore = new HomeStore();
 
 export default homeStore;
