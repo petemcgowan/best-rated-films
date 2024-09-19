@@ -28,3 +28,4 @@ yarn-error.log*
 notes.md
 notesdraft/
 json/.DS_Store
+.env
