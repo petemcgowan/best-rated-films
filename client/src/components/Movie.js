@@ -6,6 +6,7 @@ import "../styles/movie.scss";
 const nullw500 = require("../images/nullw500.png");
 
 export const Movie = observer((props) => {
+
   useEffect(() => {
     movieStore.fetchAll(props.id);
   }, [props]);
@@ -54,7 +55,7 @@ export const Movie = observer((props) => {
               <div className="movie-overview">{details.overview}</div>
               <div className="movie-director">
                 <span className="director-job">Director</span>
-                <span className="director-name">dummy Director</span>
+                <span className="director-name">{details.director}</span>
               </div>
             </div>
             <div className="details-grid">
