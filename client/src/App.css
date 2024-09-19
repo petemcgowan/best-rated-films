@@ -11,10 +11,6 @@ a {
   color: #fff;
 }
 
-.query {
-  padding-bottom: 2rem;
-}
-
 .loading {
   width: 20px;
   height: 20px;
@@ -51,14 +47,6 @@ a {
   100% {
     transform: rotate(360deg);
   }
-}
-
-main {
-  padding: 1rem;
-}
-
-.article {
-  line-height: 2;
 }
 
 :root {

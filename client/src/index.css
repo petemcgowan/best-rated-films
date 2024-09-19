@@ -8,18 +8,10 @@ body {
   background: #4c83a8;
   color: #eee;
 }
-.App{
-  background: #000000;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 700px;
-  color: #eee;
-}
 
 body {
   background: #000000;
 }
-
 
 th {
   color: #fff;
