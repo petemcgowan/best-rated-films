@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { WatchedDetails } from "./WatchedDetails";
 import { WatchedContext } from "../context/WatchedState";
 import homeStore from "../store/HomeStore";
+import './WatchedList.css'
 
 export const WatchedList = (props) => {
   const { watched, getWatched } = useContext(WatchedContext);
@@ -9,12 +10,11 @@ export const WatchedList = (props) => {
   useEffect(() => {
     homeStore.watchedMode = true;
     getWatched();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [getWatched]);
 
   return (
-    <>
-      <h3>Already Watched</h3>
+    <section>
+      <div className="watched-list-title">Already Watched</div>
       <div className="movies-grid">
         {watched.map((watchedFilm) => {
           return (
@@ -26,6 +26,6 @@ export const WatchedList = (props) => {
           );
         })}
       </div>
-    </>
+    </section>
   );
 };
