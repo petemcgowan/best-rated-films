@@ -18,6 +18,7 @@ class HomeStore {
   vintageMode = false;
   watchedMode = false;
 
+
   constructor() {
     // This replaces the `decorate` call
     makeObservable(this, {
@@ -30,6 +31,10 @@ class HomeStore {
       setPageResults: action,
     });
   }
+
+  toggleVintageMode = () => {
+    this.vintageMode = !this.vintageMode;
+  };
 
   async fetchFilms() {
     runInAction(() => {
@@ -61,7 +66,7 @@ class HomeStore {
 
     this.pageResults = [];
     console.log(
-      "HomeStore, this.pageResults.length should be ZERO!!:" +
+      "HomeStore, this.pageResults.length should be ZERO:" +
         this.pageResults.length
     );
     if (
