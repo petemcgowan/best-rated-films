@@ -1,0 +1,18 @@
+services:
+  rated-api-server:
+    image: rated-api-server
+    build: ./
+    ports:
+      - '4002:4002'
+    networks:
+      - common-network
+    environment:
+      MONGO_URI: ${MONGO_URI}
+    volumes:
+      - ./:/usr/src/app # <- Mounts the code from local directory to container.
+      - node_modules:/usr/src/app/node_modules
+networks:
+  common-network:
+    external: true
+volumes:
+  node_modules:
