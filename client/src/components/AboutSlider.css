@@ -1,0 +1,96 @@
+.about-slider {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 3vh;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 92%;
+}
+
+.slide-image {
+  width: 50%;
+  object-fit: cover;
+}
+
+.slide-text {
+  width: 50%;
+  padding: 2.2vw;
+  box-sizing: border-box;
+}
+
+.scrollable-text {
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1vh;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* .slick-prev, .slick-next {
+  width: 10% !important;
+  height: 90% !important;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none !important;
+}
+
+
+.slick-prev {
+  left: 0 !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.slick-next {
+  right: 0 !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+} */
+
+/* Arrow hover effect */
+/* .slick-prev:hover, .slick-next:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+} */
+
+/* Dots styling */
+.slick-dots li button:before {
+  font-size: 1.6rem;
+  color: gray !important;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 1.6rem;
+  color: white !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .slide-content {
+    flex-direction: column;
+  }
+  .slide-image {
+    width: 100%;
+  }
+  .slide-text {
+    width: 100%;
+  }
+}
