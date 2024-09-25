@@ -5,7 +5,8 @@ const colors = require("colors");
 const morgan = require("morgan");
 const connectDB = require("./config/db");
 
-dotenv.config({ path: "./config/config.env" });
+// dotenv.config({ path: "./config/config.env" });
+dotenv.config({ path: "./.env" });
 
 connectDB();
 
@@ -34,7 +35,7 @@ if (process.env.NODE_ENV === "production") {
   );
 }
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 4002;
 
 app.listen(
   PORT,
