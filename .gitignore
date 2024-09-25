@@ -29,3 +29,4 @@ notes.md
 notesdraft/
 json/.DS_Store
 .env
+server/config/config.env
