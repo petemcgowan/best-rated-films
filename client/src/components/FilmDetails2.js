@@ -85,7 +85,8 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
             style={{
               opacity: x.to({ range: [0, 1], output: [0.3, 1] }),
               textAlign: "center",
-              paddingBottom: 15,
+              margin: "0.2vh",
+              padding: "0.1vh",
               scale: x.to({
                 range: [0, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 1],
                 output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
@@ -94,8 +95,7 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
           >
             <IoEyeOutline
               className="animate__animated animate__bounce"
-              style={{ color: "purple" }}
-              size="30"
+              style={{ color: "#011", fontSize: "2em" }}
               type="menu-fold"
             />
           </animated.div>
