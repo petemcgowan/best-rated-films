@@ -54,7 +54,7 @@ export const AppNavbar = observer((props) => {
         <DropdownToggle caret nav>
           Filter
         </DropdownToggle>
-        <DropdownMenu style={{ backgroundColor: "indigo" }}>
+        <DropdownMenu className="bg-dark text-white">
           <DropdownItem>
             <Fragment>
               <NavLink href="/">All</NavLink>
@@ -79,7 +79,7 @@ export const AppNavbar = observer((props) => {
         <DropdownToggle caret nav>
           Mode
         </DropdownToggle>
-        <DropdownMenu style={{ backgroundColor: "indigo" }}>
+        <DropdownMenu className="bg-dark text-white">
           <DropdownItem>
             <Fragment>
               <NavLink onClick={turnOnPost1968Mode} to="/vintage">
@@ -99,7 +99,6 @@ export const AppNavbar = observer((props) => {
       <NavItem>
         <Logout />
       </NavItem>
-      <div className="container"></div>
     </Fragment>
   );
 
@@ -115,14 +114,10 @@ export const AppNavbar = observer((props) => {
   );
 
   return (
-    <div
-      style={{
-        backgroundColor: "black",
-      }}
-    >
+    <div style={{ backgroundColor: "black" }}>
       <Navbar color="dark" dark expand="sm" className="mb-4">
         <Container>
-          <NavbarBrand href="/">
+          <NavbarBrand href="/" className="mx-auto">
             <img
               src={logo}
               width="138"
@@ -133,7 +128,7 @@ export const AppNavbar = observer((props) => {
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto justify-content-center" navbar>
               {isAuthenticated ? authMenuLinks : guestLinks}
             </Nav>
           </Collapse>
