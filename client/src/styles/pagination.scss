@@ -1,13 +1,35 @@
-.paginator {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+.paginatorBottom {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.paginatorUpper {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-bottom: 0vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 @media screen and (max-width: 500px) {
-    .paginator {
-        padding: 20px 10px;
+  .paginatorBottom {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    }
+  .paginatorUpper {
+    padding-top: 2vh;
+    padding-bottom: 0vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
     }
 }
 
