@@ -10,6 +10,14 @@ const PageResults = observer((props) => {
 
   return (
     <section>
+      <div className="paginatorUpper">
+        <Pagination
+          total={films.length}
+          current={currentPage}
+          pageSize={20}
+          onChange={changePage}
+        />
+      </div>
       {loaded ? (
         <div className="movies-grid">
           {pageResults.map((film) => {
@@ -27,7 +35,7 @@ const PageResults = observer((props) => {
       ) : (
         <div className="loading">Loading...</div>
       )}
-      <div className="paginator">
+      <div className="paginatorBottom">
         <Pagination
           total={films.length}
           current={currentPage}

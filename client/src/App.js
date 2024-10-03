@@ -3,10 +3,11 @@ import React, { Fragment, useEffect } from "react";
 import { observer } from "mobx-react";
 
 import { Switch, Route } from "react-router-dom";
-import AppNavbar from "./components/AppNavbar";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import Movie from "./components/Movie";
+import About from "./components/About";
+import TopTabBar from "./components/TopTabBar";
 
 import reduxAuthStore from "./reduxAuthStore";
 import PropTypes from "prop-types";
@@ -17,6 +18,7 @@ import { Container } from "reactstrap";
 // the import order of these CSS files matters
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/main.scss";
+import './App2.css'
 
 import { GlobalProvider } from "./context/GlobalState";
 import { FilmProvider } from "./context/FilmState";
@@ -63,8 +65,19 @@ export const App = observer((props) => {
                     currentPage={props.homeStore.currentPage}
                   />
                 </Route>
+                <Route path={`/about`}>
+                  <About
+                    changePage={changePage}
+                    currentPage={props.homeStore.currentPage}
+                  />
+                </Route>
               </Switch>
-            ) : null}
+            ) :               <Switch>
+                <Route path={`/about`}>
+                  <About
+                  />
+                </Route>
+              </Switch>}
 
             <Switch>
               {
@@ -91,16 +104,25 @@ export const App = observer((props) => {
   );
 
   return (
-    <div className="relative">
+    <div className="App">
+      <TopTabBar isAuthenticated={props.isAuthenticated}
+        toggleVintage={props.toggleVintage}
+        toggleWatched={props.toggleWatched}
+        changePage={changePage}
+      />
       <Navigation />
-      <AppNavbar
+      {/* <BasicCenteredMenu/> */}
+      {/* <AppNavbar
         changePage={changePage}
         currentPage={props.homeStore.currentPage}
-      />
+      /> */}
 
-      <Container>
+      <div>
+        {props.isAuthenticated ? authFilmLinks : authFilmLinks}
+      </div>
+      {/* <Container>
         {props.isAuthenticated ? authFilmLinks : "Login to view your films!"}
-      </Container>
+      </Container> */}
     </div>
   );
 });
