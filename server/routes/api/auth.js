@@ -11,7 +11,8 @@ const User = require("../../models/User");
 // @desc    Get user data
 router.get("/user", auth, (req, res) => {
   console.log("routes/api/auth/user, get user called");
-  User.findById(req.user.id)
+  console.log(`user.email called:${req.user.email}`);
+  User.findById(req.user.email)
     .select("-password")
     .then((user) => res.json(user));
 });
@@ -37,7 +38,7 @@ router.post("/", (req, res) => {
       if (!isMatch) return res.status(400).json({ msg: "Invalid credentials" });
 
       jwt.sign(
-        { id: user.id },
+        { id: user.email },
         config.get("jwtSecret"),
         { expiresIn: 3600 },
         (err, token) => {
