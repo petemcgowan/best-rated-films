@@ -20,7 +20,6 @@ class HomeStore {
 
 
   constructor() {
-    // This replaces the `decorate` call
     makeObservable(this, {
       pageResults: observable,
       films: observable,

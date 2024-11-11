@@ -45,7 +45,7 @@ export const WatchedDetails = ({ changePage, currentPage, watchedFilm }) => {
           // disabled={isSending}
           onClick={() => {
             deleteWatched(watchedFilm._id);
-            addFilm(watchedFilm.title, watchedFilm.email);
+            // addFilm(watchedFilm.title, watchedFilm.email);
             changePage(currentPage, true); // trigger the Page Results component to re-render
           }}
         >
