@@ -5,7 +5,7 @@ import React, {
   useCallback,
   useEffect,
 } from "react";
-import { FilmContext } from "../context/FilmState";
+// import { FilmContext } from "../context/FilmState";
 import { WatchedContext } from "../context/WatchedState";
 import { Link } from "react-router-dom";
 import homeStore from "../store/HomeStore";
@@ -17,7 +17,7 @@ import styles from "../styles/styles.module.scss";
 const nullw500 = require("../images/nullw500.png");
 
 export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
-  const { deleteFilm } = useContext(FilmContext);
+  // const { deleteFilm } = useContext(FilmContext);
   const { addWatched } = useContext(WatchedContext);
   const [isSending, setIsSending] = useState(false);
   const [animationToggle, setAnimationToggle] = useState(true);
@@ -44,7 +44,8 @@ export const FilmDetails2 = ({ film, scrollTop, changePage }) => {
     setAnimationToggle(!animationToggle);
     setIsSending(true);
 
-    deleteFilm(film._id); // "films to watch" id
+    // Pete this may not be needed?
+    // deleteFilm(film._id); // "films to watch" id
     addWatched(film.title, film.email);
     changePage(currentPage, true); // trigger the Page Results component to re-render
     // once the request is sent, update state again

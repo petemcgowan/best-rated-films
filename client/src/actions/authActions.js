@@ -34,8 +34,7 @@ export const loadUser = () => (dispatch, getState) => {
 };
 
 // Register User
-export const register =
-  ({ name, email, password }) =>
+export const register = ({ name, email, password }) =>
   (dispatch) => {
     // Headers
     const config = {
@@ -72,8 +71,7 @@ export const register =
   };
 
 // Login User
-export const login =
-  ({ email, password }) =>
+export const login = ({ email, password }) =>
   (dispatch) => {
     // Headers
     localStorage.setItem("BRFemail", email);
@@ -106,7 +104,7 @@ export const login =
           type: LOGIN_FAIL,
         });
       });
-  };
+};
 
 // Logout User
 export const logout = () => {
