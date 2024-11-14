@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Film = require("../../models/Film");
 const Filmstowatch = require("../../models/Filmstowatch");
+const Watched = require("../../models/Watched");
 
 module.exports = router;
 
@@ -12,51 +13,41 @@ router.post("/", async (req, res, next) => {
     var films = await Film.find();
 
     const { email, vintageMode } = req.body;
-    // this is the core per-user films table
-    // I'm sorting by average Ranking
-
-    var filmsToWatch = await Filmstowatch.find({ email: email }).exec();
-    // combine to get Films
+    console.log(`email:${email}, vintageMode:${vintageMode}`)
     const vintageDate = new Date("1/1/1968");
-    var filteredFilms = [];
-    for (var i = 0; i < filmsToWatch.length; i++) {
-      films.forEach((film) => {
-        if (film.title === filmsToWatch[i].title) {
-          const releaseCompareDate = new Date(film.release_date);
-          if (vintageMode || releaseCompareDate > vintageDate) {
-            var newFilmObj = {
-              _id: filmsToWatch[i]._id,
-              filmId: film._id, // this is the film _id, for clarity calling filmId in CODE
-              email: filmsToWatch[i].email,
-              title: filmsToWatch[i].title,
-              year: film.release_date.toLocaleDateString("en-us", {
-                year: "numeric",
-              }),
-              director: film.director,
-              poster_path: film.poster_path,
-              backdrop_path: film.backdrop_path,
-              averageRanking: film.averageRanking,
-              release_date: film.release_date,
-              movieDbId: film.movieDbId,
-              rankings: film.rankings,
-            };
+    // var filmsToWatch = await Filmstowatch.find({ email: email }).exec();
 
-            filteredFilms.push(newFilmObj);
-          } // end vintage compare
+    // Pete mod block
+    const watched = await Watched.find({ email: email }).exec();
+
+    // filter watchedFromFilms
+    var unwatchedFilms = films.filter((element) => {
+      let found = false
+      const releaseCompareDate = new Date(element.release_date);
+      for (let i = 0; i < watched.length; i++) {
+        if ((element.title === watched[i].title)) {
+          console.log(`Watched film:element.title`)
+          return false
         }
-      });
-    }
+      }
+      if (vintageMode && releaseCompareDate < vintageDate) {
+        return false
+      }
+    return true
+    })
+
+    console.log (`unwatchedFilms.length:${unwatchedFilms.length}`)
 
     // // Sort by average ranking
     function sortJSONArrayByAverageRanking(film1, film2) {
       return film1.averageRanking - film2.averageRanking;
     }
-    filteredFilms.sort(sortJSONArrayByAverageRanking);
+    unwatchedFilms.sort(sortJSONArrayByAverageRanking);
 
     return res.status(200).json({
       success: true,
-      count: filteredFilms.length,
-      data: filteredFilms,
+      count: unwatchedFilms.length,
+      data: unwatchedFilms,
     });
   } catch (err) {
     console.error(`getFilms, err: ${err}, err.log: ${err.log}`);
@@ -174,29 +165,29 @@ router.put("/:id", async (req, res, next) => {
 });
 
 // @desc    Delete film
-router.delete("/:id", async (req, res, next) => {
-  try {
-    console.log("Delete Film, req.params.id:" + JSON.stringify(req.params.id));
-    const film = await Filmstowatch.findById(req.params.id);
+// router.delete("/:id", async (req, res, next) => {
+//   try {
+//     console.log("Delete Film, req.params.id:" + JSON.stringify(req.params.id));
+//     const film = await Filmstowatch.findById(req.params.id);
 
-    if (!film) {
-      return res.status(404).json({
-        success: false,
-        error: "No film found",
-      });
-    }
+//     if (!film) {
+//       return res.status(404).json({
+//         success: false,
+//         error: "No film found",
+//       });
+//     }
 
-    await film.remove();
+//     await film.remove();
 
-    return res.status(200).json({
-      success: true,
-      data: {},
-    });
-  } catch (err) {
-    console.error(`deleteFilm, err:${err}:`);
-    return res.status(500).json({
-      success: false,
-      error: "Server Error",
-    });
-  }
-});
+//     return res.status(200).json({
+//       success: true,
+//       data: {},
+//     });
+//   } catch (err) {
+//     console.error(`deleteFilm, err:${err}:`);
+//     return res.status(500).json({
+//       success: false,
+//       error: "Server Error",
+//     });
+//   }
+// });
