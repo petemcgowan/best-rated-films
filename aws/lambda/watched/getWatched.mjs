@@ -1,13 +1,17 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, QueryCommand } from "@aws-sdk/lib-dynamodb";
+import { getParameter } from "/opt/nodejs/parameterLoader.js";
 
 const client = new DynamoDBClient({});
 const docClient = DynamoDBDocumentClient.from(client);
-const WATCHED_TABLE = "Watched";
+
+//const WATCHED_TABLE = "Watched";
 const EMAIL_INDEX = "email-index";
 
 export const handler = async (event) => {
   try {
+    const WATCHED_TABLE = await getParameter("/rated/tables/WatchedTable");
+
     // Parse the email from the request body
     const { email } = JSON.parse(event.body);
 
