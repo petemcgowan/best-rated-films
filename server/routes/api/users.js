@@ -31,43 +31,26 @@ router.post("/", (req, res) => {
       });
 
       // Create salt & hash
-      bcrypt.genSalt(10, (err, salt) => {
+      bcrypt.genSalt(8, (err, salt) => {
         bcrypt.hash(newUser.password, salt, (err, hash) => {
           if (err) throw err;
           newUser.password = hash;
           newUser.save().then((user) => {
             jwt.sign(
-              { id: user.id },
+              { id: email },
               config.get("jwtSecret"),
               { expiresIn: 3600 },
               (err, token) => {
                 if (err) throw err;
-                // Set up database rows for new user
-                // Find all current films
-                Film.find().then((films) => {
-                  var filmsToWatch = [];
-                  films.forEach((film) => {
-                    var newFilmObj = {
-                      email: email,
-                      title: film.title,
-                    };
-                    filmsToWatch.push(newFilmObj);
-                  }); // films for
-                  Filmstowatch.create(filmsToWatch).then((filmsToWatch) => {
-                    console.log(
-                      "filmsToWatch created:" + JSON.stringify(filmsToWatch)
-                    );
-                    // User is successfull created, tell the user
-                    res.json({
-                      token,
-                      user: {
-                        id: user.id,
-                        name: user.name,
-                        email: user.email,
-                      },
-                    });
-                  }); // filmsToWatch then
-                }); // then
+                // User is successfully created, tell the user
+                return res.json({
+                  token,
+                  user: {
+                    id: user.id,
+                    name: user.name,
+                    email: user.email,
+                  },
+                });
               }
             );
           });
