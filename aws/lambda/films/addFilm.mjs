@@ -1,15 +1,19 @@
 import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, PutCommand, ScanCommand } from "@aws-sdk/lib-dynamodb";
+import { getParameter } from "/opt/nodejs/parameterLoader.js";
 
 const client = new DynamoDBClient({});
 const docClient = DynamoDBDocumentClient.from(client);
 
-const FILMS_TABLE = "Films";
-const FILMS_TO_WATCH_TABLE = "FilmsToWatch";
+//const FILMS_TABLE = "Films";
+//const FILMS_TO_WATCH_TABLE = "FilmsToWatch";
 
 export const handler = async (event) => {
   try {
     console.log("Received event:", JSON.stringify(event, null, 2));
+
+    const FILMS_TABLE = await getParameter("/rated/tables/FilmsTable");
+    const FILMS_TO_WATCH_TABLE = await getParameter("/rated/tables/FilmsToWatchTable");
 
     // Parse incoming request body
     const { title, email } = JSON.parse(event.body);
